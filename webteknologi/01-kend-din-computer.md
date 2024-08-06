@@ -30,7 +30,6 @@
   - De skal først ind på jetbrains.com/estore/students. Brug deres kea mail
   - Derfra får de lov til at få en licens. De får så en mail hvor de skal oprette en ny konto. Der skal de selvfølgelig bruge den samme mail
 
-
 -->
 
 
@@ -59,8 +58,6 @@
 
 
 ## Filsystemet
-
-
 
 Program til at navigere rundt i filer og mapper
 
