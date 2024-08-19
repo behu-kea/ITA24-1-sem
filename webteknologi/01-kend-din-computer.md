@@ -16,7 +16,9 @@
   - Webstorm
   - Microsoft applikationer
   - Mysql
-- KEA technicalities (måske)
+- KEA technicalities
+  - ![CleanShot-2024-08-19-at-11.38.47](assets/CleanShot-2024-08-19-at-11.38.47.png)
+
 
 
 
@@ -46,11 +48,10 @@
   - Git
   - Generative AI
   - Visualisering
-
+- Der er en test d. ???
 - Studenterprojekter
   - [https://mahe0055.github.io/portfolio-6-bolius/](https://mahe0055.github.io/portfolio-6-bolius/)
   - [https://arnefogh.github.io/boliusProjektTjekRisikoVedBolig/](https://arnefogh.github.io/boliusProjektTjekRisikoVedBolig/)
-
 - Det er ufatteligt vigtigt at i forbereder jer og at i skriver kode
   - Man kan ikke læse om at køre på cykel. Man skal køre på den for at lære. Det er det samme med programmering
 - Løs opgaverne en af gangen. Hvis i har svært ved en opgave. Spørg endelig eller kig i gitbooken
