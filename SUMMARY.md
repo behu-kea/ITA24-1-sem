@@ -5,11 +5,6 @@
 
 - Portfolio projects
   -  [01 Dataliteracy](portfolio-projects/01-dataliteracy-database-queries.md)
-  -  [02 digital culture](portfolio-projects/02-digital-culture.md)
-  -  [03 Webtechnology](portfolio-projects/03-webtechnology.md)
-  -  [04 tværfaglig projekt 1](portfolio-projects/04-cross-disiplinary.md)
-  -  [05 Backend API](portfolio-projects/05-webtechnology.md)
-  -  [06 Tværfaglig projekt 2](portfolio-projects/06-cross-disiplinary.md)
 - Data literacy
   - [What is data](data-literacy/01-what-is-data.md)
   - [Data types & Scales](data-literacy/02-types-and-scales.md)
