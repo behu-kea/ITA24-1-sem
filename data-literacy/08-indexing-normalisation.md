@@ -1,4 +1,4 @@
-## Indexing Exercises
+## Database tuning
 
 #### A) Employees and departments dataset
 
