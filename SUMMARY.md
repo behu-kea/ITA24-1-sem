@@ -55,9 +55,16 @@
   -  [API, JSON, fetch - Giphy clone](webteknologi/16-js-api-json-giphy-clone.md)
   -   [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md) 
   -   [Recap](webteknologi/18-recap.md)
+
+
+
+<--
+
 - Code Examples From Class
 
   - [Github](https://github.com/nicklasdean/ita-23-1-sem-code)
+
 - [Exam](exam/exam.md)
 - [Recap](recap.md)
 
+-->
