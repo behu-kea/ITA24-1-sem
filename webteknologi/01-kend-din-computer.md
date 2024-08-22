@@ -22,20 +22,6 @@
 
 
 
-<!--
-
-## Efter klasse overvejelser
-
-- Der var rigtig mange gode shortcuts hvis man lægger dem ud tilde studerende
-- holde ctrl nede, emoji genvej, ctrl +z, ctrl shift z
-- IntelliJ tingen var mega messy. 
-  - De skal først ind på jetbrains.com/estore/students. Brug deres kea mail
-  - Derfra får de lov til at få en licens. De får så en mail hvor de skal oprette en ny konto. Der skal de selvfølgelig bruge den samme mail
-
--->
-
-
-
 ## Webtechnology
 
 - Foto
@@ -48,7 +34,7 @@
   - Git
   - Generative AI
   - Visualisering
-- Der er en test d. ???
+- Der er en test d. 28/10
 - Studenterprojekter
   - [https://mahe0055.github.io/portfolio-6-bolius/](https://mahe0055.github.io/portfolio-6-bolius/)
   - [https://arnefogh.github.io/boliusProjektTjekRisikoVedBolig/](https://arnefogh.github.io/boliusProjektTjekRisikoVedBolig/)
@@ -205,6 +191,9 @@ Løs [den her opgave](https://typing.io/lesson/javascript/jquery/traversing.js/1
 - `ctrl` + `A` - Marker alt
 - `ctrl` + `S` - Gem
 - `ctrl` + `V` - Paste
+- holde ctrl nede og piltaster
+- `ctrl` + `cmd` + `mellemrum` Emoji genvej
+- `ctrl` + `z`- Gå tilbage i historik
 - Nogle andre relevante?
 - [https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf](https://resources.jetbrains.com/storage/products/webstorm/docs/WebStorm_ReferenceCard.pdf)
 
@@ -217,10 +206,16 @@ Det ultimative mål er ikke at bruge musen 😱
 ## Installering
 
 - [Webstorm](https://www.jetbrains.com/webstorm/)
+- Auto increment: preferences -> Tools -> Actions on save -> Reformat code
+  
+- Lav meget simpel hjemmeside
 
-  - Auto increment: preferences -> Tools -> Actions on save -> Reformat code
 
-  - Lav meget simpel hjemmeside
+
+**For installering:**
+
+- Først ind på [jetbrains.com/estore/students](jetbrains.com/estore/students) og signe up. Brug jeres kea mail!
+- I får så en mail hvor i skal oprette en ny IntelliJ konto. Der skal i bruge den samme mail. Så skulle i gerne kunne logge ind med jeres IntelliJ konto
 
 
 
@@ -255,6 +250,16 @@ Det ultimative mål er ikke at bruge musen 😱
 - Opret [https://github.com/](https://github.com/) bruger. Brug jeres personlige mail!
 
 - [MySQL](https://nicklasdean.gitbook.io/ita2023-1.-semester/data-literacy/01-what-is-data#installing-mysql-server-+-mysql-workbench)
+
+
+
+## KEA Technicalities
+
+Lad os sætte email forwarding og sms op til jer
+
+![CleanShot-2024-08-19-at-11.38.47](assets/CleanShot-2024-08-19-at-11.38.47.png)
+
+
 
 
 
