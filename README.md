@@ -2,6 +2,4 @@
 
 
 
-## Exam
-
-Read about [the exam here](exam.md) 
+Velkommen til IT-Arkitektur's kursushjemmeside. Her kan i finde læringsmaterialer, opgaver og tværfaglige projekter
