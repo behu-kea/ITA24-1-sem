@@ -12,6 +12,8 @@
   - [Joining table data](data-literacy/04-joins.md) 
   - [Data analysis - Aggregate functions](data-literacy/05-Analysis-Functions.md) 
   - [Data analysis - RegEx & SubQueries](data-literacy/06-Analysis-Subqueries.md) 
+  - [Data analysis - Window Functions](data-literacy/07-window-functions.md)
+  - [Database tuning - Indexing, normalisation & views ](data-literacy/08-indexing-normalisation.md) 
 - Database Design
   - [Data definition language & constraints](database-design/01-ddl-constraints.md) 
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
