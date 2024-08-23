@@ -15,7 +15,7 @@
 
 - [Hvad er CSS](https://youtu.be/FbXyzlimByY)
 - [CSS selectors and properties](https://youtu.be/cxaddpC8Bb8)
-- [Learn Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+- [Learn Flexbox CSS in 8 minutes](https://www.youtube.com/watch?v=phWxA89Dy94)
 
 
 
@@ -69,6 +69,8 @@ Hjemmelavet videoer
 - Billedereference
 - Vi kører et mix af opgaver i par og alene idag
 - Nogle spørgsmål til videoerne?
+- Parent child relationship
+- Remember to deconstruct layout
 
 
 
@@ -78,9 +80,7 @@ Hjemmelavet videoer
 
 - Parent-child er faktiks vigtigt
 - Jeg lavede en impromptu flex + box model undervisning. Det var ikke særlig skarpt
-- De fik ikke meget ud af flex videoen
 - De lærte sygt meget om flex via hyf opgaven der tog sygt lang tid for dem. Men virkelig god
-- Den først opgave kan jeg godt lave lidt sværere
 - Den flex opgave kan godt stilladseres meget mere. Måske skriver jeg punkterne ned de skal igennem for at få layoutet. Virkelig holder dem i hånden. Bare får det ind i fingrene
 
 -->
@@ -544,6 +544,12 @@ You can clone the project and open the files in Webstorm or just copy the files 
 *Hint: for getting the white HackYourFuture logo in the middle of the background image. Look into position: absolute*
 
 ![hyf-exercise](../assets/hyf-flexbox-mockup.png)
+
+I see the layout kind of like this:
+
+![CleanShot-2024-08-22-at-14.09.23](assets/CleanShot-2024-08-22-at-14.09.23.png)
+
+
 
 
 
