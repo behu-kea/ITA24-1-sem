@@ -312,7 +312,7 @@ Therefore try and create a overall structure in the `index.html` file for all of
 
 ### Deploy your group page!
 
-And try to make it look nice with maybe 
+And try to make it look nice with maybe
 
 - The projects you have done together
 - Images of the teammates
