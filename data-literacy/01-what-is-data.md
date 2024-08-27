@@ -28,7 +28,7 @@ Data Literacy Fundamentals, Ben Jones, Ch: 1,2
 
 - https://dev.mysql.com/downloads/windows/installer/8.0.html
 
-- ![image-20230808105344870](assets/image-20230808105344870.png)
+  ![image-20230808105344870](assets/image-20230808105344870.png)
 
 - **Developer Default**
 
@@ -56,7 +56,7 @@ https://dev.mysql.com/downloads/workbench/
 
 ![image-20220816103831195](assets/image-20220816103831195.png)
 
-**Copy the script (below) into the Query window or download from [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1030171)**
+**Copy the script (below) into the Query window** 
 
 ![image-20220816104142995](assets/image-20220816104142995.png)
 
@@ -394,3 +394,38 @@ INSERT INTO pokemon (pokedex_number, `name`, speed, special_defence, special_att
 INSERT INTO pokemon (pokedex_number, `name`, speed, special_defence, special_attack, defence, attack, hp, primary_type, secondary_type) 
                      VALUES (151, 'Mew', 100, 100, 100, 100, 100, 100, 'Psychic', 'null');
 ```
+
+
+
+## Exercises
+
+A) Display all pokemon with the following query:
+
+```sql
+SELECT *
+FROM pokemon
+```
+
+B) Correct the below query such that it fetches all pokemon with a speed higher than 80
+
+- Insert the query in the query window to confirm your answer
+
+```SQL
+SELECT *
+FROM pokemon
+WHERE speed = 80
+```
+
+C) Correct the below query such that it fetches all pokemon but only their name
+
+```sql
+SELECT `name`, speed, attack, hp
+FROM pokemon
+WHERE speed = 80
+```
+
+D) Write a query such that all fire-pokemon are fetched
+
+
+
+E) Write a query such that all pokemon with a index number higher than 100 are fetched
