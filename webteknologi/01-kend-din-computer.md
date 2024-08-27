@@ -37,7 +37,6 @@
   - Visualisering
 - Der er en test d. 28/10
 - Studenterprojekter
-  - [https://mahe0055.github.io/portfolio-6-bolius/](https://mahe0055.github.io/portfolio-6-bolius/)
   - [https://arnefogh.github.io/boliusProjektTjekRisikoVedBolig/](https://arnefogh.github.io/boliusProjektTjekRisikoVedBolig/)
 - Det er ufatteligt vigtigt at i forbereder jer og at i skriver kode
   - Man kan ikke læse om at køre på cykel. Man skal køre på den for at lære. Det er det samme med programmering
@@ -177,7 +176,7 @@ KEA - dokumenter
 
 ### 📝 Exercise 2 - Hvad hedder tasten
 
-Sammen med sidemanden skriv ned hvad tasterne hedder i det her [dokument](https://resource.itslearning.com/Proxy/DownloadRedirect.ashx?LearningObjectId=361711944&LearningObjectInstanceId=506097818)
+Sammen med sidemanden skriv ned hvad tasterne hedder i det her [dokument](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1293618)
 
 
 
@@ -241,7 +240,7 @@ Det ultimative mål er ikke at bruge musen 😱
 ```
 
 - **For installering:**
-  - Først ind på [jetbrains.com/estore/students](jetbrains.com/estore/students) og signe up. Brug jeres kea mail!
+  - Først ind på [jetbrains.com/estore/students](https://www.jetbrains.com/shop/eform/students) og signe up. Brug jeres kea mail!
   - I får så en mail hvor i skal oprette en ny IntelliJ konto. Der skal i bruge den samme mail. Så skulle i gerne kunne logge ind med jeres IntelliJ konto
   - ![image-20220825122839113](assets/image-20220825122839113.png)
 - [Microsoft package](https://www.office.com/)
