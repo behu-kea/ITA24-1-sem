@@ -15,8 +15,6 @@ Data Literacy Fundamentals, Ben Jones, Ch: 3,4
 
 [AND](https://www.mysqltutorial.org/mysql-where/)
 
-
-
 ## Exercise 1 - Pairs
 
 Find mindst 1 konkret eksempel, der kan repræsenteres på hver skala.
