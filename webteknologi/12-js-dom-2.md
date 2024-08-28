@@ -360,17 +360,3 @@ Create a webapp that works as a calculator. It should be possible for a user to 
 ```
 
 -->
-
-
-
-### 📝 Guess my number - level 3
-
-The project is a game where you have to guess a number. Here are the rules
-
-- When clicking the `Check!` `button` check if what the user wrote in the `input` matches the number they have to guess
-  - If it's wrong increase the Score by 1 and clear the input
-  - If it is correct and smaller than Highscore set the new score as the highscore and clear the input. Also show the correct number in the `?`
-- If the `Again` `button` is clicked clear the score and the highscore and start from scratch
-- Add a couple of extra features you think could be cool!
-
-The starter for the project can be [found here](https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/05-Guess-My-Number/starter). Create a new project and copy the files into a new project!
