@@ -13,18 +13,14 @@
 
 ## Teacher instruction
 
-- Codelab!
 - There are a lot of exercises. They are not meant to be finished all of them. 
 - Level 1 I expect you to finish
-- Der er aflevering til mandag, i får tid i klassen. Fokuser på data forståelse aflevering!
-- [Feedback](https://forms.gle/WLWUAAShKj17cFJg6) bare lige brug 5 - 10 min på det
-- Reload this page!
 
 
 
 ## Flipped classroom videos
 
-- [setTimeout EXPLAINED in 5 minutes!](https://www.youtube.com/watch?v=z9lJb4D3nJY)
+- [Learn JavaScript setTimeout() in 6 minutes! ⏰](https://www.youtube.com/watch?v=shWr5DNVeCI)
 - [JavaScript ES6 Arrow Functions Tutorial](https://www.youtube.com/watch?v=h33Srr5J9nY)
 
 
@@ -223,7 +219,7 @@ logGhosts(1); // 👻
 
 
 
-### 📝 Exercise 10- level 2
+### 📝 Exercise 10 - level 2
 
 Implement a BMI calculator function. Identify the needed parameters and return type.
 

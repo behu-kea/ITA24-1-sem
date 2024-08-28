@@ -19,22 +19,11 @@
 
 
 
-<!--
-
-## After class considerations
-
-- De virkede lidt blanke på funktioner ift. videoen. Måske er det bare fordi det er svært
-- Skulle man starte opgaverne nemmere?
-- Degrees to fahrenheit kopierer de fra nettet
-- 
-
--->
-
 
 
 ## Flipped classroom
 
-- [JavaScript Functions](https://www.youtube.com/watch?v=N8ap4k_1QEQ)
+- [JavaScript FUNCTIONS are easy! 📞](https://www.youtube.com/watch?v=HFaxylC7bUc)
 - [JavaScript Scope (Local vs Global)](https://www.youtube.com/watch?v=iJKkZA215tQ)
 
 
@@ -42,10 +31,8 @@
 ## Teacher instruction
 
 - Everyone should get past level one exerises. If you dont get to do that, then make sure you have by tomorrow
-- Work in the pairs you used from Friday
 - Use the debuggers
 - After this week you can call yourself real developers 🎉
-- Hard reload gitbook siden! Jeg har lavet nogle små ændringer
 
 
 
@@ -368,7 +355,7 @@ console.log(returnedNumber); // 8
 
 
 
-### 📝 Exercise 2 - level 1
+### 📝 Exercise 2 - level 2
 
 Create a function that takes a name and returns `true` if the first character is the character `a` otherwise `false`
 
@@ -381,7 +368,7 @@ console.log(someFunctionName('anna')); // true
 
 
 
-### 📝 Exercise 3 - level 1
+### 📝 Exercise 3 - level 2
 
 Create a function called `celciusToFahreneit` it should have a parameter called `celcius`. 
 
@@ -535,13 +522,6 @@ console.log(getEventWeekday(2)); // Logs out "Sunday"
 You should get the today's day from the system.
 
 Hint: use remainder operator, array indexes and investigate `new Date` in js.
-
-
-
-
-
-- Hvor og hvordan de er produceret
-- 
 
 
 
