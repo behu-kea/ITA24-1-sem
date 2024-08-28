@@ -12,7 +12,7 @@ De har haft om:
 
 
 
-# HTML og Javascript porteføljeopgave
+# HTML og Javascript porteføljeaflevering
 
 
 
@@ -210,7 +210,7 @@ Your startup name could be: Smart Solutions
 
 ## Fronter aflevering
 
-Porteføljeopgaven skal afleveres **individuelt inden d. 29/9 kl 23:59**. 
+Porteføljeopgaven skal afleveres **individuelt inden d. 29/9 kl 23:59**
 
 I skal aflevere linket til github portfoliet hvor koden er!
 
