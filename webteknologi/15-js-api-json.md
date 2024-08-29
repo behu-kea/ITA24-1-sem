@@ -43,7 +43,7 @@
 
 ## Peer instruction question
 
-
+<!--
 
 ### Question 1
 
@@ -82,7 +82,7 @@ console.log(3);
 3. `2, 1, 3`
 4. Syntax error
 
-
+-->
 
 
 

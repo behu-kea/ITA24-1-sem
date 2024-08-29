@@ -38,7 +38,7 @@
 
 ## Peer instruction
 
-
+<!--
 
 ### Question 1 - 1 min
 
@@ -77,6 +77,8 @@ console.log(numberLarger(5));
 3. `5`
 4. `7`
 5. None of the above
+
+-->
 
 
 

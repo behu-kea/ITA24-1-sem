@@ -38,7 +38,7 @@
 
 ## Peer instruction
 
-
+<!--
 
 ### Question 1
 
@@ -75,6 +75,8 @@ for (let i = 0; i < 5; i++) {
 2. 4
 3. 5
 4. Syntax error
+
+-->
 
 
 

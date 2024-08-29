@@ -27,6 +27,8 @@
 
 ## Peer instruction
 
+<!--
+
 What is the value of `sumOfNumbers`?
 
 ```javascript
@@ -42,7 +44,7 @@ const sumOfNumbers = adder(4, 4);
 3. `4+4`
 5. None of the above
 
-
+-->
 
 ## Asynchronicity in javascript
 
