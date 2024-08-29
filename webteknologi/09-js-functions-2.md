@@ -204,7 +204,7 @@ The lecture should explain **functions, arguments, parameters and return**:
 
 ### 📝 Exercise 8 - level 2
 
-Create a stopwatch using `document.write` and `setInterval` that keeps counting up. First solve this task using the `function` keyword, then solve it using arrow function
+Create a stopwatch using `document.write` and `setInterval` that keeps counting up. First solve this task using the `function` keyword, then solve it using arrow functions
 
 
 

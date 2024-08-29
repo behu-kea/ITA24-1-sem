@@ -41,7 +41,6 @@
   -  [Javascript - Visualising data using tones, maps, html and canvas](webteknologi/14-js-vizualizing-data-2.md)
   -  [Getting data from workbench to javascript](webteknologi/14-1-getting-data-from-workbench-to-javascript.md)
   -  [API, JSON and fetch](webteknologi/15-js-api-json.md)
-  -  [API, JSON, fetch - Giphy clone](webteknologi/16-js-api-json-giphy-clone.md)
   -   [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md) 
   -   [Recap](webteknologi/18-recap.md)
 
