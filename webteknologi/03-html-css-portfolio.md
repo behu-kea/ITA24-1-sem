@@ -1,7 +1,5 @@
 # Finish your portfolio 🎉
 
-
-
 That's it. Finish it! 
 
 

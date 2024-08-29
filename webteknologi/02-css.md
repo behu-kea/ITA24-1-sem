@@ -529,7 +529,7 @@ Now try and play around with `flex-direction` and with `justify-content` and `al
 
 ## How to deconstruct a layout class presentation
 
-What website should i deconstruct? [https://www.amsiq.com/da](https://www.amsiq.com/da)
+What website should i deconstruct? 
 
 
 
