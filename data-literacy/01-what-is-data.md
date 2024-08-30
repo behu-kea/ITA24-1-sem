@@ -399,6 +399,10 @@ INSERT INTO pokemon (pokedex_number, `name`, speed, special_defence, special_att
 
 ## Exercises
 
+**The Structured Query Language (SQL)** is made to be read as natural language. Try to solve the following exercises without conducting research. If nothing works - look it up online.
+
+
+
 A) Display all pokemon with the following query:
 
 ```sql
