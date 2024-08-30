@@ -39,6 +39,7 @@ Data Literacy Fundamentals, Ben Jones, Ch: 1,2
 **Installer server**
 
 - https://dev.mysql.com/downloads/mysql/
+  - Husk at vælge version 8.0.39
 - DMG Archive
   - Hvis du har m1: ARM
   - Hvis du har intel: x86
