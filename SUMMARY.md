@@ -5,6 +5,7 @@
 
 - Portfolio projects
   -  [01 Dataliteracy](portfolio-projects/01-dataliteracy-database-queries.md)
+  -   [02 Javascript](portfolio-projects/02-javascript.md)
 - Data literacy
   - [What is data](data-literacy/01-what-is-data.md)
   - [Data types & Scales](data-literacy/02-types-and-scales.md)
@@ -40,8 +41,8 @@
   -  [Javascript - Visualising data using tones, maps, html and canvas](webteknologi/14-js-vizualizing-data-2.md)
   -  [Getting data from workbench to javascript](webteknologi/14-1-getting-data-from-workbench-to-javascript.md)
   -  [API, JSON and fetch](webteknologi/15-js-api-json.md)
-  -  [API, JSON, fetch - Giphy clone](webteknologi/16-js-api-json-giphy-clone.md)
-  -   [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md) 
+  -   [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md)
+  -   [Bæredygtig webudvikling](webteknologi/19-bæredygtig-webudvikling.md)
   -   [Recap](webteknologi/18-recap.md)
 
 

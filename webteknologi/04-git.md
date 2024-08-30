@@ -312,7 +312,7 @@ Therefore try and create a overall structure in the `index.html` file for all of
 
 ### Deploy your group page!
 
-And try to make it look nice with maybe 
+And try to make it look nice with maybe
 
 - The projects you have done together
 - Images of the teammates
@@ -338,10 +338,10 @@ Now everytime you push changes to `master` your website will be updated!
 
 ## Handin on Fronter
 
-Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1168590)
+Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720)
 
 Remember peer feedback!
 
-Deadline: **06-09-2023 23:59**
+Deadline: **08-09-2023 23:59**
 
 You will get general class feedback for the assignment but not individual feedback from me
