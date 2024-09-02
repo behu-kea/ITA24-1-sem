@@ -39,6 +39,7 @@ Data Literacy Fundamentals, Ben Jones, Ch: 1,2
 **Installer server**
 
 - https://dev.mysql.com/downloads/mysql/
+  - Husk at vælge version 8.0.39
 - DMG Archive
   - Hvis du har m1: ARM
   - Hvis du har intel: x86
@@ -398,6 +399,10 @@ INSERT INTO pokemon (pokedex_number, `name`, speed, special_defence, special_att
 
 
 ## Exercises
+
+**The Structured Query Language (SQL)** is made to be read as natural language. Try to solve the following exercises without conducting research. If nothing works - look it up online.
+
+
 
 A) Display all pokemon with the following query:
 
