@@ -89,7 +89,7 @@ Hjemmelavet videoer
 
 ## Peer instruction
 
-<!--
+
 
 ### Question 1
 
@@ -123,8 +123,6 @@ What does the following css do?
 3. When an element with class name `user-name` is hovered. It colors the text purple
 4. When an element with the id of `user-name` is hovered. It colors the text purple
 5. Syntax error
-
--->
 
 
 

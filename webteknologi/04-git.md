@@ -34,13 +34,25 @@
 
 ## Teacher notes
 
-1. Studielivs bazar
-2. ![CleanShot-2023-09-05-at-11.12.26](assets/CleanShot-2023-09-05-at-11.12.26.png)
-3. HTML og css checklist
-4. What is git and github
-5. Create a project from scratch. Go through init, commit and push (use the visual guide below on whiteboard but without staging!)
-6. Clone a project. Simulate multiple users with changing on GitHub. Simulate merge conflict
-7. Take an html file deploy to github pages
+1. 
+2. What is git and github
+3. Create a project from scratch. Go through init, commit and push (use the visual guide below on whiteboard but without staging!)
+4. Clone a project. Simulate multiple users with changing on GitHub. Simulate merge conflict
+5. Take an html file deploy to github pages
+
+
+
+## KEA's anbefalinger til brug af Github
+
+1. GitHub er et offentligt sted: Vælg et brugernavn som ikke er henførbart til din person.
+2. Lad dit kodeord på GitHub følge KEA's password-politik, som er minimum 12 karakterer og består af mindst ét stort bogstav, ét lille bogstav og ét specialtegn. Benyt en password manager så din computer kan huske kodeordet for dig.
+3. Opret dig med din KEA-mail og undlad at offentliggøre mailen på din GitHub-profil. Det er muligt at have flere emails forbundet med en GitHub-bruger. Din KEA-mail lukkes når du er færdig med dit studie, så for fortsat adgang kan du tilføje din egen mail-adresse.
+4. Det er ikke nødvendigt at angive dit navn, profilbillede eller andre personlige info.
+5. Markér din profil som privat og skjul aktivitet til offentligheden.
+6. Hvis du opretter repositories til gruppearbejde på din egen konto, så gør dem private og invitér dine gruppemedlemmer og underviseren ind, så de kan følge med.
+7. Husk at slette indhold som, som du ikke længere ønsker, skal opbevares på GitHub, fx repositories eller hele din konto. KEA kan ikke slette data på din private konto.
+8. Slå 2-faktor-login til på GitHub, hvilket kræver fx din mobiltelefon for at logge ind.
+9. Du bestemmer selv, om du vil benytte GitHubs fordelsprogram, når du opretter en konto på GitHub. Det er ikke et krav, at du følger det.
 
 
 
