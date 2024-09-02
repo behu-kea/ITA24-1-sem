@@ -63,8 +63,7 @@ Hjemmelavet videoer
 
 ## Teacher instrcution
 
-- Autoformat
-- `ctrl` + `s` opdaterer siden
+- Har i lavet studiekort? Videresendelse af email?
 - Vi kører et mix af opgaver i par og alene idag
 - Nogle spørgsmål til videoerne?
 - Parent child relationship
