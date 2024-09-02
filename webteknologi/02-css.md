@@ -64,6 +64,9 @@ Hjemmelavet videoer
 ## Teacher instrcution
 
 - Har i lavet studiekort? Videresendelse af email?
+- Der er kommet eksamensdatoer: 
+  - Eksamen 1: 6/1, 7/1 og 8/1 
+  - Eksamen 2: 13/1, 14/1 og 15/1
 - Vi kører et mix af opgaver i par og alene idag
 - Nogle spørgsmål til videoerne?
 - Parent child relationship
