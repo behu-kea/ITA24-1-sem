@@ -65,8 +65,6 @@ Hjemmelavet videoer
 
 - Autoformat
 - `ctrl` + `s` opdaterer siden
-- Codelab
-- Billedereference
 - Vi kører et mix af opgaver i par og alene idag
 - Nogle spørgsmål til videoerne?
 - Parent child relationship
