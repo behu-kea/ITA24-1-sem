@@ -7,6 +7,8 @@ That's it. Finish it!
 ## Recap
 
 - HTML
+  - Vælge det rigtige tag til det indhold du gerne vil have
+
 - CSS
 - Selector, property, value
 - 5 selectors
