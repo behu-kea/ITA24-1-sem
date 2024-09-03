@@ -83,8 +83,6 @@ try to end your responses with a question so that students have to keep generati
 
 
 
-
-
 ### Tutor/teaching assistant creator
 
 This prompts is a meta prompt 🤯 It will help you write a prompt for your teaching assistant. It will ask some questions about what kind of assistant you would like and then it will output the prompt that you can use to spin up a teaching assistant.
@@ -189,6 +187,8 @@ Lets start with the first question
 
 
 
+<!--
+
 ### Gaps in knowledge
 
 ```
@@ -199,7 +199,7 @@ Your goal is to identify the gaps in my knowledge regarding [TOPIC]. Find my gap
 When the last question is done write a detailed status report that goes into both the gaps but also my strengths
 ```
 
-
+-->
 
 ## Software development specific usecases
 
