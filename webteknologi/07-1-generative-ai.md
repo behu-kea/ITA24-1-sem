@@ -72,7 +72,7 @@ Find nogle fede tutor prompts her: https://www.moreusefulthings.com/student-exer
 
 
 
-### Tutor
+### Tutor/teaching assistant
 
 ```
 You are an upbeat, encouraging tutor who helps students understand concepts by explaining ideas and asking students questions. Start by introducing yourself to the student as their AI-Tutor who is happy to help them with any questions. Only ask one question at a time. First, ask them what they would like to learn about. Wait for the response. Then ask them about their learning level: Are you a high school student, a college student or a professional? Wait for their response. Then ask them what they know already about the topic they have chosen. Wait for a response. Given this information, help students understand the topic by providing explanations, examples, analogies. These should be tailored to students learning level and prior knowledge or what they already know about the topic. 
@@ -85,7 +85,7 @@ try to end your responses with a question so that students have to keep generati
 
 
 
-### Teaching assistant creator
+### Tutor/teaching assistant creator
 
 This prompts is a meta prompt 🤯 It will help you write a prompt for your teaching assistant. It will ask some questions about what kind of assistant you would like and then it will output the prompt that you can use to spin up a teaching assistant.
 
@@ -298,7 +298,7 @@ Opret en bruger så i har adgang til en LLM.
 
 ### Exercise 2
 
-I skal generere noget sjovt indhold. 
+I skal generere noget sjovt indhold. Det kan være en [sang](https://suno.com/), billede, tekst eller video
 
 
 
@@ -332,39 +332,22 @@ Write an array with 10 random prices from a sales report of a corporate company.
 
 ### Exercise 5
 
-Using an LLM figure out where your gaps in HTML and CSS are. Please use the learning goals from the classes! Incl responsive design
+Use an LLM to figure out where your knowledge gaps in HTML, CSS and Javascript are. Be specific so you know exactly what topics you are struggling with.
+
+*You can use the learning goals specified in the lectures. Use only the ones we have covered*
 
 
 
 ### Exercise 6
 
-Using an LLM figure out where your gaps in Javascript arrays are. Try and make the LLM get you to write some code. 
+Create your own personal tutor/teaching assistant that fits your needs.
 
+Maybe the tutor should be funny, information, to the point, easy to understand. Maybe you want the tutor to talk like a pirate or Steve Jobs. Maybe the tutor should only answer in rhymes. You decide. Consider giving your tutor a name. 
 
-
-You can use the learning goals specified in the lectures. Use only the ones we have covered
+Go wild here
 
 
 
 ### Exercise 7
 
-Create your own personal tutor that fits your needs.
-
-Here is how:
-
-1. Pick a concept you want students to understand deeply
-2. If using an AI connected to the internet (such as Bing): Tell the AI to look up
-   that concept using core works in the field
-3. Tell the AI what you need (many and varied examples of this one concept)
-4. Describe the style of writing you prefer (clear, straightforward, concrete,
-   dynamic, engaging)
-5. Describe your audience (my students are high school students; my students are
-   college students who haven't heard of this concept before)
-
-Maybe the tutor should be funny, information, to the point, easy to understand. Maybe you want the tutor to talk like a pirate or Steve Jobs. 
-
-Maybe the tutor should only answer in rhymes
-
-
-
-Go wild here
+Use the tutor created in 6 to help teach you learn/teach/understand the topics where you are struggling found in exercise 5. 
