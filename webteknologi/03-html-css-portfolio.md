@@ -8,14 +8,16 @@ That's it. Finish it!
 
 - HTML
   - Vælge det rigtige tag til det indhold du gerne vil have
-
+  - p, h1, a, ul, li, footer
+  
 - CSS
-- Selector, property, value
-- 5 selectors
-  - Id
-  - Class
-  - Tag
-  - Descendant
+  - Selector, property, value
+  - 4 selectors
+    - Id
+    - Class
+    - Tag
+    - Descendant
+
 - Også snakke om responsive. Først efter pausen
 
 
