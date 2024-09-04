@@ -350,7 +350,14 @@ Now everytime you push changes to `master` your website will be updated!
 
 ## Handin on Fronter
 
-Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720). You need to handin the GitHub link for the portfolio repository
+Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720). 
+
+Aflever disse to ting:
+
+1. Linket til dit deployede github portfolio repository. Noget ala *https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/*
+2. Linket til github repositoriet. Noget ala *https://github.com/DIT_GITHUB_BRUGERNAVN/portfolio*
+
+
 
 Remember peer feedback!
 
