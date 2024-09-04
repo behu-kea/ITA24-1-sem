@@ -34,11 +34,10 @@
 
 ## Teacher notes
 
-1. 
-2. What is git and github
-3. Create a project from scratch. Go through init, commit and push (use the visual guide below on whiteboard but without staging!)
-4. Clone a project. Simulate multiple users with changing on GitHub. Simulate merge conflict
-5. Take an html file deploy to github pages
+1. What is git and github
+2. Create a project from scratch. Go through init, commit and push (use the visual guide below on whiteboard but without staging!)
+3. Clone a project. Simulate multiple users with changing on GitHub. Simulate merge conflict
+4. Take an html file deploy to github pages
 
 
 
@@ -70,6 +69,7 @@
 
 ### GitHub
 
+- [https://www.youtube.com/watch?v=pBy1zgt0XPc](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 - Online service that serves as remote repository for git repositories (called repo)
 - Acquired by Microsoft $7.5B
 - Explore open source code
@@ -350,7 +350,7 @@ Now everytime you push changes to `master` your website will be updated!
 
 ## Handin on Fronter
 
-Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720)
+Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720). You need to handin the GitHub link for the portfolio repository
 
 Remember peer feedback!
 
