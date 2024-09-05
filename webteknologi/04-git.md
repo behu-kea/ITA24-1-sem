@@ -354,7 +354,7 @@ Now everytime you push changes to `master` your website will be updated!
 
 ## Handin on Fronter
 
-Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720). 
+Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720). Find den under Fronterrummet -> Ressourcer -> Webteknologi (mappe) -> Portfolio
 
 Aflever disse to ting:
 
