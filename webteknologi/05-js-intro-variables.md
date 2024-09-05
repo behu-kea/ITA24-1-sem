@@ -563,6 +563,101 @@ const division = 1 / 2;
 
 
 
+## Order of Operations
+
+In mathematics and programming, the order of operations determines the sequence in which different operations are performed in an expression. This is crucial for ensuring consistent and correct results across all calculations.
+
+### PEMDAS
+
+The order of operations is often remembered using the acronym PEMDAS:
+
+1. **P**arentheses
+2. **E**xponents
+3. **M**ultiplication and **D**ivision (from left to right)
+4. **A**ddition and **S**ubtraction (from left to right)
+
+
+
+### Parentheses
+
+Expressions inside parentheses are always evaluated first.
+
+```javascript
+const result = (5 + 3) * 2;
+console.log(result); // Will log out: 16
+```
+
+
+
+### Exponents
+
+After parentheses, exponents (powers) are calculated.
+
+```javascript
+const squared = 3 ** 2;
+console.log(squared); // Will log out: 9
+```
+
+
+
+### Multiplication and Division
+
+Multiplication and division have equal precedence and are performed from left to right.
+
+```javascript
+const result1 = 10 / 2 * 5;
+console.log(result1); // Will log out: 25
+
+const result2 = 10 * 2 / 5;
+console.log(result2); // Will log out: 4
+```
+
+
+
+### Addition and Subtraction
+
+Addition and subtraction have the lowest precedence and are also performed from left to right.
+
+```javascript
+const result = 10 - 5 + 2;
+console.log(result); // Will log out: 7
+```
+
+
+
+### Combined Operations
+
+When multiple operations are present, they are evaluated according to PEMDAS.
+
+```javascript
+const complexCalc = 2 + 3 * 4 ** 2 - (6 + 2) / 2;
+console.log(complexCalc); // Will log out: 46
+```
+
+
+
+Let's break it down:
+
+1. (6 + 2) = 8
+2. 4 ** 2 = 16
+3. 3 * 16 = 48
+4. 8 / 2 = 4
+5. 2 + 48 - 4 = 46
+
+
+
+### 📝 Exercise 5.1 - level 2
+
+Solve the following math like javascript would
+
+1. 5 + 3 * 2
+2. (5 + 3) * 2
+3. 4 / 2 ** 2
+4. 10 - 4 / 2 + 6
+5. (8 + 4) * 3 - 4 ** 2
+
+
+
 ### 📝 Exercise 6 - level 2
 
 1. Create two variables `numberOfStudents` and `numberOfteachers` and assign them to some numbers of your choosing
