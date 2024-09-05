@@ -646,7 +646,7 @@ Let's break it down:
 
 
 
-### 📝 Exercise 5.1 - level 2
+### 📝 Exercise 6 - level 1
 
 Solve the following math like javascript would
 
@@ -658,7 +658,7 @@ Solve the following math like javascript would
 
 
 
-### 📝 Exercise 6 - level 2
+### 📝 Exercise 7 - level 2
 
 1. Create two variables `numberOfStudents` and `numberOfteachers` and assign them to some numbers of your choosing
 2. Log a message that displays the total number of students and teachers
@@ -675,7 +675,7 @@ Total number of teachers and mentors: 23
 
 
 
-### 📝 Exercise 7 - level 2
+### 📝 Exercise 8 - level 2
 
 Now log out the percentage of students and percentage of teachers
 
@@ -688,7 +688,7 @@ Percentage of mentors: 35%
 
 
 
-### Exercise 6.2 - problem solving
+### Exercise 9 - problem solving
 
 Turen fra Måløv til Vesterbro Station med S-tog tager 25 minutter. Strækningen er omkring 25 km.
 
@@ -700,7 +700,7 @@ Hvis jeg kigger ud af vinduet fra måløv til Vesterbro, hvor mange tog kan jeg 
 
 
 
-### 📝 Exercise 8 - level 3
+### 📝 Exercise 10 - level 3
 
 **Part 1**
 
@@ -724,7 +724,7 @@ Now we will modify the program so that you can order multiple pizzas
 
 
 
-### Exercise 6.2 - problem solving
+### Exercise 11 - problem solving
 
 Kom med et overslag på hvor mange buschauffører bor i Storkøbenhavn?
 
