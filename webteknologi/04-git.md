@@ -335,16 +335,20 @@ And try to make it look nice with maybe
 
 
 
-### 📝 Exercise 2 - Deploy your portfolio to the web using github pages
+### Deploy your portfolio to the web using github pages
 
 - Create a new repository on GitHub 
 - Add your `index.html` to that repo
 - Go to `settings` for that repo
 - Scroll down to where it says `Pages`
-- Where it says `Branch`, select `master` and then `Save`
+- Where it says `Branch`, select `main` and then `Save`
 - If you scroll back down you can see the url for your new portfolio! it should be called `https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/    `
 
 Now everytime you push changes to `master` your website will be updated!
+
+
+
+### 📝 Exercise 2 - Deploy your portfolio to the web using github pages
 
 
 
