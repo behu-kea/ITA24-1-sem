@@ -55,11 +55,11 @@ FROM pokemon
 WHERE attack > defence OR primary_type = "fire" AND pokedex_number < 20
 ```
 
-**A)** All pokemon where attack is higher than defence or all pokemon with the type is fire and pokedex number is less than 20
+**A)** All pokemon where attack is higher than defence or all pokemon with the type "fire" and pokedex number is less than 20
 
 **B)** All pokemon with a pokedex number less than twenty and either an attack higher than defence or primary type is fire 
 
-**C)** All pokemon where attack is lower than defence, primary type fire and pokedex number less than 20
+**C)** All pokemon where attack is lower than defence, their primary type is fire and pokedex number less than 20
 
 **D** Invalid Query
 
