@@ -84,3 +84,18 @@ Retrieve the following data by querying:
   - https://www.mysqltutorial.org/mysql-like/
 - The 10 pokemon with the highest attack
 - All pokemon that contains the latter 'C' in their name - ordered alphabetically
+
+
+
+<!-- 
+
+Note to self: Opdater pokemonopgaver
+
+- ændre pokemon-navn kolonne
+- Skriv resultater
+- Fire og ground pokemon with attack higher than 50
+  - Forholdet mellem AND og OR operator i sammensatte udtryk
+
+- Nogle lidt bedre opgaver 
+
+-->
