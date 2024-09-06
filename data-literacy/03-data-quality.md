@@ -70,7 +70,7 @@ WHERE attack > defence OR primary_type = "fire" AND pokedex_number < 20
 ### Exercise 1: Par-øvelse
 
 - **Observer følgende dataset**
-  - http://www.sufoi.dk/obs/obs-2019/obs19-k1.php
+  - https://sufoi.dk/obs/obs-2019/obs19-k3/
 - **Besvar:**
   - Hvad er indholdet i datasettet? 
   - Hvilke kvalitetskriterier overskrider datasettet? 
