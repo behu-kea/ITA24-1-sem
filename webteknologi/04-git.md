@@ -34,11 +34,10 @@
 
 ## Teacher notes
 
-1. 
-2. What is git and github
-3. Create a project from scratch. Go through init, commit and push (use the visual guide below on whiteboard but without staging!)
-4. Clone a project. Simulate multiple users with changing on GitHub. Simulate merge conflict
-5. Take an html file deploy to github pages
+1. What is git and github
+2. Create a project from scratch. Go through init, commit and push (use the visual guide below on whiteboard but without staging!)
+3. Clone a project. Simulate multiple users with changing on GitHub. Simulate merge conflict
+4. Take an html file deploy to github pages
 
 
 
@@ -70,6 +69,7 @@
 
 ### GitHub
 
+- [https://www.youtube.com/watch?v=pBy1zgt0XPc](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 - Online service that serves as remote repository for git repositories (called repo)
 - Acquired by Microsoft $7.5B
 - Explore open source code
@@ -335,22 +335,33 @@ And try to make it look nice with maybe
 
 
 
-### 📝 Exercise 2 - Deploy your portfolio to the web using github pages
+### Deploy your portfolio to the web using github pages
 
 - Create a new repository on GitHub 
 - Add your `index.html` to that repo
 - Go to `settings` for that repo
 - Scroll down to where it says `Pages`
-- Where it says `Branch`, select `master` and then `Save`
+- Where it says `Branch`, select `main` and then `Save`
 - If you scroll back down you can see the url for your new portfolio! it should be called `https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/    `
 
 Now everytime you push changes to `master` your website will be updated!
 
 
 
+### 📝 Exercise 2 - Deploy your portfolio to the web using github pages
+
+
+
 ## Handin on Fronter
 
-Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720)
+Hand in your portfolio on fronter [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1278720). Find den under Fronterrummet -> Ressourcer -> Webteknologi (mappe) -> Portfolio
+
+Aflever disse to ting:
+
+1. Linket til dit deployede github portfolio repository. Noget ala *https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/*
+2. Linket til github repositoriet. Noget ala *https://github.com/DIT_GITHUB_BRUGERNAVN/portfolio*
+
+
 
 Remember peer feedback!
 

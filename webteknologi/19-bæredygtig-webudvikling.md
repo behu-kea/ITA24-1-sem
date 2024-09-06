@@ -38,8 +38,6 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 
 
 
-
-
 ## Design
 
 - Simplify user experience
@@ -60,8 +58,6 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 
 
 ## Accessibility
-
-
 
 
 

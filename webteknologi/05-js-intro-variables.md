@@ -563,7 +563,102 @@ const division = 1 / 2;
 
 
 
-### 📝 Exercise 6 - level 2
+## Order of Operations
+
+In mathematics and programming, the order of operations determines the sequence in which different operations are performed in an expression. This is crucial for ensuring consistent and correct results across all calculations.
+
+### PEMDAS
+
+The order of operations is often remembered using the acronym PEMDAS:
+
+1. **P**arentheses
+2. **E**xponents
+3. **M**ultiplication and **D**ivision (from left to right)
+4. **A**ddition and **S**ubtraction (from left to right)
+
+
+
+### Parentheses
+
+Expressions inside parentheses are always evaluated first.
+
+```javascript
+const result = (5 + 3) * 2;
+console.log(result); // Will log out: 16
+```
+
+
+
+### Exponents
+
+After parentheses, exponents (powers) are calculated.
+
+```javascript
+const squared = 3 ** 2;
+console.log(squared); // Will log out: 9
+```
+
+
+
+### Multiplication and Division
+
+Multiplication and division have equal precedence and are performed from left to right.
+
+```javascript
+const result1 = 10 / 2 * 5;
+console.log(result1); // Will log out: 25
+
+const result2 = 10 * 2 / 5;
+console.log(result2); // Will log out: 4
+```
+
+
+
+### Addition and Subtraction
+
+Addition and subtraction have the lowest precedence and are also performed from left to right.
+
+```javascript
+const result = 10 - 5 + 2;
+console.log(result); // Will log out: 7
+```
+
+
+
+### Combined Operations
+
+When multiple operations are present, they are evaluated according to PEMDAS.
+
+```javascript
+const complexCalc = 2 + 3 * 4 ** 2 - (6 + 2) / 2;
+console.log(complexCalc); // Will log out: 46
+```
+
+
+
+Let's break it down:
+
+1. (6 + 2) = 8
+2. 4 ** 2 = 16
+3. 3 * 16 = 48
+4. 8 / 2 = 4
+5. 2 + 48 - 4 = 46
+
+
+
+### 📝 Exercise 6 - level 1
+
+Solve the following math like javascript would
+
+1. 5 + 3 * 2
+2. (5 + 3) * 2
+3. 4 / 2 ** 2
+4. 10 - 4 / 2 + 6
+5. (8 + 4) * 3 - 4 ** 2
+
+
+
+### 📝 Exercise 7 - level 2
 
 1. Create two variables `numberOfStudents` and `numberOfteachers` and assign them to some numbers of your choosing
 2. Log a message that displays the total number of students and teachers
@@ -580,7 +675,7 @@ Total number of teachers and mentors: 23
 
 
 
-### 📝 Exercise 7 - level 2
+### 📝 Exercise 8 - level 2
 
 Now log out the percentage of students and percentage of teachers
 
@@ -593,7 +688,7 @@ Percentage of mentors: 35%
 
 
 
-### Exercise 6.2 - problem solving
+### Exercise 9 - problem solving
 
 Turen fra Måløv til Vesterbro Station med S-tog tager 25 minutter. Strækningen er omkring 25 km.
 
@@ -605,7 +700,7 @@ Hvis jeg kigger ud af vinduet fra måløv til Vesterbro, hvor mange tog kan jeg 
 
 
 
-### 📝 Exercise 8 - level 3
+### 📝 Exercise 10 - level 3
 
 **Part 1**
 
@@ -629,7 +724,7 @@ Now we will modify the program so that you can order multiple pizzas
 
 
 
-### Exercise 6.2 - problem solving
+### Exercise 11 - problem solving
 
 Kom med et overslag på hvor mange buschauffører bor i Storkøbenhavn?
 
