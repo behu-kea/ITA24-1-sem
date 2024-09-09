@@ -653,7 +653,7 @@ Let's break it down:
 
 ### 📝 Exercise 6 - level 1
 
-Solve the following math like javascript would
+Solve the following math like javascript would with pen and paper
 
 1. 5 + 3 * 2
 2. (5 + 3) * 2
