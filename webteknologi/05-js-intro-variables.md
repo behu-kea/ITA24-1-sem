@@ -109,11 +109,10 @@
 
 
 
-asd
+
 
 ## Teacher instruction
 
-- Codelab kommer forbi idag
 - Syntax og problem solving
 - Create random pairs from two groups. People who have coded. People who have not coded. Tell about teaching a man to fish
 - The first 20 min we will work strictly with pair programming! 10 min each as driver and support. Only coding on one computer
@@ -121,7 +120,7 @@ asd
 - If you continue pair programming remember to get time on the keyboard. Shifting who is driver. 
 - **I don't want to see anyone just supporting**
 - I expect everyone to complete level 1 today
-- Meet at 11:20 to see some exercises
+- Meet at 11:30 to see some exercise solutions
 
 
 
