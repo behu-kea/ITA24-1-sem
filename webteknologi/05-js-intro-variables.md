@@ -46,56 +46,70 @@
 
 ## Portfolio feedback
 
-- God responsive struktur
+- God responsive struktur. I tør kaste jer ud i ting jeg ikke har snakket om. Det er fedt. Fx at lave sider der linker til andre html sider
 
 - Virkelig imponeret over flex!
 
-- hr tag skal kun bruges til linjeskift ikke afstand
-
-- Tlf link
-
-- width og height atttributer skal ikke være i html på img tag `<img src="bla bla bla" height="500" width="190" alt="flower">`
-
-- nav tag skal wrappes i ul li
-  ```html
-  <nav class="navbar">
-                  <a href="#headline" class="active"> Hjem </a>
-                  <a href="#headline"> Om mig </a>
-                  <a href="#container"> Projekter </a>
-                  <a href="#contact"> Kontakt </a>
-              </nav>
-  ```
+- Stærke css selectors. Hvad gør den her: `header nav .right a:last-child`. Eller den her: .Employment, .Education
 
 - alt attributter skal beskrive indhold`<img class="portrait" src="Images/image.jpg" alt="image/portrait">`, `<img id="billede" src="image.jpg" alt="Billede">`, `alt="animation.gif"`
+  <img src="træn.jfif" alt="Træning">
 
-- Brug ul li når det giver mening
-  ```html
-   <div class="projects" >
-              <img class="picture" src="Images/CodingPicture.jpg" alt="Images/CodingPicture">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  A aliquam animi aspernatur, dolorum eligendi,
-                  est inventore nihil odit quidem tenetur ut vero voluptas voluptatum?
-                  Ducimus exercitationem ipsa iusto pariatur ratione?  </p>
-          </div>
-          <div class="projects2">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  A aliquam animi aspernatur, dolorum eligendi,
-                  est inventore nihil odit quidem tenetur ut vero voluptas voluptatum?
-                  Ducimus exercitationem ipsa iusto pariatur ratione?  </p>
-              <img class="picture" src="Images/CodingPicture.jpg" alt="Images/Codingpicture">
-          </div>
-          <div class="projects3">
-  ```
+- Undgå sådan noget her:
 
-- Nogle har ikke fået deployer. Typisk fordi der ikke i root mappen er en `index.html` fil. Fordi i har kaldt dem noget andet
+- <ul class="links">
+          <li class="link"><a href="index.html">Home</a></li>
+          <li class="link"><a href="experience.html">Erfaring</a></li>
+          <li class="link"><a href="projects.html">Projekter</a></li>
+          <li class="link"><a href="contact.html">Kontakt</a></li>
+        </ul>
+
+- Kun en h1 tag
+
+- `<footer id="Links">` Start med lille forbogstav. `<div class="Header_Communication_List">`
+
+- Ikke lav inline styles!
+
+- <style>html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+      overscroll-behavior: none;
+
+      /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+      
+      body::-webkit-scrollbar {
+          display: none;
+      }
+      
+      /* Hide scrollbar for IE, Edge, and Firefox */
+      
+      body {
+          -ms-overflow-style: none; /* IE and Edge */
+          scrollbar-width: none; /* Firefox */
+      }
+  }
+  </style>
+  <p class="introduction" style="color:whitesmoke">
+
+- Links skal være inde i ul li. 
+
+- <nav>
+             <div class="logo">JEPPES PORTFOLIO</div>
+              <div class="nav-items">
+                  <a href="/">PLAYLIST</a>
+                  <a href="/">COMPANY</a>
+                  <a href="/">CONTACT</a>
+              </div>
+          </nav>
 
 - Gode til at bruge ul og li, sektioner også
-
-- Fedt med kommentarer i css og html til at vise sektioner. Det er et rigtigt it-arkitekt mindset`/* -------------------------------- INTRODUCTION */`
-
 - Vildt højt niveau helt generelt!
 
 
+
+asd
 
 ## Teacher instruction
 
