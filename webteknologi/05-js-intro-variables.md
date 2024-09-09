@@ -6,7 +6,7 @@
 
 ## After class considerations
 
-- Order of operations could also be interesting to cover here. Yes. Igen. Skriv noget om det inde i gitbooken og lav en opgave direkte relateret til det
+- Peer instruction er for nem. 
 
 -->
 
@@ -91,6 +91,7 @@
       }
   }
   </style>
+
   <p class="introduction" style="color:whitesmoke">
 
 - Links skal være inde i ul li. 
@@ -106,8 +107,6 @@
 
 - Gode til at bruge ul og li, sektioner også
 - Vildt højt niveau helt generelt!
-
-
 
 
 
@@ -209,17 +208,14 @@ To find the log go to your browser and open developer the developer tools. Depen
 
 *(This exercise will help you expand your understanding of `console.log`)*
 
-Log 4 statements like these to the console, but in different languages.
+Log 2 different strings to the console
 
-For example:
+The log will look fx like this:
 
 ```
-Halo, dunia! // Indonesian
-Ciao, mondo! // Italian
-Hola, mundo! // Spanish
+Hello, my name in Benjamin
+This is my log 🎉
 ```
-
-*Exercise taken from* [CodeYourFuture](https://syllabus.codeyourfuture.io/js-core-1/week-1/lesson)
 
 
 
