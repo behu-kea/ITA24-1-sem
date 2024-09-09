@@ -9,10 +9,68 @@
 
 
 
+## Peer instruction
+
+#### What will the following query return?
+
+```sql
+SELECT *
+FROM pokemon
+WHERE special_defence > 50 AND `name` LIKE "%R"
+```
+
+**A)** All Pokemon with special defence above 50
+
+**B)** All pokemon with special defence above 49 and a name ending with R
+
+**C)** All pokemon with special defence above 50 and a name ending with R
+
+**D** Invalid Query
+
+
+
+### How many rows does the following query return?
+
+```sql
+SELECT *
+FROM pokemon
+WHERE secondary_type IS NULL
+```
+
+**A)** 0
+
+**B)** 84
+
+**C)** 151
+
+**D** Invalid Query
+
+
+
+### What will the following query return?
+
+```sql
+SELECT *
+FROM pokemon
+WHERE attack > defence OR primary_type = "fire" AND pokedex_number < 20
+```
+
+**A)** All pokemon where attack is higher than defence or all pokemon with the type "fire" and pokedex number is less than 20
+
+**B)** All pokemon with a pokedex number less than twenty and either an attack higher than defence or primary type is fire 
+
+**C)** All pokemon where attack is lower than defence, their primary type is fire and pokedex number less than 20
+
+**D** Invalid Query
+
+
+
+
+
 ### Exercise 1: Par-øvelse
 
 - **Observer følgende dataset**
-  - http://www.sufoi.dk/obs/obs-2019/obs19-k1.php
+  - https://sufoi.dk/obs/obs-2019/obs19-k3/
 - **Besvar:**
   - Hvad er indholdet i datasettet? 
   - Hvilke kvalitetskriterier overskrider datasettet? 
