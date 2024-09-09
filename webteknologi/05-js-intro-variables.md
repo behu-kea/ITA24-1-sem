@@ -126,8 +126,6 @@
 
 ## Peer instruction
 
-<!--
-
 ### Question 1
 
 What will the following code log to the console?
@@ -158,8 +156,6 @@ console.log(typeof 3);
 3. `boolean`
 4. `3`
 5. Syntax error
-
--->
 
 
 
