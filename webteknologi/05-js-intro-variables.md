@@ -96,7 +96,7 @@
 - Links skal være inde i ul li. 
 
 - <nav>
-             <div class="logo">JEPPES PORTFOLIO</div>
+             <div class="logo"> PORTFOLIO</div>
               <div class="nav-items">
                   <a href="/">PLAYLIST</a>
                   <a href="/">COMPANY</a>
