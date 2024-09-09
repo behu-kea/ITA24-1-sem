@@ -46,7 +46,7 @@
 
 ## Portfolio feedback
 
-- God responsive struktur. I tør kaste jer ud i ting jeg ikke har snakket om. Det er fedt. Fx at lave sider der linker til andre html sider
+- I tør kaste jer ud i ting jeg ikke har snakket om. Det er fedt. Fx at lave sider der linker til andre html sider
 
 - Virkelig imponeret over flex!
 
