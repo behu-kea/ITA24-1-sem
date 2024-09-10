@@ -8,9 +8,13 @@
 
 [Mysql Join](https://www.mysqltutorial.org/mysql-join/)
 
-[MySQL Delete](https://www.mysqltutorial.org/mysql-delete-statement.aspx)
+<!-- 
 
+Tjek øvelser igennem og lav øvelserne - giv svarene så de kan selv sammenligne
 
+Lidt mere gennemgang af et join eksempel ((-1-2 eksempler))
+
+-->
 
 ## Peer instruction
 

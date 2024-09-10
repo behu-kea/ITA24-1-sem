@@ -6,6 +6,7 @@
 
 - [Data Quality at A Glance](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1154504)
 - [SQL Update](https://www.mysqltutorial.org/mysql-update-data.aspx)
+- [MySQL Delete](https://www.mysqltutorial.org/mysql-delete-statement.aspx)
 
 
 
