@@ -39,6 +39,7 @@
 
 ## Teacher instruction
 
+- Prøv lige at tjekke de her knapper 🥹 [https://www.toptutors.com/](https://www.toptutors.com/)
 - Undervis i debugging
 - Husk ikke at sammenligne jer med hinanden for meget!! Sammenlign dig selv med hvor du var for 2 uger siden. Hvis du har rykket dig der, så tillykke. Det går som det skal
 - [https://www.youtube.com/watch?v=kkS2ess19es](https://www.youtube.com/watch?v=kkS2ess19es)
