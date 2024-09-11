@@ -16,6 +16,8 @@ Data Literacy Fundamentals - Kapitel 5
 
 Mere stilladsering - nogle "medium" spørgsmål
 
+Ændre advanced - lav nogle flere advanced
+
 -->
 
 ## Exercise 1: Individual - Write the query
