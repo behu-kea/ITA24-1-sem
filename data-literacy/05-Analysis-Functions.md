@@ -79,7 +79,6 @@ Mere stilladsering - nogle "medium" spørgsmål
 **(Advanced - optional)**
 
 - Do longer trip time mean more passengers?
-  - https://sql-bits.com/group-rows-by-a-range-of-values/
 - Do longer trip distance mean more passengers?
 
 
