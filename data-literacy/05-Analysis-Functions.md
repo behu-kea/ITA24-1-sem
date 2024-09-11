@@ -12,7 +12,11 @@ Data Literacy Fundamentals - Kapitel 5
 
 [MySQL Count](https://www.mysqltutorial.org/mysql-count/)
 
+<!-- 
 
+Mere stilladsering - nogle "medium" spørgsmål
+
+-->
 
 ## Exercise 1: Individual - Write the query
 
@@ -40,7 +44,7 @@ Data Literacy Fundamentals - Kapitel 5
 
 [Dataset](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1301513)
 
-[Description](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1175135)
+[Description](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1301525)
 
 - Example: When is the busiest time of the day?
 
