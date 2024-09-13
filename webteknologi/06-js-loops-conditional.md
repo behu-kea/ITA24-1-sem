@@ -51,7 +51,7 @@
 
 ## Peer instruction
 
-<!--
+
 
 ### Question 1 - 2 min
 
@@ -115,8 +115,6 @@ for(let j = 4; j > 4; j--) {
 4. Continues to decrease infinite from 4
 5. None of the above
 6. Syntax error
-
--->
 
 
 
