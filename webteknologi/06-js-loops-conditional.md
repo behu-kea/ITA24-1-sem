@@ -43,10 +43,9 @@
 - Undervis i debugging
 - Husk ikke at sammenligne jer med hinanden for meget!! Sammenlign dig selv med hvor du var for 2 uger siden. Hvis du har rykket dig der, så tillykke. Det går som det skal
 - [https://www.youtube.com/watch?v=kkS2ess19es](https://www.youtube.com/watch?v=kkS2ess19es)
-- Today will be some real workout exercises
-- Work in the groups you worked in yesterday
 - 11:30 to see some of the solutions
-- Der er mange opgaver. Det er ikke forventet at i laver dem alle! Vi skal lige lære jeres niveau og hvor mange opgaver i kan køre igennem
+- Der er mange opgaver. Det er ikke forventet at i laver dem alle! Vi skal lige lære jeres niveau og hvor mange opgaver i kan køre igennem. Level 2 forventer i at i laver færdige derhjemme. 
+- Opgave 6 efter pause. Kl 10:15
 
 
 
