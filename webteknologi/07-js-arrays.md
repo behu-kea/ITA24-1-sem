@@ -36,6 +36,16 @@
 
 
 
+<!--
+
+## Afterclass considerations
+
+- Peer instruction var for svær
+
+-->
+
+
+
 ## Peer instruction
 
 ### Question 1 - 2 min
