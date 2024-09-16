@@ -19,8 +19,6 @@
 
 
 
-
-
 ## Flipped classroom
 
 - [JavaScript FUNCTIONS are easy! 📞](https://www.youtube.com/watch?v=HFaxylC7bUc)
@@ -30,6 +28,7 @@
 
 ## Teacher instruction
 
+- 2. portefølje projekt. Forklar!
 - Everyone should get past level one exerises. If you dont get to do that, then make sure you have by tomorrow
 - Use the debuggers
 - After this week you can call yourself real developers 🎉

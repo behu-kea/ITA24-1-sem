@@ -41,6 +41,7 @@
 ## Afterclass considerations
 
 - Peer instruction var for svær
+- Lidt for få opgaver idag. 
 
 -->
 

@@ -38,7 +38,7 @@ Tjek den her: https://www.moreusefulthings.com/
 
 ## Teacher instruction
 
-
+- 2. portefølje projekt. Forklar!
 
 
 
