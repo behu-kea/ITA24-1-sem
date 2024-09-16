@@ -334,8 +334,6 @@ for (let x = 0; x < r.length; x++) {
 
 
 
-
-
 ### 📝 Exercise 5 - teachers and students
 
 Duration: 20 min
