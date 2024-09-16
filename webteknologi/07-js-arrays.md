@@ -305,19 +305,6 @@ cars.forEach((car, index) =>  {
 
 
 
-### 📝 Exercise 5 - teachers and students
-
-Duration: 20 min
-
-In the following exercise one group will randomly be selected to be teachers and the other group will be students
-
-In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **forEach** or **for...of** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
-
-- As teachers present the 5 minute lecture
-- As students ask good interesting questions
-
-
-
 ### 📝 Exercise 6 - In class let's analyze this code
 
 ```javascript
@@ -334,6 +321,23 @@ for (let x = 0; x < r.length; x++) {
   console.log("r is: " + r[x]);
 }
 ```
+
+
+
+
+
+### 📝 Exercise 5 - teachers and students
+
+Duration: 20 min
+
+In the following exercise one group will randomly be selected to be teachers and the other group will be students
+
+In groups of two people prepare a small 5 minute lecture. The lecture should explain the topic of **forEach** or **for...of** any way you like. That might be with a small slideshow or it might be with code, thats up to you. 
+
+- As teachers present the 5 minute lecture
+- As students ask good interesting questions
+
+
 
 
 
