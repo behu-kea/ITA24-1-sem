@@ -28,9 +28,8 @@
 
 ## Teacher instruction
 
-- Nye grupper idag. Folk der før har programmeret og folk der ikke har
-- Kom med til Copenhagen JS d. 19/10. Der er mad og drikke! [Link her](https://www.meetup.com/copenhagenjs/events/296064757?utm_medium=email&utm_source=sendgrid&utm_campaign=event_announce_en)
-- Studiekort? [https://education.github.com/pack](https://education.github.com/pack)
+- Vi arbejder individuelt i dag.
+- For at løse nogle af opgaverne skal i læse gitbooken. 
 - Lav opgaver, men hop over opgave 5, 6 og 7. Dem laver vi i klassen sammen
 - Vi mødes 15:30 hvor jeg vil løse en af opgaverne og vise den "rigtige" løsning
 
@@ -40,41 +39,43 @@
 
 <!--
 
-### Question 1
+### Question 1 - 2 min
 
-How many times does this loop print `"Hey everyone"`?
-
-```javascript
-for (let i = 0; i < 5; i++) {
-    console.log("Hey everyone")
-}
-```
-
-1. 4
-2. 5
-3. 6
-4. Syntax error
-
-
-
-### Question 2
-
-How many times does this loop print `"Hey everyone"`?
+What will the following code log to the console?
 
 ```javascript
-const friends = 5;
-
-for (let i = 0; i < 5; i++) {
-    if(friends >= 5){
-        console.log("Hey everyone");
-    }
+const arr = [10, 20, 30];
+for(let i = 0; i <= arr.length; i++) {
+  console.log(arr[i]);
 }
+
 ```
 
-1. 0
-2. 4
-3. 5
-4. Syntax error
+1. 10, 20, 30
+1. 10, 20, 30, undefined
+1. undefined
+1. 30, 20, 10
+1. Syntax error
+1. None of the above
+
+
+
+### Question 2 - 2 min
+
+What will the following code log to the console?
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+arr[arr.length] = 6;
+console.log(arr);
+```
+
+1. [1, 2, 3, 4, 5, 6]
+1. [1, 2, 3, 4, 6]
+1. [1, 2, 3, 4, 5, undefined]
+1. undefined
+1. Syntax error
+1. None of the above
 
 -->
 
@@ -84,7 +85,6 @@ for (let i = 0; i < 5; i++) {
 
 ## After class considerations
 
-- Peer instruction has nothing todo with arrays
 - Smallest number eksemplet var monster forvirrende
 - Student teacher was a lot better today. Small groups of 2 people is a lot better
 
@@ -335,16 +335,18 @@ In groups of two people prepare a small 5 minute lecture. The lecture should exp
 ### 📝 Exercise 6 - In class let's analyze this code
 
 ```javascript
-let arr = [34, -5, 3];
-let sm = arr[0];
+let b = [3, 7, 2, 9, 5];
+let r = [];
+let t = 0;
 
-for (i = 1; i <= arr.length; i++) {
-    if (arr[i] < sm) {
-        sm = arr[i];
-    }
+for (let p = 0; p < b.length; p++) {
+  t = b[p] * 2;
+  r[r.length] = t;
 }
 
-console.log("The smallest number is: " + sm);
+for (let x = 0; x < r.length; x++) {
+  console.log("r is: " + r[x]);
+}
 ```
 
 
@@ -353,7 +355,7 @@ console.log("The smallest number is: " + sm);
 
 Ask the following questions
 
-- What does this code do?
+- What does this code do/what should it do?
 - How would you improve it?
 - Does it work?
 - Do you like the variable names?
