@@ -38,9 +38,26 @@
 
 ## Peer instruction
 
-<!--
-
 ### Question 1 - 2 min
+
+What will the following code log to the console?
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+arr[arr.length] = 6;
+console.log(arr);
+```
+
+1. [1, 2, 3, 4, 5, 6]
+2. [1, 2, 3, 4, 6]
+3. [1, 2, 3, 4, 5, undefined]
+4. undefined
+5. Syntax error
+6. None of the above
+
+
+
+### Question 2 - 2 min
 
 What will the following code log to the console?
 
@@ -58,38 +75,6 @@ for(let i = 0; i <= arr.length; i++) {
 1. 30, 20, 10
 1. Syntax error
 1. None of the above
-
-
-
-### Question 2 - 2 min
-
-What will the following code log to the console?
-
-```javascript
-const arr = [1, 2, 3, 4, 5];
-arr[arr.length] = 6;
-console.log(arr);
-```
-
-1. [1, 2, 3, 4, 5, 6]
-1. [1, 2, 3, 4, 6]
-1. [1, 2, 3, 4, 5, undefined]
-1. undefined
-1. Syntax error
-1. None of the above
-
--->
-
-
-
-<!--
-
-## After class considerations
-
-- Smallest number eksemplet var monster forvirrende
-- Student teacher was a lot better today. Small groups of 2 people is a lot better
-
--->
 
 
 
