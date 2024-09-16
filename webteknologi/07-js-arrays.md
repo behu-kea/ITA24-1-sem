@@ -28,11 +28,12 @@
 
 ## Teacher instruction
 
-- Vi arbejder individuelt i dag.
+- Korrekt brug af ChatGPT: *https://www.oneusefulthing.org/p/post-apocalyptic-education*
+- Vi arbejder individuelt i dag
 - For at løse nogle af opgaverne skal i læse gitbooken. 
 - Lav opgaver, men hop over opgave 5, 6 og 7. Dem laver vi i klassen sammen
 - Vi mødes 15:30 hvor jeg vil løse en af opgaverne og vise den "rigtige" løsning
-- Korrekt brug af ChatGPT: *https://www.oneusefulthing.org/p/post-apocalyptic-education*
+- 
 
 
 
