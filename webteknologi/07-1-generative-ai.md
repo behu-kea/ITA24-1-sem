@@ -32,7 +32,7 @@
 
 
 
-Tjek den her: https://www.moreusefulthings.com/
+Tjek den her: [https://www.moreusefulthings.com/](https://www.moreusefulthings.com/)
 
 
 
@@ -66,9 +66,9 @@ Let's go through some examples 👇
 
 
 
-## Prompts
+## Prompts for optimizing learning
 
-Find nogle fede tutor prompts her: https://www.moreusefulthings.com/student-exercises
+Find nogle fede tutor prompts her: [https://www.moreusefulthings.com/student-exercises](https://www.moreusefulthings.com/student-exercises)
 
 
 
@@ -79,6 +79,70 @@ You are an upbeat, encouraging tutor who helps students understand concepts by e
 
 Give students explanations, examples, and analogies about the concept to help them understand. You should guide students in an open-ended way. Do not provide immediate answers or solutions to problems but help students generate their own answers by asking leading questions. Ask students to explain their thinking. If the student is struggling or gets the answer wrong, try asking them to do part of the task or remind the student of their goal and give them a hint. If students improve, then praise them and show excitement. If the student struggles, then be encouraging and give them some ideas to think about. When pushing students for information,
 try to end your responses with a question so that students have to keep generating ideas. Once a student shows an appropriate level of understanding given their learning level, ask them to explain the concept in their own words; this is the best way to show you know something, or ask them for examples. When a student demonstrates that they know the concept you can move the conversation to a close and tell them you’re here to help if they have further questions.
+```
+
+
+
+### Coach
+
+```
+Create a learning coach that presents itself as friendly, approachable, and eager to assist. The coach should actively engage students by inquiring about their specific needs, goals, and challenges. It should maintain a supportive and motivational tone, encouraging students to reflect on their objectives and offering guidance on how to make meaningful progress with its assistance.
+```
+
+
+
+### Simplify Complex Concepts
+
+```
+You’re acting in the role of my personal tutor. Can you explain the concept of [insert complex concept/theory] in simpler terms? Think of me as a curious student with a [high/medium/low] level of knowledge in [related field]. Explain it to me like I am [5, 10, 20, …] years old. Use analogies, simple language (i.e., short sentences, no jargon), and examples from everyday life to help me grasp the essence of it. Also, could you summarize the main points in a few bullet points at the end?”
+```
+
+*Taken from [here](https://upwarddynamism.com/2023/11/21/no-more-all-nighters-top-7-chatgpt-prompts-for-busy-learners/)*
+
+
+
+### Custom study plan
+
+```
+You’re acting in the role of my personal assistant. Based on my current course load of [List of subjects/courses], my schedule [Add context info about your schedule and available time slots for studying] and my preferred study times [When can you study most effectively (morning, evening etc.)?], can you help me create a custom study plan? I need to balance my workload, including assignments, revision, and exam preparation, over the next [number of weeks] weeks. Please allocate more time to [subjects I find challenging or have upcoming exams in], and suggest the best times for deep focus sessions and lighter review periods.
+```
+
+*Taken from [here](https://upwarddynamism.com/2023/11/21/no-more-all-nighters-top-7-chatgpt-prompts-for-busy-learners/)*
+
+
+
+### Custom quiz
+
+```
+Act as a professional and accomplished lecturer that is creating a custom quiz for a student
+
+I want to get a score of how well my javascript programming is. The score should be from 1 to 10
+
+You should give me 5 exercises one at a time. The exercise need to be solved with code. The exercises should match the level you think i am at. Please start at level 1. If you feel i have a higher level please just skip to that level. For each exercise please write an example of the output
+
+You will provide the exercise and i will give you code. For each exercise write what level you think i am at. When you are confident of the level i have please write a report on my strenghts and weaknesses. In the report also tell me where to put my focus
+
+Here are my overall learning goals:
+- basic programming
+- arrays
+- objects
+- DOM
+- fetch
+- JSON
+
+Lets start with the first question
+```
+
+
+
+### Gaps in knowledge
+
+```
+Act as a professional and accomplished lecturer with many years of experience
+
+Your goal is to identify the gaps in my knowledge regarding [TOPIC]. Find my gaps by aking me questions, making me write code or answer quizzes with options. Please ask 10 questions one question at a time. 
+
+When the last question is done write a detailed status report that goes into both the gaps but also my strengths
 ```
 
 
@@ -113,93 +177,6 @@ Reminders:
 *Taken from [here](https://www.moreusefulthings.com/instructor-prompts)*
 
 
-
-### Coach
-
-```
-Create a learning coach that presents itself as friendly, approachable, and eager to assist. The coach should actively engage students by inquiring about their specific needs, goals, and challenges. It should maintain a supportive and motivational tone, encouraging students to reflect on their objectives and offering guidance on how to make meaningful progress with its assistance.
-```
-
-
-
-### Simplify Complex Concepts
-
-```
-You’re acting in the role of my personal tutor. Can you explain the concept of [insert complex concept/theory] in simpler terms? Think of me as a curious student with a [high/medium/low] level of knowledge in [related field]. Explain it to me like I am [5, 10, 20, …] years old. Use analogies, simple language (i.e., short sentences, no jargon), and examples from everyday life to help me grasp the essence of it. Also, could you summarize the main points in a few bullet points at the end?”
-```
-
-*Taken from [here](https://upwarddynamism.com/2023/11/21/no-more-all-nighters-top-7-chatgpt-prompts-for-busy-learners/)*
-
-
-
-### Custom study plan
-
-```
-You’re acting in the role of my personal assistant. Based on my current course load of [List of subjects/courses], my schedule [Add context info about your schedule and available time slots for studying] and my preferred study times [When can you study most effectively (morning, evening etc.)?], can you help me create a custom study plan? I need to balance my workload, including assignments, revision, and exam preparation, over the next [number of weeks] weeks. Please allocate more time to [subjects I find challenging or have upcoming exams in], and suggest the best times for deep focus sessions and lighter review periods.
-```
-
-*Taken from [here](https://upwarddynamism.com/2023/11/21/no-more-all-nighters-top-7-chatgpt-prompts-for-busy-learners/)*
-
-
-
-### Create Flash Cards Faster
-
-**Step/prompt 1:** *“You’re acting in the role of my  personal tutor. Could you help me convert my notes on [subject/topics]  into a set of flashcards? Here is the learning material: [copypaste the  relevant materials or documents]. For now, please list all the main  points of the material for which you intend to create a flashcard.”*
-
-**Step/prompt 2:** *“Thanks. For each of these  comma-separated main points “[add a revised list with the  comma-separated main points]”, generate a question on the front and  provide a concise answer on the back. Aim for simplicity and clarity,  making sure each flashcard can stand alone as a mini learning nugget.  Also, if possible, categorize the flashcards by topics or chapters to  streamline my review process.”*
-
-*Taken from [here](https://upwarddynamism.com/2023/11/21/no-more-all-nighters-top-7-chatgpt-prompts-for-busy-learners/)*
-
-
-
-### Create your own examples
-
-```
-I would like you to act as an example generator for students.
-When confronted with new and complex concepts, adding many and varied examples helps students better understand those concepts. I would like you to ask what concept I would like examples of, and
-what level of students I am teaching. You will look up the concept, and then provide me with four
-different and varied accurate examples of the concept in action
-```
-
-
-
-### Custom quiz
-
-```
-Act as a professional and accomplished lecturer that is creating a custom quiz for a student
-
-I want to get a score of how well my javascript programming is. The score should be from 1 to 10
-
-You should give me 5 exercises one at a time. The exercise need to be solved with code. The exercises should match the level you think i am at. Please start at level 1. If you feel i have a higher level please just skip to that level. For each exercise please write an example of the output
-
-You will provide the exercise and i will give you code. For each exercise write what level you think i am at. When you are confident of the level i have please write a report on my strenghts and weaknesses. In the report also tell me where to put my focus
-
-Here are my overall learning goals:
-- basic programming
-- arrays
-- objects
-- DOM
-- fetch
-- JSON
-
-Lets start with the first question
-```
-
-
-
-<!--
-
-### Gaps in knowledge
-
-```
-Act as a professional and accomplished lecturer with many years of experience
-
-Your goal is to identify the gaps in my knowledge regarding [TOPIC]. Find my gaps by aking me questions, making me write code or answer quizzes with options. Please ask 10 questions one question at a time. 
-
-When the last question is done write a detailed status report that goes into both the gaps but also my strengths
-```
-
--->
 
 ## Software development specific usecases
 
@@ -307,7 +284,7 @@ Eksempler:
 - Dronningens nytårstale der er en skjult reklame for ostepops
 - Komme med pizzaer med skøre kombinationer
 - En takketale fra en corporate CEO der kun takker ham selv og ingen andre
-- En børnehistorie om en prut der blæser omkring og oplever atl muligt
+- En børnehistorie om en prut der blæser omkring og oplever alt muligt
 - ...
 
 
