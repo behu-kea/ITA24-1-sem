@@ -47,10 +47,15 @@ Tjek den her: [https://www.moreusefulthings.com/](https://www.moreusefulthings.c
 ## After class considerations
 
 - Slides var vildt gode. Fungerede rigtig godt
-- Material herinde var ikke godt. Promptsene var for rodede. Der var ikke system i dem.
 - Jeg havde ikke helt overblik over promptsene heller
 - Opgaverne var okay, men lidt rodede synes jeg. Der var for lang tid til dem.
 - Næsten gang skal det køres som starten af en time hvor man også introducerer nyt indhold
+
+
+
+**2024**
+
+- Der er for meget indhold og for lidt passion. Lav nogle sange, klistermærker, sjove sange, weird ting skal jeg lave for at vise passionen. Og så ud med nogle af emnerne, fx bias
 
 -->
 
