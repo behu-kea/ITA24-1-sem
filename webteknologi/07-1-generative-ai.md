@@ -311,7 +311,7 @@ Write an array with 10 random prices from a sales report of a corporate company.
 
 Del en interessant prompt i bruger/har brugt. Det kan være til skole, men også personligt. Skriv prompte ind i det her excelark. 
 
-[Book.xlsx](https://studkea-my.sharepoint.com/:x:/r/personal/behu_kea_dk/Documents/Book.xlsx?d=w4a5b5d24e75c45a28a0d83982b22b629&csf=1&web=1&e=z4GIVY)
+[Prompts.xlsx](https://studkea-my.sharepoint.com/:x:/r/personal/behu_kea_dk/Documents/Book.xlsx?d=w4a5b5d24e75c45a28a0d83982b22b629&csf=1&web=1&e=z4GIVY)
 
 
 
