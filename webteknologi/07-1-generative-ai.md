@@ -291,7 +291,7 @@ Eksempler:
 
 ### Exericse 3
 
-Create a prompt that can create exercises for a specific topic. Remember to give lost of context to the model
+Create a prompt that can create exercises for a specific topic. Remember to give lost of context to the model.
 
 <!--*Maybe the prompt first figures out your level and then creates exercises that are relevant to the users level*-->
 
@@ -309,13 +309,21 @@ Write an array with 10 random prices from a sales report of a corporate company.
 
 ### Exercise 5
 
+Del en interessant prompt i bruger/har brugt. Det kan være til skole, men også personligt. Skriv prompte ind i det her excelark. 
+
+[Book.xlsx](https://studkea-my.sharepoint.com/:x:/r/personal/behu_kea_dk/Documents/Book.xlsx?d=w4a5b5d24e75c45a28a0d83982b22b629&csf=1&web=1&e=z4GIVY)
+
+
+
+### Exercise 6
+
 Use an LLM to figure out where your knowledge gaps in HTML, CSS and Javascript are. Be specific so you know exactly what topics you are struggling with.
 
 *You can use the learning goals specified in the lectures. Use only the ones we have covered*
 
 
 
-### Exercise 6
+### Exercise 7
 
 Create your own personal tutor/teaching assistant that fits your needs.
 
@@ -325,6 +333,6 @@ Go wild here
 
 
 
-### Exercise 7
+### Exercise 8
 
 Use the tutor created in 6 to help teach you learn/teach/understand the topics where you are struggling found in exercise 5. 
