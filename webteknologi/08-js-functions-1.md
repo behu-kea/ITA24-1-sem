@@ -28,9 +28,8 @@
 
 ## Teacher instruction
 
-- 2. portefølje projekt. Forklar!
 - Everyone should get past level one exerises. If you dont get to do that, then make sure you have by tomorrow
-- Use the debuggers
+- Use the debugger
 - After this week you can call yourself real developers 🎉
 
 
@@ -347,7 +346,7 @@ someFunctionName("abcde"); // logs out abcde
 
 ### 📝 Exercise 1.1 - level 1
 
-Create a function that adds two numbers together
+Create a function that adds two numbers together. The added number should be returned
 
 ```javascript
 const returnedNumber = someFunctionName(2, 6);

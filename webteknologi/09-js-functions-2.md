@@ -46,6 +46,8 @@ const sumOfNumbers = adder(4, 4);
 
 -->
 
+
+
 ## Asynchronicity in javascript
 
 ### `setTimeout`

@@ -47,15 +47,24 @@ Tjek den her: [https://www.moreusefulthings.com/](https://www.moreusefulthings.c
 ## After class considerations
 
 - Slides var vildt gode. Fungerede rigtig godt
-- Jeg havde ikke helt overblik over promptsene heller
 - Opgaverne var okay, men lidt rodede synes jeg. Der var for lang tid til dem.
-- Næsten gang skal det køres som starten af en time hvor man også introducerer nyt indhold
+- Ift at jeg er super passioneret over generativ ai tror jeg ikke det rigtig kom ud.
+- 
 
 
 
 **2024**
 
 - Der er for meget indhold og for lidt passion. Lav nogle sange, klistermærker, sjove sange, weird ting skal jeg lave for at vise passionen. Og så ud med nogle af emnerne, fx bias
+- Start med at lave en podcast de første 30 min. De bestemmer emnet. Så start med hooken. 
+  - Lav stemmer, script, ikon for podcasten etc
+- Derefter forklar generativ ai forholdsvist kort
+- Trappen er god, behold den
+- Mads vestergaards er også rigtig fin, men den skal bruges anderledes, hvordan?
+- Opgaverne er okay, men de går tidligt og stener lidt over dem, ved ikke helt hvorfor
+- Jeg skal bruge mere tid på at vise hvordan jeg tænker. 
+  - Next level prompting. Fx med opgave der laver opgaver. Vis modellen exercism. 
+
 
 -->
 

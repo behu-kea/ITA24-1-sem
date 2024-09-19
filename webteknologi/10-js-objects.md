@@ -13,7 +13,6 @@
 
 ## Teacher instruction
 
-- Fedt at der var så mange til martins oplæg! Det er altid rart at der kommer studerende når man inviterer folk ind.
 - Context for where in js we are
   - Basics
   - DOM
@@ -423,6 +422,8 @@ https://www.chess.com/terms/chess-notation
 
 
 
+<!--
+
 ## 📝 Handin - Individual
 
 
@@ -580,3 +581,4 @@ Review metrics:
 - Find et eksempel på en variabel der har et godt navn og et der har et dårligt navn. Begrund hvorfor
 - Vælg en af opgaverne og besvar om der var en tydelig og god struktur i koden? Begrund hvorfor/hvorfor ikke
 
+-->

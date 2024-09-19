@@ -16,6 +16,14 @@
 
 
 
+<!--
+
+## After class considerations
+
+- Opgaverne var for nemme
+
+-->
+
 
 
 
