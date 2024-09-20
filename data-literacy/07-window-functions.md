@@ -6,17 +6,116 @@ https://youtu.be/7NBt0V8ebGk?si=ZrUEwYFTtqYWK7Nw
 
 
 
-## **Exercises**
+# Peer instructions
+
+If I want to fetch the sum of all salary across departments; What is the correct query?
+
+**A)**
+
+```sql
+SELECT department_name, SUM(salary)
+FROM employees
+INNER JOIN departments
+ON employees.department_number = departments.department_number
+GROUP BY department_name 
+```
+
+**B)**
+
+```sql
+SELECT department_name, SUM(salary)
+FROM employees, departments
+ON employees.department_number = departments.department_number
+GROUP BY department_name 
+```
+
+**C)**
+
+```sql
+SELECT department_name, SUM(salary)
+FROM employees
+INNER JOIN departments
+ON employees.department_number = departments.department_number
+GROUP BY salary
+```
+
+**D)**
+
+None
+
+
+
+If I want to fetch the average salary for each department ordered by average salary with the highest at the top; what is the correct query?
+
+**A)**
+
+```sql
+SELECT AVG(salary)
+FROM employees
+INNER JOIN departments
+GROUP BY department_name
+ORDER BY DESC
+```
+
+**B)**
+
+```sql
+SELECT *
+FROM employees
+INNER JOIN departments
+ON employees.department_number = departments.department_number
+GROUP BY department_name 
+ORDER BY AVG(salary) DESC
+```
+
+**C)**
+
+```sql
+SELECT department_name, AVG(salary)
+FROM employees
+INNER JOIN departments
+ON employees.department_number = departments.department_number
+GROUP BY department_name DESC
+ORDER BY AVG(salary)
+```
+
+**D)**
+
+None
+
+
+
+## Exercises 1 (Pairs)
+
+**A)** Describe and write down: What are the difference between Aggregate functions and window functions?
+
+**B)** Describe and write down: What does the "Group By"- clause obtain?
+
+- How does it affect the resulting response
+
+**C)** What happens if we do not use a "On"- clause in a join statement?
+
+**D)** Describe the usage of a sub query and provide and example
+
+
+
+## **Exercises 2**
 
 **In the pokemon dataset**
 
 **A)** Write a query to calculate the [running total](https://learnsql.com/blog/what-is-a-running-total-and-how-to-compute-it-in-sql/) of HP for each Pokemon grouped by its primary type. Order the results by the Pokemon's `pokedex_number` within each `primary_type`.
 
-**B)** Write a query to rank Pokemon by their `speed` stat within each `primary_type`. Display the `primary_type`, `pokedex_number`, `name`, `speed`, and the rank.
+<img src="assets/image-20240920104546428.png" alt="image-20240920104546428" style="zoom:50%;" />
+
+**B)** Write a query to [rank](https://www.mysqltutorial.org/mysql-window-functions/mysql-rank-function/) Pokemon by their `speed` stat within each `primary_type`. Display the `primary_type`, `pokedex_number`, `name`, `speed`, and the rank.
+
+<img src="assets/image-20240920104631806.png" alt="image-20240920104631806" style="zoom:50%;" />
 
 **C)** Write a query to find the top 3 Pokemon by `special_attack` within each `primary_type`. Display the `primary_type`, `pokedex_number`, `name`, `special_attack`, and the rank.
 
-**D)** Write a query to identify Pokemon whose `speed` stat is above the average speed of their `primary_type`. Display the `primary_type`, `pokedex_number`, `name`, `speed`, and the average speed of the `primary_type`.
+<img src="assets/image-20240920104737341.png" alt="image-20240920104737341" style="zoom:50%;" />
+
+**D) (Advanced optional)** Write a query to identify Pokemon whose `speed` stat is above the average speed of their `primary_type`. Display the `primary_type`, `pokedex_number`, `name`, `speed`, and the average speed of the `primary_type`.
 
 
 
@@ -40,27 +139,26 @@ https://youtu.be/7NBt0V8ebGk?si=ZrUEwYFTtqYWK7Nw
 
 **F)** Write a query to identify departments with the highest average commission per employee, considering only those employees who have a commission. Display the `department_number`, `department_name`, and the average commission.
 
-**G)** Write an SQL query to divide the Pokemon into percentile groups based on their **`speed`** stat. Specifically, you should group the Pokemon into the following percentile ranges: 0-10%, 10-20%, ..., up to 90-100%. For each percentile range, calculate the number of Pokemon that fall into that range.
 
-The two columns in the output:
 
-1. **`percentile_range_end`**: The upper bound of the percentile range (e.g., 10, 20, ..., 100).
-2. **`pokemon_count`**: The number of Pokemon that fall into that percentile range based on their **`speed`**.
+## Exercise 3 Project Sakila
 
-- Ensure that the results are sorted by the **`percentile_range_end`** in ascending order.
-  - Hint: use NTILE() function: https://www.mysqltutorial.org/mysql-window-functions/mysql-ntile-function/
-  - Hint: use WITH() function: https://www.tutorialspoint.com/mysql/mysql-common-table-expression.htm#:~:text=The%20MySQL%20WITH%20clause%20is,in%20MySQL%20versions%20before%208.0.
+https://kea-fronter.itslearning.com/Resources?FolderID=1303798&PlayPlanDialogView=False&ReloadTree=False
 
-#### **Expected Output:**
-
-The result should look like this:
-
-| percentile_range_end | pokemon_count |
-| -------------------- | ------------- |
-| 10                   | X             |
-| 20                   | Y             |
-| 30                   | Z             |
-| ...                  |               |
+**Run schema file first data file second** 
 
 
 
+- What actor has starred in most movies?
+- What is the average running time of all movies?
+- What is the average running time of movies by category? 
+- What is the most common language in all the movies?
+- What store carries the most inventory?
+- Find the most expensive film in each film category
+
+
+
+**Advanced**
+
+- What release year has the most expensive replacement costs of movies?
+- What is the name of the best selling staff Mike or John?
