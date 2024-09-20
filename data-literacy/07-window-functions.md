@@ -129,6 +129,8 @@ None
 
 **D)** Write a query to find the top 3 highest earners in each department. Display the `department_number`, `employee_name`, `salary`, and their rank within the department.
 
+<img src="assets/image-20240920110208117.png" alt="image-20240920110208117" style="zoom:50%;" />
+
 
 
 **Advanced**
@@ -137,7 +139,7 @@ None
 
 - Hint: Use the LAG() function: https://www.mysqltutorial.org/mysql-window-functions/mysql-lag-function/
 
-**F)** Write a query to identify departments with the highest average commission per employee, considering only those employees who have a commission. Display the `department_number`, `department_name`, and the average commission.
+<img src="assets/image-20240920110257150.png" alt="image-20240920110257150" style="zoom:50%;" />
 
 
 
