@@ -110,7 +110,7 @@ Create a table named "books" with the following columns:
 
 
 
-Populate the tables with at least 1 entity for each table
+Populate the tables with at least 5 entities for each table
 
 
 
