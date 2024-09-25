@@ -58,13 +58,14 @@ The rules are:
    **Schema:**
 
    - **Author**: (Author_ID, Name, Date_of_Birth, Nationality)
-   - **Book**: (ISBN, Title, Publication_Date, Language, Genre)
+   - **Book**: (ISBN, Title, Publication_Date, Author_ID, Language, Genre)
+   - **Book_Publisher**: (Book_publisher_ID, ISBN, Publisher)
    - **Publisher**: (Publisher_ID, Name, Country, Founded_Year)
    - **Review**: (Review_ID, Score, Comment, Date, ISBN, User_ID)
    - **User**: (User_ID, Username, Email, Country)
-
+   
    ### Questions:
-
+   
    - What is the cardinality between **Author** and **Book**? Can a book have multiple authors? Can an author write more than one book?
    - What is the cardinality between **Book** and **Publisher**? Can a book be published by more than one publisher? Can a publisher publish multiple books?
    - What is the cardinality between **Book** and **Review**? Can a book have multiple reviews? Can a user review multiple books?
