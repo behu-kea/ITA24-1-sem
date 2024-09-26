@@ -28,6 +28,7 @@
 
 ## Teacher instruction
 
+- Rydde op efter jer
 - Studiestarts undersøgelse.
 - Individuelt idag. Alle skal nå til level 1 idag
 - Hjemmeopgave: Færdig med opgaver til om med opgave 6
