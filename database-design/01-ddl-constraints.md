@@ -1,5 +1,49 @@
 # Data Definition Language
 
+
+
+## Peer instruction
+
+**What result would the following query obtain?**
+
+![image-20240923104841433](assets/image-20240923104841433.png)
+
+**A)**
+
+<img src="assets/image-20240923105127973.png" alt="image-20240923105127973" style="zoom:67%;" />
+
+**B)**
+
+<img src="assets/image-20240923105224770.png" alt="image-20240923105224770" style="zoom:67%;" />
+
+
+
+**C)**
+
+<img src="assets/image-20240923105026786.png" alt="image-20240923105026786" style="zoom:67%;" />
+
+
+
+**What result would the following query obtain?**
+
+![image-20240923105419498](assets/image-20240923105419498.png)
+
+**A)**
+
+![image-20240923105438226](assets/image-20240923105438226.png)
+
+
+
+**B)**
+
+![image-20240923105654619](assets/image-20240923105654619.png)
+
+**C)**
+
+Error
+
+
+
 Two tables with primary keys and foreign key constraints
 
 ```sql
@@ -110,7 +154,7 @@ Create a table named "books" with the following columns:
 
 
 
-Populate the tables with at least 1 entity for each table
+Populate the tables with at least 5 entities for each table
 
 
 

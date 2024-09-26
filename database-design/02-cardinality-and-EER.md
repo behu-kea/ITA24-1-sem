@@ -41,7 +41,39 @@ The rules are:
 
 
 
-## Case 2: EER Diagram (Workbench)
+## Exercise 3: Cardinality
+
+1. **Describe Cardinality:**
+
+   - What is cardinality in the context of database design?
+
+   - How do different types of cardinality (1:1, 1:N, N:N) affect relationships between entities?
+
+     - What does the tables look like?
+
+       
+
+2. **Identify Relationships and Cardinality:** Consider the following database schema representing a simple book publishing system. Identify the relationships and specify their cardinality between the following entities:
+
+   **Schema:**
+
+   - **Author**: (Author_ID, Name, Date_of_Birth, Nationality)
+   - **Book**: (ISBN, Title, Publication_Date, Author_ID, Language, Genre)
+   - **Book_Publisher**: (Book_publisher_ID, ISBN, Publisher)
+   - **Publisher**: (Publisher_ID, Name, Country, Founded_Year)
+   - **Review**: (Review_ID, Score, Comment, Date, ISBN, User_ID)
+   - **User**: (User_ID, Username, Email, Country)
+   
+   ### Questions:
+   
+   - What is the cardinality between **Author** and **Book**? Can a book have multiple authors? Can an author write more than one book?
+   - What is the cardinality between **Book** and **Publisher**? Can a book be published by more than one publisher? Can a publisher publish multiple books?
+   - What is the cardinality between **Book** and **Review**? Can a book have multiple reviews? Can a user review multiple books?
+   - What is the cardinality between **User** and **Review**? Can a user leave multiple reviews? Can a review belong to more than one user?
+
+
+
+## Exercise 4: EER Diagram (Workbench)
 
 **New Model**
 
