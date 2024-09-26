@@ -28,9 +28,13 @@
 
 ## Teacher instruction
 
-- Everyone should get past level one exerises. If you dont get to do that, then make sure you have by tomorrow
-- Use the debugger
+- Studiestarts undersøgelse.
+- Individuelt idag. Alle skal nå til level 1 idag
+- Hjemmeopgave: Færdig med opgaver til om med opgave 6
+- Brug debuggeren
 - After this week you can call yourself real developers 🎉
+- Aflevering af portefølje på søndag
+- ChatGPT parametre og argumenter
 
 
 
