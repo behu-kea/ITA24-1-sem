@@ -59,7 +59,7 @@ const numberOfCharacters = getNumberOfCharacters("Kea er sej");
 2. `"9"`
 3. `10`
 4. `"10"`
-5. Error
+5. None of the above
 
 
 
@@ -72,7 +72,7 @@ function isNumberLargerThanSeven(number) {
 	const numberLarger = number > 7;
 }
 
-console.log(numberLarger(5));
+console.log(isNumberLargerThanSeven(5));
 ```
 
 1. `true`
