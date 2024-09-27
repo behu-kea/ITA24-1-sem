@@ -13,8 +13,11 @@
 
 ## Teacher instruction
 
+- Vi arbejder i små tilfældige grupper idag
+- Husk aflevering søndag. Ane kommer til at give jer feedback!
 - There are a lot of exercises. They are not meant to be finished all of them. 
 - Level 1 I expect you to finish
+- 
 
 
 
@@ -29,6 +32,8 @@
 
 <!--
 
+### Question 1 - 1 min
+
 What is the value of `sumOfNumbers`?
 
 ```javascript
@@ -42,7 +47,26 @@ const sumOfNumbers = adder(4, 4);
 1. `8`
 2. `"8"`
 3. `4+4`
-5. None of the above
+4. None of the above
+
+
+
+### Question 2 - 1 min
+
+What is the value of `sumOfNumbers`?
+
+```javascript
+const emojiPrinter = () => {
+  console.log("🎉❤️🚀");
+}
+
+console.log(emojiPrinter)
+```
+
+1. `"🎉❤️🚀"`
+2. `🎉❤️🚀`
+3. `undefined`
+4. None of the above
 
 -->
 
@@ -307,4 +331,4 @@ But what if the person is a woman? Describe how you would fix the `getFullname` 
 
 
 
-### 📝 Exercise 14 - Finish exercises from yesterday
+### 📝 Exercise 14 - Work on portfolio
