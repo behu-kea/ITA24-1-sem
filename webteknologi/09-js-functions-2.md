@@ -17,7 +17,6 @@
 - Husk aflevering søndag. Ane kommer til at give jer feedback!
 - There are a lot of exercises. They are not meant to be finished all of them. 
 - Level 1 I expect you to finish
-- 
 
 
 
@@ -30,7 +29,7 @@
 
 ## Peer instruction
 
-<!--
+
 
 ### Question 1 - 1 min
 
@@ -68,7 +67,7 @@ console.log(emojiPrinter)
 3. `undefined`
 4. None of the above
 
--->
+
 
 
 
