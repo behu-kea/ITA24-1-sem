@@ -18,10 +18,8 @@
   - DOM
   - API
   - Visualisation
-  - API
-- Codelab. Bruger i det? Hvorfor, hvorfor ikke?
 - Divide your problem into smaller problems first
-- Javascript Test
+- Opgave 6 kl 14:15
 
 
 
@@ -286,12 +284,8 @@ const dog = {
 // WRITE CODE BELOW THIS LINE
 // WRITE CODE ABOVE THIS LINE
 
-console.log(dog.name);
-console.log(dog.wantsToPlay);
-
-// -> it should output:
-// Rex
-// true
+console.log(dog.name); // Rex
+console.log(dog.wantsToPlay); // true
 ```
 
 *Exercises taken from here: https://syllabus.codeyourfuture.io/js-core-2/week-1/lesson*
@@ -305,51 +299,25 @@ The following object represents all the people that are in space right now.
 Data is taken from [here](http://api.open-notify.org/astros.json)
 
 ```javascript
-const astronautsInSpace = {
+const data = {
   people: [
-    {
-      name: "Oleg Artemyev",
-      craft: "ISS"
-    },
-    {
-      name: "Denis Matveev",
-      craft: "ISS"
-    },
-    {
-      name: "Sergey Korsakov",
-      craft: "ISS"
-    },
-    {
-      name: "Kjell Lindgren",
-      craft: "ISS"
-    },
-    {
-      name: "Bob Hines",
-      craft: "ISS"
-    },
-    {
-      name: "Samantha Cristoforetti",
-      craft: "ISS"
-    },
-    {
-      name: "Jessica Watkins",
-      craft: "ISS"
-    },
-    {
-      name: "Cai Xuzhe",
-      craft: "Tiangong"
-    },
-    {
-      name: "Chen Dong",
-      craft: "Tiangong"
-    },
-    {
-      name: "Liu Yang",
-      craft: "Tiangong"
-    }
+    { craft: "ISS", name: "Oleg Kononenko" },
+    { craft: "ISS", name: "Nikolai Chub" },
+    { craft: "ISS", name: "Tracy Caldwell Dyson" },
+    { craft: "ISS", name: "Matthew Dominick" },
+    { craft: "ISS", name: "Michael Barratt" },
+    { craft: "ISS", name: "Jeanette Epps" },
+    { craft: "ISS", name: "Alexander Grebenkin" },
+    { craft: "ISS", name: "Butch Wilmore" },
+    { craft: "ISS", name: "Sunita Williams" },
+    { craft: "Tiangong", name: "Li Guangsu" },
+    { craft: "Tiangong", name: "Li Cong" },
+    { craft: "Tiangong", name: "Ye Guangfu" }
   ],
+  number: 12,
   message: "success"
-}
+};
+
 ```
 
 Using the `astronautsInSpace` variable log out the following things
@@ -409,6 +377,89 @@ function ChkPass(user_data) {
 
 ChkPass({user: "test", password: "1234"});
 ```
+
+
+
+### 8 - Build a sentiment analyzer
+
+A sentiment analyzer is some functionality that figures out how positive/negative a sentence is. 
+
+Fx the sentence "I am mega super awesome happy" Should have a high score
+The sentence "I hate doing boring stuff" should have a low score.
+
+Create a function that takes a string as a parameter. Calling the function will return an object with `score`, `positiveWords` and `negativeWords`. You decide how the score should be implemented and what words are negative and positive.
+
+Here is an example of using the function:
+
+```javascript
+const sentimentScoreObject = getSentimentScore('I am mega super awesome happy');
+
+console.log(sentimentScoreObject);
+/*
+{
+  score: 3,
+  positiveWords: ['happy', 'awesome', 'super'],
+  negativeWords: [],
+}
+*/
+```
+
+
+
+### 9 - Character frequencies - optional
+
+Write a function that counts the frequency of characters in a string:
+
+```javascript
+console.log(getCharacterFrequencies('happy'));
+/*
+{
+  characters: [
+    {
+      character: 'a',
+      count: 1
+    },
+    {
+      character: 'h',
+      count: 1
+    },
+    {
+      character: 'p',
+      count: 2
+    },
+    {
+      character: 'y',
+      count: 1
+    }
+  ], length: 5
+}
+*/
+```
+
+
+
+### 10 - Credit card number formatter - optional
+
+This is a very real world example of a problem i got at my previous work. I was tasked to implement one of the smart credit card input fields, where the credit card numbers are seperated with a space. Fx inputting 123456789 would show 1234 5678 9.
+
+![Credit card formatter](assets/credit-card-formatter.png)
+
+Create a function that takes a number as parameter. The function should return the following object:
+
+```javascript
+const formattedCreditCardObject = formatCreditCardNumber(123456789);
+console.log(formattedCreditCardObject);
+/*
+{
+  original: 123456789,
+  formatted: "1234 5678 9",
+}
+*/
+```
+
+Things to consider:
+
+- What should happen if the function is called with an argument that is not a number?
 
 
 
