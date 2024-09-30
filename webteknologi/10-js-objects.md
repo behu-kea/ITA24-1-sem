@@ -78,8 +78,6 @@ console.log(user.age)
 
 
 
-
-
 ## Flipped classroom videos
 
 - [Object In JavaScript | JavaScript Object Tutorial For Beginners](https://www.youtube.com/watch?v=TCXQsQL5kPo)
