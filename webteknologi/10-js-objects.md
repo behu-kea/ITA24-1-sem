@@ -1,4 +1,4 @@
-# Objects, map and filter
+# Objects
 
 
 
@@ -20,16 +20,6 @@
   - Visualisation
 - Divide your problem into smaller problems first
 - Opgave 6 kl 14:15
-
-
-
-<!--
-
-## After class considerations
-
-- Måske have screenshot af afterclass considerations. Nikolaj kører det bare i consollen
-
--->
 
 
 
