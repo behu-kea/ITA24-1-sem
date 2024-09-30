@@ -35,7 +35,7 @@
 
 ## Peer instruction 1 min
 
-<!--
+
 
 ### Question 1
 
@@ -76,7 +76,7 @@ console.log(user.age)
 4. "User.age"
 5. Syntax error
 
--->
+
 
 
 
