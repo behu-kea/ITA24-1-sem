@@ -18,8 +18,6 @@ By the end of this lesson trainees should be able to:
 
 ## Teacher instruction
 
-- Husk at sende nogle visualiseringer hvis i finder nogle nice nogle!
-- Teach the learning objectives. Fx `insertAdjacentHTML`, `textContent`, etc
 - Add eventlistener
 - DOM
 - Break down the exercises. Focus on which part of the html you are working on! (Selection, inserting, manipulation, event)
