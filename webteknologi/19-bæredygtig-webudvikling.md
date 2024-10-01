@@ -114,10 +114,6 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 
 
 
-
-
-
-
 ## Links
 
 - [https://greensoftware.foundation/](https://greensoftware.foundation/)

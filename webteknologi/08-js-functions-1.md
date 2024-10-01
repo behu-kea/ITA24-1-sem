@@ -28,15 +28,20 @@
 
 ## Teacher instruction
 
-- Everyone should get past level one exerises. If you dont get to do that, then make sure you have by tomorrow
-- Use the debugger
+- Rydde op efter jer
+- Studiestarts undersøgelse.
+- Individuelt idag. Alle skal nå til level 1 idag
+- Hjemmeopgave: Færdig med opgaver til om med opgave 6
+- Brug debuggeren
 - After this week you can call yourself real developers 🎉
+- Aflevering af portefølje på søndag
+- ChatGPT parametre og argumenter
 
 
 
 ## Peer instruction
 
-<!--
+
 
 ### Question 1 - 1 min
 
@@ -54,7 +59,7 @@ const numberOfCharacters = getNumberOfCharacters("Kea er sej");
 2. `"9"`
 3. `10`
 4. `"10"`
-5. Error
+5. None of the above
 
 
 
@@ -67,7 +72,7 @@ function isNumberLargerThanSeven(number) {
 	const numberLarger = number > 7;
 }
 
-console.log(numberLarger(5));
+console.log(isNumberLargerThanSeven(5));
 ```
 
 1. `true`
@@ -75,8 +80,6 @@ console.log(numberLarger(5));
 3. `5`
 4. `7`
 5. None of the above
-
--->
 
 
 

@@ -26,4 +26,8 @@
 - `` ` `` - Backtick
   - Mac: `shift` + `´`
   - Windows: `shift` + `´` 
+- `~` - Tilde
+  - Mac: `option` + `^`
+  - Windows: ?
+  
 
