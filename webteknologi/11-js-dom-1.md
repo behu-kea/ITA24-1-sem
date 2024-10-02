@@ -313,7 +313,17 @@ Clicking `Donate Now` should show a modal where a user can input some amount the
 
 
 
-### 📝 Exercise 8 - level 3
+### 📝 Exercise 8 - level 2
+
+Now its time to work on your portfolio!
+
+Create lightmode/darkmode functionality on your portfolio. When clicking a button the colors of your website should change from being in light mode (light-coloured background, darkish text) to dark mode (darkcolored background and lightcolored text)
+
+Here are some examples: https://webflow.com/made-in-webflow/lightmode
+
+
+
+### 📝 Exercise 9 - level 3
 
 Your feature here. Come up with some feature you would like to create!
 
@@ -324,3 +334,6 @@ When you are done you can work on your handin for tuesday
 
 
 > Taken from https://syllabus.codeyourfuture.io/js-core-2/week-2/lesson
+
+
+
