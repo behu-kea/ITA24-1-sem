@@ -59,7 +59,7 @@ Here are two examples, HTML and then the DOM
 
 This is how we would represent the document hierarchy above as a tree of nodes:
 
-![DOM representation](https://syllabus.codeyourfuture.io/91f23c157d97a7987a67b729c1494a91.png)
+![Represented html](assets/CleanShot-2024-10-02-at-07.32.48.png)
 
 
 
