@@ -155,18 +155,41 @@ Now the `p` tag only has two class names `red` and `large`
 
 ### Inserting DOM elements
 
+There are two ways of inserting DOM elements to your html:
+
+
+
+#### First method
+
 We will be inserting DOM elements using the function `insertAdjacentHTML`. `insertAdjacentHTML` takes two arguments:
 
 1. A string representing the position relative to the selected element
 2. An html string
 
 ````javascript
-document.querySelector('h1').insertAdjacentHTML('afterend', `<h2>New products</h2>`) 
+document.querySelector('h1').insertAdjacentHTML('afterend', `<h2>New products</h2>`);
 ````
 
 In this example i select an `h1` tag and then insert the `h2` after the `h1` has ended
 
 You can also insert the html before the element ends with `beforeend`. There are more positions, documentation can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)
+
+
+
+#### Second method
+
+1. Create the element in javascript
+2. Change the elements `innerHTML`
+3. Insert the element into your html
+
+```javascript
+// 1. Create a p tag
+const pTag = document.createElement('p');
+// 2. Change the ptags innerHTML
+pTag.innerHTML = "this text is in the pTAg";
+//3. Insert the p tag into html
+document.querySelector("body").appendChild(pTag);
+```
 
 
 
