@@ -21,6 +21,8 @@ By the end of this lesson trainees should be able to:
 - Add eventlistener
 - DOM
 - Break down the exercises. Focus on which part of the html you are working on! (Selection, inserting, manipulation, event)
+- Projekt i næste uge
+- Studenterpræsentationer fra 11:30
 
 
 
