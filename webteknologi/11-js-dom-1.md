@@ -15,6 +15,17 @@ By the end of this lesson trainees should be able to:
 
 
 
+<!--
+
+## After class considerations
+
+- Videoen til dagens time var ikke god for de studerende. Alt for lang og usammenhængende sagde de
+- De var ikke så godt forberedte desværre
+
+-->
+
+
+
 
 ## Teacher instruction
 

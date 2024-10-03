@@ -6,6 +6,7 @@
 - Portfolio projects
   -  [01 Dataliteracy](portfolio-projects/01-dataliteracy-database-queries.md)
   -   [02 Javascript](portfolio-projects/02-javascript.md)
+  -   [03 web + data](portfolio-projects/03-web-data.md) 
   -   [04 Digital Kultur](portfolio-projects/04-dk.md)
 - Data literacy
   - [What is data](data-literacy/01-what-is-data.md)
