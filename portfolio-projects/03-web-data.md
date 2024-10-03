@@ -21,7 +21,6 @@ The starter for the project can be [found here](https://github.com/jonasschmedtm
 
 
 
-<<<<<<< HEAD
 ## Database design
 
 ### **Escape Room Game Design and Player Analytics Platform**
@@ -59,25 +58,11 @@ The starter for the project can be [found here](https://github.com/jonasschmedtm
 - **Team and Player Tracking**: Track which players are part of a team, their time spent in each room, and puzzles solved.
 - **Hint Usage and Analytics**: Keep track of hints requested for each puzzle to understand common pain points and difficulties faced by players.
 - **Player and Team Analytics**: Generate reports on which rooms are the hardest, which puzzles take the longest, and individual player performance.
-=======
-### 📝 Portfolio dark mode/light mode
-
-Now its time to work on your portfolio!
-
-Create lightmode/darkmode functionality on your portfolio. When clicking a button the colors of your website should change from being in light mode (light-coloured background, darkish text) to dark mode (darkcolored background and lightcolored text)
-
-Here are some examples: [https://webflow.com/made-in-webflow/lightmode](https://webflow.com/made-in-webflow/lightmode)
 
 
 
-
-
-## Data
->>>>>>> 8ae46a94e8723cac8277e1edc23e1cc4e36910fa
-
-
-
-Populate the tables with data and write 3 query examples that queries the database and provides insight in the data.
+- Populate the tables with data and write 3 query examples that queries the database and provides insight in the data.
+- Export an EER diagram showcasing the database design
 
 
 
