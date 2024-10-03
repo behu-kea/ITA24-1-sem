@@ -21,6 +21,18 @@ The starter for the project can be [found here](https://github.com/jonasschmedtm
 
 
 
+### 📝 Portfolio dark mode/light mode
+
+Now its time to work on your portfolio!
+
+Create lightmode/darkmode functionality on your portfolio. When clicking a button the colors of your website should change from being in light mode (light-coloured background, darkish text) to dark mode (darkcolored background and lightcolored text)
+
+Here are some examples: [https://webflow.com/made-in-webflow/lightmode](https://webflow.com/made-in-webflow/lightmode)
+
+
+
+
+
 ## Data
 
 
