@@ -10,3 +10,29 @@
 
 
 
+Uddannelsesudvalg, ting udover, udvikling og kompetencer, prosa, AI, 
+
+Generativ AI. 
+
+Være åben jeg samler nogle ting jeg ikke har modtaget kvalifikationstillæg for. 
+
+I løbet af min tur har jeg ikke modtaget kvalifikations tillæg. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Program
+
+- Planlægning af Ane
+  - 
+- Tværfaglige projekter
+- 
