@@ -111,7 +111,7 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input.
 
 
 
-#### Getting value from element
+#### Getting text from element
 
 When you have selected an html element you can then get data from it. Fx the text inside an html element, or the class it currently has
 
@@ -217,6 +217,47 @@ button.addEventListener("click", function() {
 ```
 
 You will notice in the example that we passed a second argument to `addEventListener`. That second argument is the **function** that we want to invoke when that event has happened.
+
+
+
+## Getting value from an input field
+
+If we have an `input` field and want to get the value (the text) written in the `input` we have to do two things:
+
+1. First select the `input` field using `querySelector`
+2. Get the `value` of that input field using `.value` on the selected `input` element
+
+
+
+Here is an example:
+
+**HTML**
+
+```html
+<body>
+  <label for="name">Input your name</label>
+  <input type="text" id="name" placeholder="Please write your name">
+  <button>Alert name</button>
+
+  <script src="main.js"></script>
+</body>
+```
+
+![CleanShot-2024-10-03-at-09.35.32](assets/CleanShot-2024-10-03-at-09.35.32.png)
+
+
+
+**Javascrtipt**
+
+```javascript
+const button = document.querySelector("button");
+const inputElement = document.querySelector("input");
+
+button.addEventListener("click", () => {
+    const valueInputted = inputElement.value;
+    console.log(valueInputted); // will log Hello
+})
+```
 
 
 
