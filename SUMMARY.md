@@ -1,14 +1,13 @@
 # Table of contents
 
-* [Welcome to IT-Arkitektur](README.md)
-*  [⌨️ How to type characters](typing-characters-keyboard.md) 
-
+- [Welcome to IT-Arkitektur](README.md)
+- [⌨️ How to type characters](typing-characters-keyboard.md) 
 - Portfolio projects
-  -  [01 Dataliteracy](portfolio-projects/01-dataliteracy-database-queries.md)
-  -   [02 Javascript](portfolio-projects/02-javascript.md)
-  -   [03 web + data](portfolio-projects/03-web-data.md) 
-  -   [04 Digital Kultur](portfolio-projects/04-dk.md)
-  -   [05 fullstack](portfolio-projects/05-fullstack)
+  - [01 Dataliteracy](portfolio-projects/01-dataliteracy-database-queries.md)
+  - [02 Javascript](portfolio-projects/02-javascript.md)
+  - [03 web + data](portfolio-projects/03-web-data.md) 
+  - [04 Digital Kultur](portfolio-projects/04-dk.md)
+  - [05 fullstack](portfolio-projects/05-fullstack)
 - Data literacy
   - [What is data](data-literacy/01-what-is-data.md)
   - [Data types & Scales](data-literacy/02-types-and-scales.md)
@@ -24,39 +23,38 @@
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
   - [Indexing, views & normalisation](database-design/03-indexing-normalisation.md) 
 - Web technology
-  -  [Kend din computer](webteknologi/01-kend-din-computer.md) 
-  -  [HTML](webteknologi/01-01-html.md)
-  -  [CSS](webteknologi/02-css.md)
-  -   [Finish your portfolio](webteknologi/03-html-css-portfolio.md)
-  -  [Git](webteknologi/04-git.md)
-  -   [Javascript - Hello world, variables, comments, operators, types](webteknologi/05-js-intro-variables.md)
-  -   [Javascript - Conditionals and loops](webteknologi/06-js-loops-conditional.md)
-  -   [Javascript - Arrays](webteknologi/07-js-arrays.md)
-  -   [Generative AI](webteknologi/07-1-generative-ai.md)
-  -   [Javascript - Functions 1](webteknologi/08-js-functions-1.md)
-  -   [Javascript - Functions 2](webteknologi/09-js-functions-2.md)
-  -   [Javascript - Objects](webteknologi/10-js-objects.md)
-  -   [Javascript - DOM 1](webteknologi/11-js-dom-1.md)
-  -   [Preparation for test](webteknologi/10-1-js-preparation-test.md)
-  -   [Test](webteknologi/10-2-js-test.md)
-  -   [Javascript - DOM 2](webteknologi/12-js-dom-2.md)
-  -   [Javascript Recap](webteknologi/13-1-repetition.md)
-  -   [Javascript - Visualizing data using chart.js](webteknologi/13-js-vizualizing-data-1.md)
-  -  [Javascript - Visualising data using tones, maps, html and canvas](webteknologi/14-js-vizualizing-data-2.md)
-  -  [Getting data from workbench to javascript](webteknologi/14-1-getting-data-from-workbench-to-javascript.md)
-  -  [API, JSON and fetch](webteknologi/15-js-api-json.md)
-  -   [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md)
-  -   [Bæredygtig webudvikling](webteknologi/19-bæredygtig-webudvikling.md)
-  -   [Recap](webteknologi/18-recap.md)
+  - [Kend din computer](webteknologi/01-kend-din-computer.md) 
+  - [HTML](webteknologi/01-01-html.md)
+  - [CSS](webteknologi/02-css.md)
+  - [Finish your portfolio](webteknologi/03-html-css-portfolio.md)
+  - [Git](webteknologi/04-git.md)
+  - [Javascript - Hello world, variables, comments, operators, types](webteknologi/05-js-intro-variables.md)
+  - [Javascript - Conditionals and loops](webteknologi/06-js-loops-conditional.md)
+  - [Javascript - Arrays](webteknologi/07-js-arrays.md)
+  - [Generative AI](webteknologi/07-1-generative-ai.md)
+  - [Javascript - Functions 1](webteknologi/08-js-functions-1.md)
+  - [Javascript - Functions 2](webteknologi/09-js-functions-2.md)
+  - [Javascript - Objects](webteknologi/10-js-objects.md)
+  - [Javascript - DOM 1](webteknologi/11-js-dom-1.md)
+  - [Web project 1](webteknologi/11-1-web-project.md)
+  - [Preparation for test](webteknologi/10-1-js-preparation-test.md)
+  - [Test](webteknologi/10-2-js-test.md)
+  - [Javascript - DOM 2](webteknologi/12-js-dom-2.md)
+  - [Javascript Recap](webteknologi/13-1-repetition.md)
+  - [Javascript - Visualizing data using chart.js](webteknologi/13-js-vizualizing-data-1.md)
+  - [Javascript - Visualising data using tones, maps, html and canvas](webteknologi/14-js-vizualizing-data-2.md)
+  - [Getting data from workbench to javascript](webteknologi/14-1-getting-data-from-workbench-to-javascript.md)
+  - [API, JSON and fetch](webteknologi/15-js-api-json.md)
+  - [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md)
+  - [Bæredygtig webudvikling](webteknologi/19-bæredygtig-webudvikling.md)
+  - [Recap](webteknologi/18-recap.md)
 
 
 
 <--
 
 - Code Examples From Class
-
   - [Github](https://github.com/nicklasdean/ita-23-1-sem-code)
-
 - [Exam](exam/exam.md)
 - [Recap](recap.md)
 
