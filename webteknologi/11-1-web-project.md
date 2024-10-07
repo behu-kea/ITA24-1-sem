@@ -7,32 +7,7 @@
   - [Creating a new project by cloning a repository](04-git#create-a-new-project-locally)
 - [Getting value from an input field](11-js-dom-1.md)
 - How to create a plan for your implementation first
+- NotebookLM
+- Mie kommer på besøg torsdag
 
 
-
-Uddannelsesudvalg, ting udover, udvikling og kompetencer, prosa, AI, 
-
-Generativ AI. 
-
-Være åben jeg samler nogle ting jeg ikke har modtaget kvalifikationstillæg for. 
-
-I løbet af min tur har jeg ikke modtaget kvalifikations tillæg. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Program
-
-- Planlægning af Ane
-  - 
-- Tværfaglige projekter
-- 
