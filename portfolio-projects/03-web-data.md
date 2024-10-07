@@ -15,9 +15,19 @@ The starter for the project can be [found here](https://github.com/jonasschmedtm
   - If it is correct and smaller than Highscore set the new score as the highscore and clear the input. Also show the correct number in the `?`
 - If the `Again` `button` is clicked clear the score and the highscore and start from scratch
 - If the user writes a number that is not between 1 - 20, then an error message should be shown to the user. Or if the user writes something that is not a number
+- Create a way to show what numbers have been guessed so far. This is like a history of guesses
 - *Optional* - Add confetti when the correct number is guessed
-- *Optional* - play diferent sounds when the correct or wrong number is guessed
+- *Optional* - Play diferent sounds when the correct or wrong number is guessed
 - Add a feature you think could be fun!
+
+
+
+### 📝 Portfolio dark mode/light mode
+Now its time to work on your portfolio!
+
+Create lightmode/darkmode functionality on your portfolio. When clicking a button the colors of your website should change from being in light mode (light-coloured background, darkish text) to dark mode (darkcolored background and lightcolored text)
+
+Here are some examples: [https://webflow.com/made-in-webflow/lightmode](https://webflow.com/made-in-webflow/lightmode)
 
 
 
