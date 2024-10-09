@@ -37,6 +37,7 @@
   - [Javascript - Objects](webteknologi/10-js-objects.md)
   - [Javascript - DOM 1](webteknologi/11-js-dom-1.md)
   - [Web project 1](webteknologi/11-1-web-project.md)
+  - [Web project 2](webteknologi/11-2-web-project.md)
   - [Preparation for test](webteknologi/10-1-js-preparation-test.md)
   - [Test](webteknologi/10-2-js-test.md)
   - [Javascript - DOM 2](webteknologi/12-js-dom-2.md)
