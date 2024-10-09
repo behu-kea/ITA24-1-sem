@@ -4,6 +4,7 @@
 - Mie kommer forbi imorgen
 - Husk at linke til hvor i har taget noget kode fra
 - Forstå opgaven først
+- Efter efterårsferien er der forberedelse til Javascript testen
 
 
 
