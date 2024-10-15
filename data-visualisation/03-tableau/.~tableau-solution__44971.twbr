@@ -32,7 +32,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Sample - EU Superstore(3)' name='excel-direct.03konms1s7fagx0zocots1djy52q'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/benjamin-hughes/Documents/projects/ITA24-1-sem/data-visualisation/03-tableau/Sample - EU Superstore(3).xls' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/03-tableau/Sample - EU Superstore(3).xls' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.03konms1s7fagx0zocots1djy52q' name='Orders' table='[Orders$]' type='table'>
@@ -421,15 +421,12 @@
       <column datatype='real' name='[Discount]' role='measure' type='quantitative' />
       <column datatype='integer' name='[Product ID]' role='dimension' type='ordinal' />
       <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Quantity]' role='measure' type='quantitative' />
       <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
       <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
       <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <_.fcp.ObjectModelTableType.true...column caption='Orders' datatype='table' name='[__tableau_internal_object_id__].[Orders_E4F4DA28E1354543AB344FB3476D17B1]' role='measure' type='quantitative' />
-      <column-instance column='[__tableau_internal_object_id__].[Orders_E4F4DA28E1354543AB344FB3476D17B1]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Orders_E4F4DA28E1354543AB344FB3476D17B1:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Discount]' derivation='Sum' name='[sum:Discount:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Profit]' derivation='Sum' name='[sum:Profit:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Quantity]' derivation='Sum' name='[sum:Quantity:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
       <drill-paths>
         <drill-path name='Country, State, City'>
@@ -448,14 +445,8 @@
             <map to='#59a14f'>
               <bucket>&quot;[federated.1vltewd1pvkmih101u8yd0qtt9o5].[sum:Profit:qk]&quot;</bucket>
             </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;[federated.1vltewd1pvkmih101u8yd0qtt9o5].[sum:Quantity:qk]&quot;</bucket>
-            </map>
             <map to='#bab0ac'>
               <bucket>&quot;[federated.1vltewd1pvkmih101u8yd0qtt9o5].[sum:Sales:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.1vltewd1pvkmih101u8yd0qtt9o5].[__tableau_internal_object_id__].[cnt:Orders_E4F4DA28E1354543AB344FB3476D17B1:qk]&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -501,7 +492,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Sample - EU Superstore(3)' name='excel-direct.0a6q9gc1vqjot11bhtwo71ry6u8j'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/benjamin-hughes/Documents/projects/ITA24-1-sem/data-visualisation/03-tableau/Sample - EU Superstore(3).xls' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/03-tableau/Sample - EU Superstore(3).xls' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0a6q9gc1vqjot11bhtwo71ry6u8j' name='Orders' table='[Orders$]' type='table'>
@@ -553,6 +544,20 @@
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T10001:no:A1:T10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
           <metadata-record class='column'>
             <remote-name>Row ID</remote-name>
             <remote-type>20</remote-type>
@@ -566,6 +571,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Order ID</remote-name>
@@ -581,6 +587,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Date</remote-name>
@@ -595,6 +602,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Ship Date</remote-name>
@@ -609,6 +617,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Ship Mode</remote-name>
@@ -624,6 +633,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Product ID</remote-name>
@@ -639,6 +649,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Customer ID</remote-name>
@@ -654,6 +665,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Customer Name</remote-name>
@@ -669,6 +681,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Segment</remote-name>
@@ -684,6 +697,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>City</remote-name>
@@ -699,6 +713,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>State</remote-name>
@@ -714,6 +729,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country</remote-name>
@@ -729,6 +745,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Region</remote-name>
@@ -744,6 +761,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Category</remote-name>
@@ -759,6 +777,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sub-Category</remote-name>
@@ -774,6 +793,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Product Name</remote-name>
@@ -789,6 +809,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sales</remote-name>
@@ -804,6 +825,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Quantity</remote-name>
@@ -818,6 +840,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Discount</remote-name>
@@ -833,6 +856,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Profit</remote-name>
@@ -848,20 +872,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
-          </metadata-record>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Orders]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>2</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:T10001:no:A1:T10001:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>6</attribute>
-            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_AD142211D71F4344B20F1AB1E0A72B55]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -869,7 +880,6 @@
       <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
       <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
       <column caption='Order Date' datatype='date' name='[Date]' role='dimension' type='ordinal' />
-      <column datatype='string' name='[Product ID]' role='dimension' type='nominal' />
       <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
       <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <_.fcp.ObjectModelTableType.true...column caption='Orders' datatype='table' name='[__tableau_internal_object_id__].[Orders_AD142211D71F4344B20F1AB1E0A72B55]' role='measure' type='quantitative' />
@@ -911,6 +921,2242 @@
                   <column datatype='integer' name='Quantity' ordinal='17' />
                   <column datatype='real' name='Discount' ordinal='18' />
                   <column datatype='real' name='Profit' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='SGO-2021-01_Incident_Reports_ADAS' inline='true' name='federated.060ww3a1y9ay6v1danewx196kiqu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SGO-2021-01_Incident_Reports_ADAS' name='textscan.1ci5vz718aaycp1cwf3hx0xh3djy'>
+            <connection class='textscan' directory='Data/Downloads' filename='SGO-2021-01_Incident_Reports_ADAS.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ci5vz718aaycp1cwf3hx0xh3djy' name='SGO-2021-01_Incident_Reports_ADAS.csv' table='[SGO-2021-01_Incident_Reports_ADAS#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='string' name='Report ID' ordinal='0' />
+            <column datatype='integer' name='Report Version' ordinal='1' />
+            <column datatype='string' name='Reporting Entity' ordinal='2' />
+            <column datatype='string' name='Report Type' ordinal='3' />
+            <column datatype='integer' name='Report Month' ordinal='4' />
+            <column datatype='integer' name='Report Year' ordinal='5' />
+            <column datatype='string' name='Report Submission Date' ordinal='6' />
+            <column datatype='string' name='VIN' ordinal='7' />
+            <column datatype='string' name='VIN - Unknown' ordinal='8' />
+            <column datatype='string' name='Serial Number' ordinal='9' />
+            <column datatype='string' name='Make' ordinal='10' />
+            <column datatype='string' name='Model' ordinal='11' />
+            <column datatype='string' name='Model - Unknown' ordinal='12' />
+            <column datatype='integer' name='Model Year' ordinal='13' />
+            <column datatype='string' name='Model Year - Unknown' ordinal='14' />
+            <column datatype='string' name='Same Vehicle ID' ordinal='15' />
+            <column datatype='integer' name='Mileage' ordinal='16' />
+            <column datatype='string' name='Mileage - Unknown' ordinal='17' />
+            <column datatype='string' name='Driver / Operator Type' ordinal='18' />
+            <column datatype='string' name='ADAS/ADS Version' ordinal='19' />
+            <column datatype='string' name='ADAS/ADS Version - Unknown' ordinal='20' />
+            <column datatype='string' name='ADAS/ADS Version CBI' ordinal='21' />
+            <column datatype='string' name='ADS Equipped?' ordinal='22' />
+            <column datatype='string' name='Automation System Engaged?' ordinal='23' />
+            <column datatype='string' name='Operating Entity' ordinal='24' />
+            <column datatype='string' name='Operating Entity - Unknown' ordinal='25' />
+            <column datatype='string' name='Source - Complaint/Claim' ordinal='26' />
+            <column datatype='string' name='Source - Telematics' ordinal='27' />
+            <column datatype='string' name='Source - Law Enforcement' ordinal='28' />
+            <column datatype='string' name='Source - Field Report' ordinal='29' />
+            <column datatype='string' name='Source - Testing' ordinal='30' />
+            <column datatype='string' name='Source - Media' ordinal='31' />
+            <column datatype='string' name='Source - Other' ordinal='32' />
+            <column datatype='string' name='Source - Other Text' ordinal='33' />
+            <column datatype='string' name='Incident Date' ordinal='34' />
+            <column datatype='string' name='Incident Date - Unknown' ordinal='35' />
+            <column datatype='string' name='Notice Received Date' ordinal='36' />
+            <column datatype='datetime' name='Incident Time (24:00)' ordinal='37' />
+            <column datatype='string' name='Incident Time - Unknown' ordinal='38' />
+            <column datatype='string' name='Same Incident ID' ordinal='39' />
+            <column datatype='string' name='Latitude' ordinal='40' />
+            <column datatype='string' name='Latitude  - Unknown' ordinal='41' />
+            <column datatype='string' name='Longitude' ordinal='42' />
+            <column datatype='string' name='Longitude - Unknown' ordinal='43' />
+            <column datatype='string' name='Address' ordinal='44' />
+            <column datatype='string' name='Address - Unknown' ordinal='45' />
+            <column datatype='string' name='City' ordinal='46' />
+            <column datatype='string' name='City - Unknown' ordinal='47' />
+            <column datatype='string' name='State' ordinal='48' />
+            <column datatype='string' name='Zip Code' ordinal='49' />
+            <column datatype='string' name='Zip Code - Unknown' ordinal='50' />
+            <column datatype='string' name='Roadway Type' ordinal='51' />
+            <column datatype='string' name='Roadway Surface' ordinal='52' />
+            <column datatype='string' name='Roadway Description' ordinal='53' />
+            <column datatype='integer' name='Posted Speed Limit (MPH)' ordinal='54' />
+            <column datatype='string' name='Posted Speed Limit - Unknown' ordinal='55' />
+            <column datatype='string' name='Lighting' ordinal='56' />
+            <column datatype='string' name='Weather - Clear' ordinal='57' />
+            <column datatype='string' name='Weather - Snow' ordinal='58' />
+            <column datatype='string' name='Weather - Cloudy' ordinal='59' />
+            <column datatype='string' name='Weather - Fog/Smoke' ordinal='60' />
+            <column datatype='string' name='Weather - Rain' ordinal='61' />
+            <column datatype='string' name='Weather - Severe Wind' ordinal='62' />
+            <column datatype='string' name='Weather - Unknown' ordinal='63' />
+            <column datatype='string' name='Weather - Other' ordinal='64' />
+            <column datatype='string' name='Weather - Other Text' ordinal='65' />
+            <column datatype='string' name='Crash With' ordinal='66' />
+            <column datatype='string' name='Highest Injury Severity' ordinal='67' />
+            <column datatype='string' name='Property Damage?' ordinal='68' />
+            <column datatype='string' name='CP Pre-Crash Movement' ordinal='69' />
+            <column datatype='string' name='CP Any Air Bags Deployed?' ordinal='70' />
+            <column datatype='string' name='CP Was Vehicle Towed?' ordinal='71' />
+            <column datatype='string' name='CP Contact Area - Rear Left' ordinal='72' />
+            <column datatype='string' name='CP Contact Area - Left' ordinal='73' />
+            <column datatype='string' name='CP Contact Area - Front Left' ordinal='74' />
+            <column datatype='string' name='CP Contact Area - Rear' ordinal='75' />
+            <column datatype='string' name='CP Contact Area - Top' ordinal='76' />
+            <column datatype='string' name='CP Contact Area - Front' ordinal='77' />
+            <column datatype='string' name='CP Contact Area - Rear Right' ordinal='78' />
+            <column datatype='string' name='CP Contact Area - Right' ordinal='79' />
+            <column datatype='string' name='CP Contact Area - Front Right' ordinal='80' />
+            <column datatype='string' name='CP Contact Area - Bottom' ordinal='81' />
+            <column datatype='string' name='CP Contact Area - Unknown' ordinal='82' />
+            <column datatype='string' name='SV Pre-Crash Movement' ordinal='83' />
+            <column datatype='string' name='SV Any Air Bags Deployed?' ordinal='84' />
+            <column datatype='string' name='SV Was Vehicle Towed?' ordinal='85' />
+            <column datatype='string' name='SV Were All Passengers Belted?' ordinal='86' />
+            <column datatype='integer' name='SV Precrash Speed (MPH)' ordinal='87' />
+            <column datatype='string' name='SV Pre-crash Speed - Unknown' ordinal='88' />
+            <column datatype='string' name='SV Contact Area - Rear Left' ordinal='89' />
+            <column datatype='string' name='SV Contact Area - Left' ordinal='90' />
+            <column datatype='string' name='SV Contact Area - Front Left' ordinal='91' />
+            <column datatype='string' name='SV Contact Area - Rear' ordinal='92' />
+            <column datatype='string' name='SV Contact Area - Top' ordinal='93' />
+            <column datatype='string' name='SV Contact Area - Front' ordinal='94' />
+            <column datatype='string' name='SV Contact Area - Rear Right' ordinal='95' />
+            <column datatype='string' name='SV Contact Area - Right' ordinal='96' />
+            <column datatype='string' name='SV Contact Area - Front Right' ordinal='97' />
+            <column datatype='string' name='SV Contact Area - Bottom' ordinal='98' />
+            <column datatype='string' name='SV Contact Area - Unknown' ordinal='99' />
+            <column datatype='string' name='Data Availability - EDR' ordinal='100' />
+            <column datatype='string' name='Data Availability - Police Rpt' ordinal='101' />
+            <column datatype='string' name='Data Availability - Telematics' ordinal='102' />
+            <column datatype='string' name='Data Availability - Complaints' ordinal='103' />
+            <column datatype='string' name='Data Availability - Video' ordinal='104' />
+            <column datatype='string' name='Data Availability - Other' ordinal='105' />
+            <column datatype='string' name='Data Availability - No Data' ordinal='106' />
+            <column datatype='string' name='Data Availability - Unknown' ordinal='107' />
+            <column datatype='string' name='Law Enforcement Investigating?' ordinal='108' />
+            <column datatype='string' name='Investigating Agency' ordinal='109' />
+            <column datatype='string' name='Investigating Agency - Unknown' ordinal='110' />
+            <column datatype='string' name='Rep Ent Or Mfr Investigating?' ordinal='111' />
+            <column datatype='string' name='Investigating Officer Name' ordinal='112' />
+            <column datatype='string' name='Inv. Officer Name - Unknown' ordinal='113' />
+            <column datatype='string' name='Investigating Officer Phone' ordinal='114' />
+            <column datatype='string' name='Inv. Officer Phone - Unknown' ordinal='115' />
+            <column datatype='string' name='Investigating Officer Email' ordinal='116' />
+            <column datatype='string' name='Inv. Officer Email - Unknown' ordinal='117' />
+            <column datatype='string' name='Within ODD?' ordinal='118' />
+            <column datatype='string' name='Within ODD? - CBI' ordinal='119' />
+            <column datatype='string' name='Narrative' ordinal='120' />
+            <column datatype='string' name='Narrative - CBI?' ordinal='121' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ci5vz718aaycp1cwf3hx0xh3djy' name='SGO-2021-01_Incident_Reports_ADAS.csv' table='[SGO-2021-01_Incident_Reports_ADAS#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='string' name='Report ID' ordinal='0' />
+            <column datatype='integer' name='Report Version' ordinal='1' />
+            <column datatype='string' name='Reporting Entity' ordinal='2' />
+            <column datatype='string' name='Report Type' ordinal='3' />
+            <column datatype='integer' name='Report Month' ordinal='4' />
+            <column datatype='integer' name='Report Year' ordinal='5' />
+            <column datatype='string' name='Report Submission Date' ordinal='6' />
+            <column datatype='string' name='VIN' ordinal='7' />
+            <column datatype='string' name='VIN - Unknown' ordinal='8' />
+            <column datatype='string' name='Serial Number' ordinal='9' />
+            <column datatype='string' name='Make' ordinal='10' />
+            <column datatype='string' name='Model' ordinal='11' />
+            <column datatype='string' name='Model - Unknown' ordinal='12' />
+            <column datatype='integer' name='Model Year' ordinal='13' />
+            <column datatype='string' name='Model Year - Unknown' ordinal='14' />
+            <column datatype='string' name='Same Vehicle ID' ordinal='15' />
+            <column datatype='integer' name='Mileage' ordinal='16' />
+            <column datatype='string' name='Mileage - Unknown' ordinal='17' />
+            <column datatype='string' name='Driver / Operator Type' ordinal='18' />
+            <column datatype='string' name='ADAS/ADS Version' ordinal='19' />
+            <column datatype='string' name='ADAS/ADS Version - Unknown' ordinal='20' />
+            <column datatype='string' name='ADAS/ADS Version CBI' ordinal='21' />
+            <column datatype='string' name='ADS Equipped?' ordinal='22' />
+            <column datatype='string' name='Automation System Engaged?' ordinal='23' />
+            <column datatype='string' name='Operating Entity' ordinal='24' />
+            <column datatype='string' name='Operating Entity - Unknown' ordinal='25' />
+            <column datatype='string' name='Source - Complaint/Claim' ordinal='26' />
+            <column datatype='string' name='Source - Telematics' ordinal='27' />
+            <column datatype='string' name='Source - Law Enforcement' ordinal='28' />
+            <column datatype='string' name='Source - Field Report' ordinal='29' />
+            <column datatype='string' name='Source - Testing' ordinal='30' />
+            <column datatype='string' name='Source - Media' ordinal='31' />
+            <column datatype='string' name='Source - Other' ordinal='32' />
+            <column datatype='string' name='Source - Other Text' ordinal='33' />
+            <column datatype='string' name='Incident Date' ordinal='34' />
+            <column datatype='string' name='Incident Date - Unknown' ordinal='35' />
+            <column datatype='string' name='Notice Received Date' ordinal='36' />
+            <column datatype='datetime' name='Incident Time (24:00)' ordinal='37' />
+            <column datatype='string' name='Incident Time - Unknown' ordinal='38' />
+            <column datatype='string' name='Same Incident ID' ordinal='39' />
+            <column datatype='string' name='Latitude' ordinal='40' />
+            <column datatype='string' name='Latitude  - Unknown' ordinal='41' />
+            <column datatype='string' name='Longitude' ordinal='42' />
+            <column datatype='string' name='Longitude - Unknown' ordinal='43' />
+            <column datatype='string' name='Address' ordinal='44' />
+            <column datatype='string' name='Address - Unknown' ordinal='45' />
+            <column datatype='string' name='City' ordinal='46' />
+            <column datatype='string' name='City - Unknown' ordinal='47' />
+            <column datatype='string' name='State' ordinal='48' />
+            <column datatype='string' name='Zip Code' ordinal='49' />
+            <column datatype='string' name='Zip Code - Unknown' ordinal='50' />
+            <column datatype='string' name='Roadway Type' ordinal='51' />
+            <column datatype='string' name='Roadway Surface' ordinal='52' />
+            <column datatype='string' name='Roadway Description' ordinal='53' />
+            <column datatype='integer' name='Posted Speed Limit (MPH)' ordinal='54' />
+            <column datatype='string' name='Posted Speed Limit - Unknown' ordinal='55' />
+            <column datatype='string' name='Lighting' ordinal='56' />
+            <column datatype='string' name='Weather - Clear' ordinal='57' />
+            <column datatype='string' name='Weather - Snow' ordinal='58' />
+            <column datatype='string' name='Weather - Cloudy' ordinal='59' />
+            <column datatype='string' name='Weather - Fog/Smoke' ordinal='60' />
+            <column datatype='string' name='Weather - Rain' ordinal='61' />
+            <column datatype='string' name='Weather - Severe Wind' ordinal='62' />
+            <column datatype='string' name='Weather - Unknown' ordinal='63' />
+            <column datatype='string' name='Weather - Other' ordinal='64' />
+            <column datatype='string' name='Weather - Other Text' ordinal='65' />
+            <column datatype='string' name='Crash With' ordinal='66' />
+            <column datatype='string' name='Highest Injury Severity' ordinal='67' />
+            <column datatype='string' name='Property Damage?' ordinal='68' />
+            <column datatype='string' name='CP Pre-Crash Movement' ordinal='69' />
+            <column datatype='string' name='CP Any Air Bags Deployed?' ordinal='70' />
+            <column datatype='string' name='CP Was Vehicle Towed?' ordinal='71' />
+            <column datatype='string' name='CP Contact Area - Rear Left' ordinal='72' />
+            <column datatype='string' name='CP Contact Area - Left' ordinal='73' />
+            <column datatype='string' name='CP Contact Area - Front Left' ordinal='74' />
+            <column datatype='string' name='CP Contact Area - Rear' ordinal='75' />
+            <column datatype='string' name='CP Contact Area - Top' ordinal='76' />
+            <column datatype='string' name='CP Contact Area - Front' ordinal='77' />
+            <column datatype='string' name='CP Contact Area - Rear Right' ordinal='78' />
+            <column datatype='string' name='CP Contact Area - Right' ordinal='79' />
+            <column datatype='string' name='CP Contact Area - Front Right' ordinal='80' />
+            <column datatype='string' name='CP Contact Area - Bottom' ordinal='81' />
+            <column datatype='string' name='CP Contact Area - Unknown' ordinal='82' />
+            <column datatype='string' name='SV Pre-Crash Movement' ordinal='83' />
+            <column datatype='string' name='SV Any Air Bags Deployed?' ordinal='84' />
+            <column datatype='string' name='SV Was Vehicle Towed?' ordinal='85' />
+            <column datatype='string' name='SV Were All Passengers Belted?' ordinal='86' />
+            <column datatype='integer' name='SV Precrash Speed (MPH)' ordinal='87' />
+            <column datatype='string' name='SV Pre-crash Speed - Unknown' ordinal='88' />
+            <column datatype='string' name='SV Contact Area - Rear Left' ordinal='89' />
+            <column datatype='string' name='SV Contact Area - Left' ordinal='90' />
+            <column datatype='string' name='SV Contact Area - Front Left' ordinal='91' />
+            <column datatype='string' name='SV Contact Area - Rear' ordinal='92' />
+            <column datatype='string' name='SV Contact Area - Top' ordinal='93' />
+            <column datatype='string' name='SV Contact Area - Front' ordinal='94' />
+            <column datatype='string' name='SV Contact Area - Rear Right' ordinal='95' />
+            <column datatype='string' name='SV Contact Area - Right' ordinal='96' />
+            <column datatype='string' name='SV Contact Area - Front Right' ordinal='97' />
+            <column datatype='string' name='SV Contact Area - Bottom' ordinal='98' />
+            <column datatype='string' name='SV Contact Area - Unknown' ordinal='99' />
+            <column datatype='string' name='Data Availability - EDR' ordinal='100' />
+            <column datatype='string' name='Data Availability - Police Rpt' ordinal='101' />
+            <column datatype='string' name='Data Availability - Telematics' ordinal='102' />
+            <column datatype='string' name='Data Availability - Complaints' ordinal='103' />
+            <column datatype='string' name='Data Availability - Video' ordinal='104' />
+            <column datatype='string' name='Data Availability - Other' ordinal='105' />
+            <column datatype='string' name='Data Availability - No Data' ordinal='106' />
+            <column datatype='string' name='Data Availability - Unknown' ordinal='107' />
+            <column datatype='string' name='Law Enforcement Investigating?' ordinal='108' />
+            <column datatype='string' name='Investigating Agency' ordinal='109' />
+            <column datatype='string' name='Investigating Agency - Unknown' ordinal='110' />
+            <column datatype='string' name='Rep Ent Or Mfr Investigating?' ordinal='111' />
+            <column datatype='string' name='Investigating Officer Name' ordinal='112' />
+            <column datatype='string' name='Inv. Officer Name - Unknown' ordinal='113' />
+            <column datatype='string' name='Investigating Officer Phone' ordinal='114' />
+            <column datatype='string' name='Inv. Officer Phone - Unknown' ordinal='115' />
+            <column datatype='string' name='Investigating Officer Email' ordinal='116' />
+            <column datatype='string' name='Inv. Officer Email - Unknown' ordinal='117' />
+            <column datatype='string' name='Within ODD?' ordinal='118' />
+            <column datatype='string' name='Within ODD? - CBI' ordinal='119' />
+            <column datatype='string' name='Narrative' ordinal='120' />
+            <column datatype='string' name='Narrative - CBI?' ordinal='121' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Report ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Report ID]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Report ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Report Version</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Report Version]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Report Version</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reporting Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reporting Entity]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Reporting Entity</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Report Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Report Type]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Report Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Report Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Report Month]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Report Month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Report Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Report Year]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Report Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Report Submission Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Report Submission Date]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Report Submission Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VIN]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>VIN</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VIN - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VIN - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>VIN - Unknown</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serial Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Serial Number]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Serial Number</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Model - Unknown</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Model Year]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Model Year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model Year - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model Year - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Model Year - Unknown</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Same Vehicle ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Same Vehicle ID]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Same Vehicle ID</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mileage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mileage]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Mileage</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mileage - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mileage - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Mileage - Unknown</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Driver / Operator Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Driver / Operator Type]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Driver / Operator Type</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADAS/ADS Version</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ADAS/ADS Version]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>ADAS/ADS Version</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADAS/ADS Version - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ADAS/ADS Version - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>ADAS/ADS Version - Unknown</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADAS/ADS Version CBI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ADAS/ADS Version CBI]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>ADAS/ADS Version CBI</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ADS Equipped?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ADS Equipped?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>ADS Equipped?</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Automation System Engaged?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Automation System Engaged?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Automation System Engaged?</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Operating Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Operating Entity]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Operating Entity</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Operating Entity - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Operating Entity - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Operating Entity - Unknown</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Complaint/Claim</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Complaint/Claim]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Complaint/Claim</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Telematics</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Telematics]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Telematics</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Law Enforcement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Law Enforcement]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Law Enforcement</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Field Report</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Field Report]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Field Report</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Testing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Testing]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Testing</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Media</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Media]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Media</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Other]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Other</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source - Other Text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source - Other Text]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Source - Other Text</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Incident Date]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Incident Date</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Date - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Incident Date - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Incident Date - Unknown</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Notice Received Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Notice Received Date]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Notice Received Date</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Time (24:00)</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Incident Time (24:00)]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Incident Time (24:00)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident Time - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Incident Time - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Incident Time - Unknown</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Same Incident ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Same Incident ID]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Same Incident ID</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude  - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Latitude  - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Latitude  - Unknown</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Longitude - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Longitude - Unknown</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Address]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Address</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Address - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Address - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Address - Unknown</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>City - Unknown</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Zip Code]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Zip Code</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip Code - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Zip Code - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Zip Code - Unknown</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Roadway Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Roadway Type]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Roadway Type</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Roadway Surface</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Roadway Surface]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Roadway Surface</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Roadway Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Roadway Description]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Roadway Description</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Posted Speed Limit (MPH)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Posted Speed Limit (MPH)]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Posted Speed Limit (MPH)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Posted Speed Limit - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Posted Speed Limit - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Posted Speed Limit - Unknown</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lighting</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Lighting]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Lighting</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Clear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Clear]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Clear</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Snow</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Snow]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Snow</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Cloudy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Cloudy]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Cloudy</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Fog/Smoke</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Fog/Smoke]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Fog/Smoke</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Rain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Rain]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Rain</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Severe Wind</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Severe Wind]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Severe Wind</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Unknown</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Other]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Other</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather - Other Text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weather - Other Text]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Weather - Other Text</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crash With</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Crash With]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Crash With</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Highest Injury Severity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Highest Injury Severity]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Highest Injury Severity</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property Damage?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Property Damage?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Property Damage?</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Pre-Crash Movement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Pre-Crash Movement]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Pre-Crash Movement</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Any Air Bags Deployed?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Any Air Bags Deployed?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Any Air Bags Deployed?</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Was Vehicle Towed?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Was Vehicle Towed?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Was Vehicle Towed?</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Rear Left</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Rear Left]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Rear Left</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Left</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Left]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Left</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Front Left</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Front Left]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Front Left</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Rear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Rear]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Rear</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Top</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Top]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Top</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Front</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Front]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Front</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Rear Right</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Rear Right]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Rear Right</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Right</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Right]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Right</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Front Right</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Front Right]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Front Right</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Bottom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Bottom]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Bottom</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CP Contact Area - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CP Contact Area - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>CP Contact Area - Unknown</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Pre-Crash Movement</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Pre-Crash Movement]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Pre-Crash Movement</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Any Air Bags Deployed?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Any Air Bags Deployed?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Any Air Bags Deployed?</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Was Vehicle Towed?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Was Vehicle Towed?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Was Vehicle Towed?</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Were All Passengers Belted?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Were All Passengers Belted?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Were All Passengers Belted?</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Precrash Speed (MPH)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SV Precrash Speed (MPH)]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Precrash Speed (MPH)</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Pre-crash Speed - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Pre-crash Speed - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Pre-crash Speed - Unknown</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Rear Left</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Rear Left]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Rear Left</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Left</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Left]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Left</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Front Left</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Front Left]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Front Left</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Rear</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Rear]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Rear</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Top</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Top]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Top</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Front</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Front]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Front</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Rear Right</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Rear Right]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Rear Right</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Right</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Right]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Right</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Front Right</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Front Right]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Front Right</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Bottom</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Bottom]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Bottom</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SV Contact Area - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SV Contact Area - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>SV Contact Area - Unknown</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - EDR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - EDR]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - EDR</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - Police Rpt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - Police Rpt]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - Police Rpt</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - Telematics</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - Telematics]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - Telematics</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - Complaints</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - Complaints]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - Complaints</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - Video</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - Video]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - Video</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - Other]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - Other</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - No Data</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - No Data]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - No Data</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Availability - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Availability - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Data Availability - Unknown</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Law Enforcement Investigating?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Law Enforcement Investigating?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Law Enforcement Investigating?</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investigating Agency</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investigating Agency]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Investigating Agency</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investigating Agency - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investigating Agency - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Investigating Agency - Unknown</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rep Ent Or Mfr Investigating?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rep Ent Or Mfr Investigating?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Rep Ent Or Mfr Investigating?</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investigating Officer Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investigating Officer Name]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Investigating Officer Name</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inv. Officer Name - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inv. Officer Name - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Inv. Officer Name - Unknown</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investigating Officer Phone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investigating Officer Phone]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Investigating Officer Phone</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inv. Officer Phone - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inv. Officer Phone - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Inv. Officer Phone - Unknown</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investigating Officer Email</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Investigating Officer Email]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Investigating Officer Email</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inv. Officer Email - Unknown</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Inv. Officer Email - Unknown]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Inv. Officer Email - Unknown</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Within ODD?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Within ODD?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Within ODD?</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Within ODD? - CBI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Within ODD? - CBI]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Within ODD? - CBI</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Narrative</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Narrative]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Narrative</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Narrative - CBI?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Narrative - CBI?]</local-name>
+            <parent-name>[SGO-2021-01_Incident_Reports_ADAS.csv]</parent-name>
+            <remote-alias>Narrative - CBI?</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City - Unknown]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='Hour' datatype='datetime' name='[Incident Time (24:00)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Model Year]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Report Month]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Report Year]' role='dimension' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[Zip Code - Unknown]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column datatype='string' name='[Zip Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='SGO-2021-01_Incident_Reports_ADAS.csv' datatype='table' name='[__tableau_internal_object_id__].[SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SGO-2021-01_Incident_Reports_ADAS.csv' id='SGO-2021-01_Incident_Reports_ADAS.csv_3FA0A3E5414A49DDB41DDC9931AEE6BB'>
+            <properties context=''>
+              <relation connection='textscan.1ci5vz718aaycp1cwf3hx0xh3djy' name='SGO-2021-01_Incident_Reports_ADAS.csv' table='[SGO-2021-01_Incident_Reports_ADAS#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='string' name='Report ID' ordinal='0' />
+                  <column datatype='integer' name='Report Version' ordinal='1' />
+                  <column datatype='string' name='Reporting Entity' ordinal='2' />
+                  <column datatype='string' name='Report Type' ordinal='3' />
+                  <column datatype='integer' name='Report Month' ordinal='4' />
+                  <column datatype='integer' name='Report Year' ordinal='5' />
+                  <column datatype='string' name='Report Submission Date' ordinal='6' />
+                  <column datatype='string' name='VIN' ordinal='7' />
+                  <column datatype='string' name='VIN - Unknown' ordinal='8' />
+                  <column datatype='string' name='Serial Number' ordinal='9' />
+                  <column datatype='string' name='Make' ordinal='10' />
+                  <column datatype='string' name='Model' ordinal='11' />
+                  <column datatype='string' name='Model - Unknown' ordinal='12' />
+                  <column datatype='integer' name='Model Year' ordinal='13' />
+                  <column datatype='string' name='Model Year - Unknown' ordinal='14' />
+                  <column datatype='string' name='Same Vehicle ID' ordinal='15' />
+                  <column datatype='integer' name='Mileage' ordinal='16' />
+                  <column datatype='string' name='Mileage - Unknown' ordinal='17' />
+                  <column datatype='string' name='Driver / Operator Type' ordinal='18' />
+                  <column datatype='string' name='ADAS/ADS Version' ordinal='19' />
+                  <column datatype='string' name='ADAS/ADS Version - Unknown' ordinal='20' />
+                  <column datatype='string' name='ADAS/ADS Version CBI' ordinal='21' />
+                  <column datatype='string' name='ADS Equipped?' ordinal='22' />
+                  <column datatype='string' name='Automation System Engaged?' ordinal='23' />
+                  <column datatype='string' name='Operating Entity' ordinal='24' />
+                  <column datatype='string' name='Operating Entity - Unknown' ordinal='25' />
+                  <column datatype='string' name='Source - Complaint/Claim' ordinal='26' />
+                  <column datatype='string' name='Source - Telematics' ordinal='27' />
+                  <column datatype='string' name='Source - Law Enforcement' ordinal='28' />
+                  <column datatype='string' name='Source - Field Report' ordinal='29' />
+                  <column datatype='string' name='Source - Testing' ordinal='30' />
+                  <column datatype='string' name='Source - Media' ordinal='31' />
+                  <column datatype='string' name='Source - Other' ordinal='32' />
+                  <column datatype='string' name='Source - Other Text' ordinal='33' />
+                  <column datatype='string' name='Incident Date' ordinal='34' />
+                  <column datatype='string' name='Incident Date - Unknown' ordinal='35' />
+                  <column datatype='string' name='Notice Received Date' ordinal='36' />
+                  <column datatype='datetime' name='Incident Time (24:00)' ordinal='37' />
+                  <column datatype='string' name='Incident Time - Unknown' ordinal='38' />
+                  <column datatype='string' name='Same Incident ID' ordinal='39' />
+                  <column datatype='string' name='Latitude' ordinal='40' />
+                  <column datatype='string' name='Latitude  - Unknown' ordinal='41' />
+                  <column datatype='string' name='Longitude' ordinal='42' />
+                  <column datatype='string' name='Longitude - Unknown' ordinal='43' />
+                  <column datatype='string' name='Address' ordinal='44' />
+                  <column datatype='string' name='Address - Unknown' ordinal='45' />
+                  <column datatype='string' name='City' ordinal='46' />
+                  <column datatype='string' name='City - Unknown' ordinal='47' />
+                  <column datatype='string' name='State' ordinal='48' />
+                  <column datatype='string' name='Zip Code' ordinal='49' />
+                  <column datatype='string' name='Zip Code - Unknown' ordinal='50' />
+                  <column datatype='string' name='Roadway Type' ordinal='51' />
+                  <column datatype='string' name='Roadway Surface' ordinal='52' />
+                  <column datatype='string' name='Roadway Description' ordinal='53' />
+                  <column datatype='integer' name='Posted Speed Limit (MPH)' ordinal='54' />
+                  <column datatype='string' name='Posted Speed Limit - Unknown' ordinal='55' />
+                  <column datatype='string' name='Lighting' ordinal='56' />
+                  <column datatype='string' name='Weather - Clear' ordinal='57' />
+                  <column datatype='string' name='Weather - Snow' ordinal='58' />
+                  <column datatype='string' name='Weather - Cloudy' ordinal='59' />
+                  <column datatype='string' name='Weather - Fog/Smoke' ordinal='60' />
+                  <column datatype='string' name='Weather - Rain' ordinal='61' />
+                  <column datatype='string' name='Weather - Severe Wind' ordinal='62' />
+                  <column datatype='string' name='Weather - Unknown' ordinal='63' />
+                  <column datatype='string' name='Weather - Other' ordinal='64' />
+                  <column datatype='string' name='Weather - Other Text' ordinal='65' />
+                  <column datatype='string' name='Crash With' ordinal='66' />
+                  <column datatype='string' name='Highest Injury Severity' ordinal='67' />
+                  <column datatype='string' name='Property Damage?' ordinal='68' />
+                  <column datatype='string' name='CP Pre-Crash Movement' ordinal='69' />
+                  <column datatype='string' name='CP Any Air Bags Deployed?' ordinal='70' />
+                  <column datatype='string' name='CP Was Vehicle Towed?' ordinal='71' />
+                  <column datatype='string' name='CP Contact Area - Rear Left' ordinal='72' />
+                  <column datatype='string' name='CP Contact Area - Left' ordinal='73' />
+                  <column datatype='string' name='CP Contact Area - Front Left' ordinal='74' />
+                  <column datatype='string' name='CP Contact Area - Rear' ordinal='75' />
+                  <column datatype='string' name='CP Contact Area - Top' ordinal='76' />
+                  <column datatype='string' name='CP Contact Area - Front' ordinal='77' />
+                  <column datatype='string' name='CP Contact Area - Rear Right' ordinal='78' />
+                  <column datatype='string' name='CP Contact Area - Right' ordinal='79' />
+                  <column datatype='string' name='CP Contact Area - Front Right' ordinal='80' />
+                  <column datatype='string' name='CP Contact Area - Bottom' ordinal='81' />
+                  <column datatype='string' name='CP Contact Area - Unknown' ordinal='82' />
+                  <column datatype='string' name='SV Pre-Crash Movement' ordinal='83' />
+                  <column datatype='string' name='SV Any Air Bags Deployed?' ordinal='84' />
+                  <column datatype='string' name='SV Was Vehicle Towed?' ordinal='85' />
+                  <column datatype='string' name='SV Were All Passengers Belted?' ordinal='86' />
+                  <column datatype='integer' name='SV Precrash Speed (MPH)' ordinal='87' />
+                  <column datatype='string' name='SV Pre-crash Speed - Unknown' ordinal='88' />
+                  <column datatype='string' name='SV Contact Area - Rear Left' ordinal='89' />
+                  <column datatype='string' name='SV Contact Area - Left' ordinal='90' />
+                  <column datatype='string' name='SV Contact Area - Front Left' ordinal='91' />
+                  <column datatype='string' name='SV Contact Area - Rear' ordinal='92' />
+                  <column datatype='string' name='SV Contact Area - Top' ordinal='93' />
+                  <column datatype='string' name='SV Contact Area - Front' ordinal='94' />
+                  <column datatype='string' name='SV Contact Area - Rear Right' ordinal='95' />
+                  <column datatype='string' name='SV Contact Area - Right' ordinal='96' />
+                  <column datatype='string' name='SV Contact Area - Front Right' ordinal='97' />
+                  <column datatype='string' name='SV Contact Area - Bottom' ordinal='98' />
+                  <column datatype='string' name='SV Contact Area - Unknown' ordinal='99' />
+                  <column datatype='string' name='Data Availability - EDR' ordinal='100' />
+                  <column datatype='string' name='Data Availability - Police Rpt' ordinal='101' />
+                  <column datatype='string' name='Data Availability - Telematics' ordinal='102' />
+                  <column datatype='string' name='Data Availability - Complaints' ordinal='103' />
+                  <column datatype='string' name='Data Availability - Video' ordinal='104' />
+                  <column datatype='string' name='Data Availability - Other' ordinal='105' />
+                  <column datatype='string' name='Data Availability - No Data' ordinal='106' />
+                  <column datatype='string' name='Data Availability - Unknown' ordinal='107' />
+                  <column datatype='string' name='Law Enforcement Investigating?' ordinal='108' />
+                  <column datatype='string' name='Investigating Agency' ordinal='109' />
+                  <column datatype='string' name='Investigating Agency - Unknown' ordinal='110' />
+                  <column datatype='string' name='Rep Ent Or Mfr Investigating?' ordinal='111' />
+                  <column datatype='string' name='Investigating Officer Name' ordinal='112' />
+                  <column datatype='string' name='Inv. Officer Name - Unknown' ordinal='113' />
+                  <column datatype='string' name='Investigating Officer Phone' ordinal='114' />
+                  <column datatype='string' name='Inv. Officer Phone - Unknown' ordinal='115' />
+                  <column datatype='string' name='Investigating Officer Email' ordinal='116' />
+                  <column datatype='string' name='Inv. Officer Email - Unknown' ordinal='117' />
+                  <column datatype='string' name='Within ODD?' ordinal='118' />
+                  <column datatype='string' name='Within ODD? - CBI' ordinal='119' />
+                  <column datatype='string' name='Narrative' ordinal='120' />
+                  <column datatype='string' name='Narrative - CBI?' ordinal='121' />
                 </columns>
               </relation>
             </properties>
@@ -1319,13 +3565,13 @@
       <table>
         <view>
           <datasources>
-            <datasource caption='Sample - EU Superstore(3)' name='federated.1vltewd1pvkmih101u8yd0qtt9o5' />
+            <datasource caption='SGO-2021-01_Incident_Reports_ADAS' name='federated.060ww3a1y9ay6v1danewx196kiqu' />
           </datasources>
-          <datasource-dependencies datasource='federated.1vltewd1pvkmih101u8yd0qtt9o5'>
-            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Sub-Category]' role='dimension' type='nominal' />
-            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Sub-Category]' derivation='None' name='[none:Sub-Category:nk]' pivot='key' type='nominal' />
+          <datasource-dependencies datasource='federated.060ww3a1y9ay6v1danewx196kiqu'>
+            <column datatype='string' name='[Model]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Posted Speed Limit (MPH)]' role='measure' type='quantitative' />
+            <column-instance column='[Model]' derivation='None' name='[none:Model:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Posted Speed Limit (MPH)]' derivation='Sum' name='[sum:Posted Speed Limit (MPH):qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
@@ -1336,12 +3582,18 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
-        <rows>([federated.1vltewd1pvkmih101u8yd0qtt9o5].[none:Category:nk] / [federated.1vltewd1pvkmih101u8yd0qtt9o5].[none:Sub-Category:nk])</rows>
-        <cols />
+        <rows>[federated.060ww3a1y9ay6v1danewx196kiqu].[none:Model:nk]</rows>
+        <cols>[federated.060ww3a1y9ay6v1danewx196kiqu].[sum:Posted Speed Limit (MPH):qk]</cols>
       </table>
-      <simple-id uuid='{EB07FDA3-77C7-473F-A0E1-5BB6CFB2FF07}' />
+      <simple-id uuid='{C1B4477D-02C0-4996-B8C0-CC0332859ECE}' />
     </worksheet>
   </worksheets>
   <dashboards>
@@ -1436,8 +3688,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='17' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='21' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='422' h='10750' id='8' mode='dropdown' name='Sheet 6' param='[federated.1xovgcc1ths17s1g4d3tj0lmz86k].[none:Category:nk]' type-v2='filter' w='43000' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1516,7 +3768,7 @@
       <simple-id uuid='{55DE22F5-CA39-41B8-B666-B9AD3C50ABAD}' />
     </dashboard>
   </dashboards>
-  <windows source-height='51'>
+  <windows source-height='72'>
     <window class='worksheet' name='Sheet 1'>
       <cards>
         <edge name='left'>
@@ -1777,7 +4029,7 @@
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{A1B79925-EA37-4A06-854B-A32833E319ED}' />
+      <simple-id uuid='{FB41CC91-008C-4031-9C3D-7B4F126BC7D2}' />
     </window>
   </windows>
 </workbook>
