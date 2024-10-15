@@ -49,6 +49,9 @@
   - [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md)
   - [Bæredygtig webudvikling](webteknologi/19-bæredygtig-webudvikling.md)
   - [Recap](webteknologi/18-recap.md)
+- Visualisering og Æstetik
+  - [Tableau noter](data-visualisation/03-tableau/tableau.md)
+  
 
 
 
