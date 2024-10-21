@@ -158,11 +158,9 @@ There are some more form fields but i have covered the most important ones here
 
 ## Casetime
 
-You can choose between some different projects. You can define your own 
+You can choose between some different projects. You can define your own or use a project i have created. Its up to you
 
 
-
-or you can use the following prompt to create an project tailored for your level or needs: Remember to insert your interests and difficulty level
 
 ````
 Can you create a interesting, insightful and fun javascript webapp exercise for students in their first year. 
@@ -284,8 +282,6 @@ Create a game where a user should click a button and get some points over time. 
 
 ```
 ````
-
-
 
 Make a plan for how to create this application **before** you start writing any code. I want to see the plan when i come around!
 
