@@ -19,9 +19,15 @@ Query the hashtag: #Marathon / retweets and quotes
 
 ## Exercise 2: Visualising network data
 
-Download Gephi
+Download Gephi:
 
 - https://gephi.org/
+
+Dataset:
+
+- https://github.com/Veruka2021/Spotify-Network-Artist_2024_gexf/blob/main/Spotify%20Network%20Artist_Python_2024_Vero.gexf
+
+
 
 If you are stuck:
 
