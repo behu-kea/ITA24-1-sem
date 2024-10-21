@@ -18,10 +18,13 @@
   - [Data analysis - Window Functions](data-literacy/07-window-functions.md)
   - [Database tuning - Indexing, normalisation & views ](data-literacy/08-indexing-normalisation.md)
   - [Database deploy + recap](data-literacy/09-recap-deploy.md) 
+  - [API introduction.md](data-literacy/10-API-intro.md) 
 - Database Design
   - [Data definition language & constraints](database-design/01-ddl-constraints.md) 
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
   - [Indexing, views & normalisation](database-design/03-indexing-normalisation.md) 
+- Digital Kultur
+  - [Getphi & Netværksanalyse](digital-kultur/gephi-netværksanalyse.md) 
 - Web technology
   - [Kend din computer](webteknologi/01-kend-din-computer.md) 
   - [HTML](webteknologi/01-01-html.md)
