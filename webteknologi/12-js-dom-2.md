@@ -158,12 +158,16 @@ There are some more form fields but i have covered the most important ones here
 
 ## Casetime
 
-You can choose between 2 different projects to choose from today or you can use the following prompt to create an project tailored for your level or needs: Remember to insert your interests and difficulty level
+You can choose between some different projects. You can define your own 
+
+
+
+or you can use the following prompt to create an project tailored for your level or needs: Remember to insert your interests and difficulty level
 
 ````
 Can you create a interesting, insightful and fun javascript webapp exercise for students in their first year. 
 
-Students interests are: [YOUR INTERESTS SEPERATED BY COLON]
+The project should be about: [PROJECT THEME, FX "Making a synthesizer that can run i a browser"]
 
 Difficulty level: [YOUR DIFFICULTY LEVEL 1-3]
 
