@@ -24,7 +24,7 @@
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
   - [Indexing, views & normalisation](database-design/03-indexing-normalisation.md) 
 - Digital Kultur
-  - [Netværksanalyse](digital-kultur/gephi-netværksteori.md) 
+  - [Getphi & Netværksanalyse](digital-kultur/gephi-netværksanalyse.md) 
 - Web technology
   - [Kend din computer](webteknologi/01-kend-din-computer.md) 
   - [HTML](webteknologi/01-01-html.md)
