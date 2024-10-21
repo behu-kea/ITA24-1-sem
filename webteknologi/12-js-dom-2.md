@@ -158,12 +158,14 @@ There are some more form fields but i have covered the most important ones here
 
 ## Casetime
 
-You can choose between 2 different projects to choose from today or you can use the following prompt to create an project tailored for your level or needs: Remember to insert your interests and difficulty level
+You can choose between some different projects. You can define your own or use a project i have created. Its up to you
+
+
 
 ````
 Can you create a interesting, insightful and fun javascript webapp exercise for students in their first year. 
 
-Students interests are: [YOUR INTERESTS SEPERATED BY COLON]
+The project should be about: [PROJECT THEME, FX "Making a synthesizer that can run i a browser"]
 
 Difficulty level: [YOUR DIFFICULTY LEVEL 1-3]
 
@@ -281,8 +283,6 @@ Create a game where a user should click a button and get some points over time. 
 ```
 ````
 
-
-
 Make a plan for how to create this application **before** you start writing any code. I want to see the plan when i come around!
 
 
@@ -308,7 +308,7 @@ https://www.timer-tab.com/
 
 
 
-## 🌍 Personal CO2 Emission Calculator - level 1
+## 🌍 Personal CO2 Emission Calculator - level 2
 
 Create a web application that allows users to calculate their personal CO2 emissions based on their daily activities. This could be based on the distance they drive, the type of food they consume, their electricity usage, etc.
 
@@ -330,7 +330,7 @@ If you cannot think of any idea, try researching common sources of personal CO2 
 
 ### 📝 Imprecise Calculator - level 3
 
-Create a webapp that works as a calculator. It should be possible for a user to add numbers via buttons as seen in a classic calculator. BUT the calculator should sometimes give a slightly wrong answer.
+Create a project that works as a calculator. It should be possible for a user to add numbers via buttons as seen in a classic calculator. BUT the calculator should sometimes give a slightly wrong answer.
 
 
 
@@ -350,7 +350,9 @@ If you are unsure how to start then maybe get ChatGPT to help you **scaffold** t
 
 
 
-<!--
+
+
+### Scaffolding prompt
 
 I have this task in my CS class but i am unsure of how to start. Can you help scaffold this exercise? Dont give me any solution
 
@@ -359,4 +361,3 @@ Here is the task:
 Create a webapp that works as a calculator. It should be possible for a user to add numbers via buttons as seen in a classic calculator. BUT the calculator should sometimes give a slightly wrong answer.
 ```
 
--->
