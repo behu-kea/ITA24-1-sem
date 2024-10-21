@@ -308,7 +308,7 @@ https://www.timer-tab.com/
 
 
 
-## 🌍 Personal CO2 Emission Calculator - level 1
+## 🌍 Personal CO2 Emission Calculator - level 2
 
 Create a web application that allows users to calculate their personal CO2 emissions based on their daily activities. This could be based on the distance they drive, the type of food they consume, their electricity usage, etc.
 
@@ -330,7 +330,7 @@ If you cannot think of any idea, try researching common sources of personal CO2 
 
 ### 📝 Imprecise Calculator - level 3
 
-Create a webapp that works as a calculator. It should be possible for a user to add numbers via buttons as seen in a classic calculator. BUT the calculator should sometimes give a slightly wrong answer.
+Create a project that works as a calculator. It should be possible for a user to add numbers via buttons as seen in a classic calculator. BUT the calculator should sometimes give a slightly wrong answer.
 
 
 
@@ -350,7 +350,9 @@ If you are unsure how to start then maybe get ChatGPT to help you **scaffold** t
 
 
 
-<!--
+
+
+### Scaffolding prompt
 
 I have this task in my CS class but i am unsure of how to start. Can you help scaffold this exercise? Dont give me any solution
 
@@ -359,4 +361,3 @@ Here is the task:
 Create a webapp that works as a calculator. It should be possible for a user to add numbers via buttons as seen in a classic calculator. BUT the calculator should sometimes give a slightly wrong answer.
 ```
 
--->
