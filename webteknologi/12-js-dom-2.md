@@ -17,8 +17,68 @@
 
 ## Teacher instruction
 
+- Feedback på portefølje 3
+
+  - God brug af funktioner. Super fedt at se!
+
+  - Det virker til at i har haft det sjovt med opgaven. Der var hvertfald en masse meget forskellig kreative features i har lavet
+
+  - Fedt med sådan noget her:
+
+    ```javascript
+    const getCheckBtn = document.querySelector('.check')
+    const score = document.querySelector('.score')
+    const highscore = document.querySelector('.highscore')
+    const correctNumber = document.querySelector('.number')
+    const scoreContainer = document.querySelector('.right')
+    ```
+
+  - ``````javascript
+    const getRandomNumber = () => {
+        return Math.floor(Math.random() * 20 + 1)
+    }
+    
+    let randomNumber = getRandomNumber()
+    ``````
+
+  - Kommenter jeres kode
+
+  - ![CleanShot-2024-10-22-at-13.14.13](assets/CleanShot-2024-10-22-at-13.14.13.png)
+
+  - `let RNG1`
+
+  - Lækkert med enter tryk! [https://munkeflunke.github.io/project-Mark_I/](https://munkeflunke.github.io/project-Mark_I/)
+
+  - ![CleanShot-2024-10-22-at-13.17.53](assets/CleanShot-2024-10-22-at-13.17.53.png)
+
+  - ![CleanShot-2024-10-22-at-13.18.38](assets/CleanShot-2024-10-22-at-13.18.38.png)
+
+  - `let secretNumber = Math.floor(Math.random() * 20) + 1;`
+
+  - ```javascript
+    // Check if guess is between 1 and 20
+    if (!guess || guess < 1 || guess > 20) {
+        displayMessage('🚫 Please enter a number between 1 and 20!');
+        return;
+    }
+    ```
+
+  - `displayMessage` - [https://github.com/MathiasHC99/Portfolio-3-web-and-data/blob/main/main.js](https://github.com/MathiasHC99/Portfolio-3-web-and-data/blob/main/main.js)
+
+  - ![CleanShot-2024-10-22-at-13.28.55](assets/CleanShot-2024-10-22-at-13.28.55.png) fedt med hints!
+
+- Constructive Alignment
+
+  - De arbejdsopgaver i har i klassen skal alignes med hvordan eksamen kommer til at forløbe
+    - I eksamen skal i kode og snakke om den kode. Når jeg kommer ned til jer prøver jeg både at hjælpe, men også at forberede jer på eksamen. 
+    - I skal øve det tekniske sprogbrug. Iterere et array, kalde en funktion. Den returnerer et array af objekter. Funktionen har 2 parametre, etc etc. 
+    - Kodedelen er efter ChatGPT er kommet mindre vigtig. Det vigtige er hvordan i snakker om den kode i har lavet. Forstår i hvad der sker og hvordan man måske kunne have grebet det anderledes an. 
+    - Prøv den eksamenssimulator jeg har lavet: [https://chatgpt.com/g/g-cLrBXP8Zn-ita23-webtechnology-exam-simulator/c/67178e75-5fd0-8008-a8db-94b2b25341af](https://chatgpt.com/g/g-cLrBXP8Zn-ita23-webtechnology-exam-simulator/c/67178e75-5fd0-8008-a8db-94b2b25341af)
+
 - Teach how to get value from different input elements (select, radio, input, etc.)
-- Plan and create a bad timer app (mvp). Bonus what if the user had to time the timer precisely?
+
+- Plan and create a bad timer app (mvp). 
+
 - Also show xss
   - `<img src=x onerror=alert("XSS")>`
   - `<img src=x onerror=document.body.style.display="none">`
@@ -153,6 +213,24 @@ Buttons are used for some kind of interactivity. Should not be used as links!
 
 
 There are some more form fields but i have covered the most important ones here
+
+
+
+## Exercises
+
+
+
+### Exercise 1
+
+Tag en funktion i jeres protefølje aflevering og forklar jeres sid makker hvad den kode gør, linje for linje. Sidemanden må meget gerne stille opfølgende spørgsmål. Hvis i ikke kan svare så prøv at finde ud af det sammen vha google eller at spørge ChatGPT.  
+
+
+
+### Exercise 2
+
+Brug den her GPT til at få feedback til dit projekt: [https://chatgpt.com/g/g-e86Y0eXNp-webteknologi-web-feedback](https://chatgpt.com/g/g-e86Y0eXNp-webteknologi-web-feedback)
+
+Implementer 2 af de forslag der kom fra GPT'en
 
 
 
