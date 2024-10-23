@@ -15,6 +15,31 @@
 
 
 
+## Peer instruction
+
+
+
+### Question 1
+
+Assume there is a button in the html page. What will happen when the button is clicked?
+
+```javascript
+const button = document.querySelector('button');
+button.addEventListener('click', logMessage());
+
+function logMessage() {
+  console.log('Message');
+}
+```
+
+1. The string `logMessage()` will be logged to the console
+2. The string `Message` will be logged to the console
+3. The string `logMessage` will be logged to the console
+4. Nothing
+5. Syntax error
+
+
+
 ## Teacher instruction
 
 - Feedback på portefølje 3
@@ -85,32 +110,6 @@
   - `<img src=x onerror=alert(document.querySelector(".user-account").innerText)>`
 
 
-
-
-## Peer instruction
-
-<!--
-
-### Question 1
-
-Assume there is a button in the html page. What will happen when the button is clicked?
-
-```javascript
-const button = document.querySelector('button');
-button.addEventListener('click', logMessage());
-
-function logMessage() {
-  console.log('Message');
-}
-```
-
-1. The string `logMessage()` will be logged to the console
-2. The string `Message` will be logged to the console
-3. The string `logMessage` will be logged to the console
-4. Nothing
-5. Syntax error
-
--->
 
 
 
