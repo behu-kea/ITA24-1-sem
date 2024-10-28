@@ -1,7 +1,5 @@
 # Test
 
-
-
 Link til test: [https://github.com/behu-kea/js-test-ita23](https://github.com/behu-kea/js-test-ita23)
 
 
@@ -39,8 +37,6 @@ I kan nu gå igang med at skrive kode i mappen `src`
 
 
 Det burde være det. Held og lykke!
-
-
 
 
 
