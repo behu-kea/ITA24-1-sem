@@ -1,46 +1,4 @@
-# Test
-
-
-
-## Objects feedback
-
-- I har meget udkommenteret kode
-- Altid aflever med GitHub
-- Fedt at nogle af jer begynder med at lave funktioner til specifikke ting
-  - `function getRandomInt(min, max)` fx
-- Virkelig gode variabel navne `foundPositiveWords`, `randomDiceRoll`, `allSixes`, `alreadyInCharacters`
-- Undgå danske variabel navne
-- `Diceroll` -> `diceroll`
-- I er virkeligt dygtige. 
-  - Stærk brug af funktioner og faktisk det hele
-
-
-
-<!--
-
-## After class considerations
-
-- Opgaverne var for nemme
-
--->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Preparation Test
 
 
 
