@@ -22,7 +22,7 @@ Link til test: [https://github.com/behu-kea/js-test-ita23](https://github.com/be
 
 
 
-I kan finde testen her: [https://github.com/behu-kea/js-test-preparation-ita23](https://github.com/behu-kea/js-test-preparation-ita23)
+I kan finde testen her: [https://github.com/behu-kea/js-test-ita23](https://github.com/behu-kea/js-test-ita23)
 
 Klik på Fork. Nu får i repoet over på jeres github konto
 
@@ -46,7 +46,7 @@ Det burde være det. Held og lykke!
 
 ## Handin
 
-Hand the test in [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1185268)
+Hand the test in [here](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1318095)
 
 
 

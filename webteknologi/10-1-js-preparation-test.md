@@ -52,3 +52,9 @@ You should hand in the forked repository. That means the test repo on your accou
 
 **Remember to commit and push!**
 
+
+
+
+
+- Generate message
+- 
