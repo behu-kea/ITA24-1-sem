@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Teacher instruction
 
 - I må gerne bruge hjælpemidler, men ikke ChatGPT. Den kan løse alle opgaverne
