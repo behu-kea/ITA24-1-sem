@@ -41,27 +41,25 @@
   - [Javascript - DOM 1](webteknologi/11-js-dom-1.md)
   - [Web project 1](webteknologi/11-1-web-project.md)
   - [Web project 2](webteknologi/11-2-web-project.md)
+  - [Javascript - DOM 2](webteknologi/12-js-dom-2.md)
   - [Preparation for test](webteknologi/10-1-js-preparation-test.md)
   - [Test](webteknologi/10-2-js-test.md)
-  - [Javascript - DOM 2](webteknologi/12-js-dom-2.md)
-  - [Javascript Recap](webteknologi/13-1-repetition.md)
+  - [API, JSON and fetch](webteknologi/15-js-api-json.md)
   - [Javascript - Visualizing data using chart.js](webteknologi/13-js-vizualizing-data-1.md)
   - [Javascript - Visualising data using tones, maps, html and canvas](webteknologi/14-js-vizualizing-data-2.md)
-  - [Getting data from workbench to javascript](webteknologi/14-1-getting-data-from-workbench-to-javascript.md)
-  - [API, JSON and fetch](webteknologi/15-js-api-json.md)
   - [Lets build a Generative AI tool](webteknologi/17-lets-build-a-generative-ai-tool.md)
   - [Bæredygtig webudvikling](webteknologi/19-bæredygtig-webudvikling.md)
   - [Recap](webteknologi/18-recap.md)
+  - [Getting data from workbench to javascript](webteknologi/14-1-getting-data-from-workbench-to-javascript.md)
 - Visualisering og Æstetik
   - [Tableau noter](data-visualisation/03-tableau/tableau.md)
   
 
-
+- [Code Examples From Class](https://github.com/behu-kea/ita24-1sem-code)
 
 <--
 
-- Code Examples From Class
-  - [Github](https://github.com/nicklasdean/ita-23-1-sem-code)
+- - 
 - [Exam](exam/exam.md)
 - [Recap](recap.md)
 
