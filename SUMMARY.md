@@ -18,7 +18,8 @@
   - [Data analysis - Window Functions](data-literacy/07-window-functions.md)
   - [Database tuning - Indexing, normalisation & views ](data-literacy/08-indexing-normalisation.md)
   - [Database deploy + recap](data-literacy/09-recap-deploy.md) 
-  - [API introduction.md](data-literacy/10-API-intro.md) 
+  - [API introduction](data-literacy/10-API-intro.md) 
+  - [MySQL & Express.js](data-literacy/12-mysql-express.md) 
 - Database Design
   - [Data definition language & constraints](database-design/01-ddl-constraints.md) 
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
