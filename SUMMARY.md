@@ -20,6 +20,7 @@
   - [Database deploy + recap](data-literacy/09-recap-deploy.md) 
   - [API introduction](data-literacy/10-API-intro.md) 
   - [MySQL & Express.js](data-literacy/12-mysql-express.md) 
+  - [MongoDB intro](data-literacy/11-mongo-intro.md) 
 - Database Design
   - [Data definition language & constraints](database-design/01-ddl-constraints.md) 
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
