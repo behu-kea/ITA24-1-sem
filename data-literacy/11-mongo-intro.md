@@ -1,5 +1,7 @@
 ## Download mongoDB compass
 
+https://www.mongodb.com/try/download/community
+
 https://www.mongodb.com/products/tools/compass
 
 
