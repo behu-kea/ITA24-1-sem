@@ -2,17 +2,32 @@
 
 https://github.com/nicklasdean/post-error-handling
 
-#### A) /new
+### A) /new
 
 - Create a POST end-point that receives all data in a POST request of a new pokémon. The new pokémon will be inserted into the database with mysql2.
 
+### B) /updateHP
 
+Create a POST endpoint that allows users to update the `hp` (health points) of an existing Pokémon by providing its `id`.
 
-#### B) (Advanced - optional)
+##### Steps
 
-- If the new Pokémon pokedex number, name and primary_type, provided with the post request already exists in the database, the API will return the status **[418](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418)** to the client
+1. Create a `POST` route at `/updateHP` that accepts the Pokémon `id` and the new `hp` value in the request body.
+2. Search the database for a Pokémon with the matching `id`.
+3. If found, update the `hp` value and return a success response. If not found, return a 404 error.
+4. Test the end-point with insomnia
 
-#### C) (Advanced - optional)
+### C) /updateHP
 
-- Create a client-side HTML & Javascript application that takes user input and fetches the form content as a POST request to the server.
-  - Inspiration: 
+Update the applications such that a user can update the HP of a pokemon with an HTML/CSS/JS front-end.
+
+**Steps**
+
+1. Add another form next to "Register new pokemon"
+2. submit the `id` and new HP  with a fetch call.
+3. If found, update the `hp` value in the database of the pokemon. 
+
+### D) Advanced (Optional)
+
+- Enhance the API such that the applications checks if the pokemon already exists.
+- If a duplicate is found, respond with a 409 status code and an appropriate error message.

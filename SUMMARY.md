@@ -21,6 +21,7 @@
   - [API introduction](data-literacy/10-API-intro.md) 
   - [MySQL & Express.js](data-literacy/12-mysql-express.md) 
   - [MongoDB intro](data-literacy/11-mongo-intro.md) 
+  - [API Post POST](data-literacy/14-api-post.md) 
 - Database Design
   - [Data definition language & constraints](database-design/01-ddl-constraints.md) 
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
@@ -56,7 +57,6 @@
 - Visualisering og Æstetik
   - [Tableau noter](data-visualisation/03-tableau/tableau.md)
   
-
 - [Code Examples From Class](https://github.com/behu-kea/ita24-1sem-code)
 
 <--
