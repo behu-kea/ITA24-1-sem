@@ -22,61 +22,11 @@ Idag var **alt** for svært. Det tog fuldstændigt pusten af dem alle sammen
 
 Stilladseringen var alt høj. 
 
-
-
 -->
 
-## Teacher instruction
 
-- Portefølje 1 feedback
-  - Nogle projekter ligner at de er kopieret via en tutorial fra youtube eller online. Det er vi lidt ærgelige over
-    - Når det er eksamensprojekt skal i altså være obs på plagiat! Det bliver problematisk når i ikke nævner at i har taget noget online. For så ser det ud som om det er jeres og så er vi ovre i plagiat sag
-    - Det man afleverer skal der man vide hvad gør. Det indgår jo i en mundtlig eksamen
-    - [https://mit.kea.dk/eksamensregler](https://mit.kea.dk/eksamensregler)
-    
-  - I skal til at have styr på git! Det første i gør med sådan et projekt er et github repo og deployer det! Commit dagligt
-  
-  - Virkelig fede projekter i har lavet!
-  
-  - Sindsygt gode variabelnavne!
-  
-  - I må gerne til at bruge funktioner til at opdele jeres kode
-  
-    - Der er mange af jer der er ret god her
-  
-    - ``````javascript
-      function greyOutText(element) {
-          element.style.color = '#00000050';
-      }
-      ``````
-  
-    - ```javascript
-      // Function that buys a multiplier and makes the counter go up at a faster rate
-          function buyMultiplier() {
-              if (clicks >= multiplierPrice) {
-                  clicks -= multiplierPrice;
-                  multiplier += 1;
-                  multiplierPrice = Math.ceil(multiplierPrice * 50);
-                  multiplierCountElement.innerHTML = `Multipliers: ${multiplier}`;
-                  document.getElementById('buyMultiplier').innerText = `Buy Multiplier (${multiplierPrice} cookies)`;
-                  counterElement.innerHTML = clicks;
-              }
-          }
-      ```
-  
-    - 
-  
-  - Fedt med alt det querySelector!
-  
-    - Ikke `document.getElementById`
-    
-  - Brug DOM så lidt som muligt. `QuerySelector` fx
-  
-  - Vær konsistente i jeres navngivning `computerScore_span`
-  
-  - I gør ikke meget brug af kommentarer
-  
-  - Josef må jeg gennemgå din aflevering? https://github.com/Josef-TL/lethal-dose/blob/master/main.js
+
+## Teacher instruction
 
 
 
@@ -93,7 +43,7 @@ Stilladseringen var alt høj.
 
 [https://leafletjs.com/](https://leafletjs.com/) is a open source javascript library for creating maps. It is quite powerful and versatile. 
 
-You can fx 
+You can fx
 
 - Create routes
 - Put circles or points on a map
@@ -220,9 +170,13 @@ Todays exercises will also be about data conversion!
 
 
 
+<!--
+
 ### 📝 Exercise 1 - level 2
 
-Visualiser top 10 eksportede kategorier fra danmark kun med brug af html!
+
+
+Visualiser top 10 eksportede kategorier fra danmark med html lavet gennem javascript
 
 1. Pharmaceuticals: US$19.4 billion (15.6% of total exports)
 2. Machinery including computers: $16.6 billion (13.3%)
@@ -235,11 +189,15 @@ Visualiser top 10 eksportede kategorier fra danmark kun med brug af html!
 9. Fish: $3.6 billion (2.8%)
 10. Plastics, plastic articles: $3.1 billion (2.5%)
 
+-->
+
 
 
 ### 📝 Exercise 2 - level 2
 
 Audialise the inflation in Denmark using [the following code](https://github.com/nicklasdean/ITA22F/tree/master/webteknologi/visualisation-2/danish-inflation)
+
+**Important!! You should only work in the main.js file!**
 
 
 
