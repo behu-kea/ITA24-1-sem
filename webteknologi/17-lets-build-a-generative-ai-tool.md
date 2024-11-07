@@ -32,6 +32,8 @@ It's up to you which way you choose!
 
 
 
+<!--
+
 ### Huggingface API - Free
 
 Huggingface is a machine learning and data science platform and community that helps users build, deploy and train machine learning models
@@ -76,32 +78,53 @@ We can for free deploy a LLM model on Hugging face the following way:
 
 #### Using the API
 
-Now to start working with the model i have created a template for you [here](https://github.com/behu-kea/generative-ai-tool-hugging-face). Clone down the repository. 
-
-Go to the `utils.js` file and on line 1 insert you token
+Now to start working with the model i have created a template for you [here](https://github.com/behu-kea/ita24-1sem-code/blob/main/genai-test-js/hugging-face.js). You can also use the code below
 
 ```javascript
-const HUGGINGFACE_TOKEN = "YOUR_COPIED_TOKEN_HERE";
+const API_KEY = "API_KEY_HERE"; // Replace with your actual API key
+
+function logSuggestion() {
+    fetch("https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct/v1/chat/completions", {
+        method: "POST",
+        headers: {
+            "Authorization": `Bearer ${API_KEY}`,
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            model: "meta-llama/Llama-3.1-8B-Instruct",
+            messages: [
+                {
+                    role: "user",
+                    content: "How do I add a new element to a JavaScript array?"
+                }
+            ],
+            max_tokens: 500,
+            stream: false
+        })
+    })
+        .then(response => {
+            if (!response.ok) {
+                console.log(111);
+                throw new Error(`Error: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(suggestionData => {
+            console.log(suggestionData);
+        })
+        .catch(error => console.error(error));
+}
+
+logSuggestion();
 ```
 
 
 
-To use the model i have create a helper function called `getGeneratedText` that works as follows:
-
-```javascript
-getGeneratedText(`The following is a list of 10 dishes you can make with these ingredients: onion, carrots and cellery`)
-  .then(generatedText => {
-      console.log(generatedText)
-  });
-```
-
-You call the function with some text. To get the generated text that comes back from the LLM use the `.then` method that takes as shown above.
-
-Try it out by opening the `index.html`
+🚨DON'T COMMIT YOUR KEYS TO GITHUB!!!🚨 **OBS!** Hvis i deployer linket, er det jeres credits der bliver brugt af!! I kan komme udenom det ved at lade brugerne indputte deres OpenAI key, ligesom [her](https://benna100.github.io/children-story-generator/)
 
 
 
-### OpenAI API - not free (but very cheap)
+### OpenAI API - not free (but very very cheap)
 
 OpenAI has a really good api that is easy to use, very cheap (especially for get-3.5) and have smart models. 
 
@@ -119,7 +142,7 @@ To access the API you need an API key. Get that by going to [https://platform.op
 
 
 
-**OBS!** Hvis i deployer linket, er det jeres credits der bliver brugt af!! I kan komme udenom det ved at lade brugerne indputte deres OpenAI key, ligesom [her](https://benna100.github.io/children-story-generator/)
+🚨DON'T COMMIT YOUR KEYS TO GITHUB!!!🚨 **OBS!** Hvis i deployer linket, er det jeres credits der bliver brugt af!! I kan komme udenom det ved at lade brugerne indputte deres OpenAI key, ligesom [her](https://benna100.github.io/children-story-generator/)
 
 
 
@@ -132,26 +155,28 @@ There are lots of different endpoints within the OpenAI API. We will be using th
 To use the API in javascript do as follows:
 
 ```javascript
-const OPENAI_API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your actual API key
+const OPENAI_API_KEY = 'API_KEY_HERE'; // Replace with your actual API key
 
+function logSuggestion() {
+    fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${OPENAI_API_KEY}`
+        },
+        body: JSON.stringify({
+            model: 'gpt-4o-mini',
+            messages: [{
+                role: 'user',
+                content: 'Please respond with 10 dishes with tomatoes'
+            }]
+        })
+    })
+        .then(response => response.json())
+        .then(suggestionData => console.log(suggestionData))
+}
 
-
-fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${OPENAI_API_KEY}`
-    },
-    body: JSON.stringify({
-      model: 'gpt-3.5-turbo',
-      messages: [{
-              role: 'user',
-              content: 'Please respond with 10 dishes with tomatoes'
-          }]
-  })
-})
-    .then(response => response.json())
-    .then(data => console.log(data))
+logSuggestion();
 ```
 
 Where the value under the `content` key is your prompt. There are happening some other things too, but you can ignore that (the `POST`, `headers` etc)
@@ -189,29 +214,37 @@ To run the model `llama2` open the terminal and write `ollama run llama2`
 When the model is running it has also created an api that you can access the following way:
 
 ```javascript
-fetch("http://localhost:11434/api/generate", {
+function logSuggestion() {
+    fetch("http://localhost:11434/api/generate", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            model: "llama2",
+            model: "llama3.1:latest",
             prompt: `The following is a list of dishes you can make with the following ingredients: onion, carrots and cellery`,
             stream: false
         })
     })
         .then(response => response.json())
-        .then(responseText => {
-            console.log(responseText);
+        .then(suggestionData => {
+            console.log(suggestionData);
         })
         .catch(error => {
             console.error("Error:", error);
         });
+}
+
+logSuggestion();
 ```
 
 
 
 **This will only work locally on your machine!** When deploying the website it cannot get the url `http://localhost:11434/api/generate`. To do that you need to deploy the ollama server to a server
+
+
+
+Working code for these 3 Ways of working with LLM's can be found here: [https://github.com/behu-kea/ita24-1sem-code/tree/main/genai-test-js](https://github.com/behu-kea/ita24-1sem-code/tree/main/genai-test-js)
 
 
 
@@ -235,7 +268,7 @@ Find something that interests you
 
 ## Handin
 
-Skal afleveres seneste d. 27/11 23:59 [her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1194586)
+Skal afleveres seneste d. 27/11 23:59 [her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1321634)
 
 
 

@@ -201,11 +201,21 @@ Audialise the inflation in Denmark using [the following code](https://github.com
 
 
 
+**Steps:**
+
+1. Play a tone with the frequency of 200hz using the `Tone.js` library
+2. Play a tone that is played after 1 second
+3. Iterate the `danishInflationNumbers` array in the `main.js` file
+4. Play the 200hz tone for each value in the array. The tones should be delayed with 1 second
+5. Now play not just the tone but the tone depending on the inflation number
+
+
+
 ### 📝 Exercise 3 - level 3
 
 Using leaflet.js visualise all the ufo sightings in Denmark in 2021 using [the following code](https://github.com/nicklasdean/ITA22F/tree/master/webteknologi/visualisation-2/ufo-sightings)
 
-In the `main.js` file the ufo sightings have been logged. 
+In the `main.js` file the ufo sightings, and their lat and lng have been logged. 
 
 
 
