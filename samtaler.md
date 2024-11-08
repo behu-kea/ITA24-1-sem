@@ -46,4 +46,21 @@
 
 
 
+## Nicholas
+
+Prøvetesten var noget nemmere
+
+Ingen forudsætninger fra før
+
+Nicholas har ADD og angst
+
+- Nicholas søger ekstra tid
+- Nicholas overveje SPS
+
+Nicholas er glad for undervisning i udgangspunkt
+
+
+
 ## Sahra
+
+## Svetoslav

@@ -63,7 +63,6 @@
 <--
 
 - - 
-- [Exam](exam/exam.md)
 - [Recap](recap.md)
 
 -->

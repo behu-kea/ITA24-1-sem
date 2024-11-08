@@ -48,6 +48,10 @@ Go to the website: https://wolt.com/en/dnk/copenhagen/restaurants
 
 ## Exercise 2
 
+https://www.mongodb.com/docs/manual/crud/
+
+
+
 Insert the following collection in a database and a collection called inventory:
 
 ```json
