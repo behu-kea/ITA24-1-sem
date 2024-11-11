@@ -22,6 +22,7 @@
   - [MySQL & Express.js](data-literacy/12-mysql-express.md) 
   - [MongoDB intro](data-literacy/11-mongo-intro.md) 
   - [API Post POST](data-literacy/14-api-post.md) 
+  - [MongoDB CRUD](data-literacy/15-mongoDB-CRUD.md) 
 - Database Design
   - [Data definition language & constraints](database-design/01-ddl-constraints.md) 
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
@@ -62,7 +63,6 @@
 <--
 
 - - 
-- [Exam](exam/exam.md)
 - [Recap](recap.md)
 
 -->
