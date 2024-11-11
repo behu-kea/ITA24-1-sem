@@ -57,12 +57,13 @@
   - [Getting data from workbench to javascript](webteknologi/14-1-getting-data-from-workbench-to-javascript.md)
 - Visualisering og Æstetik
   - [Tableau noter](data-visualisation/03-tableau/tableau.md)
-  
+
 - [Code Examples From Class](https://github.com/behu-kea/ita24-1sem-code)
 
--  [Exam](exam/exam.md)
+- [Exam](exam/exam.md)
+- Exam simulator
   - [Exam simulator GPT](https://chatgpt.com/g/g-cLrBXP8Zn-ita23-webtechnology-exam-simulator)
-
+  - [Exam simulator prompt](https://github.com/behu-kea/generative-ai-usage/blob/main/prompts/exam-simulator.txt)
 
 <--
 
