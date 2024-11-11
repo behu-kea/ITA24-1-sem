@@ -350,3 +350,26 @@ Go wild here
 ### Exercise 8
 
 Use the tutor created in 6 to help teach you learn/teach/understand the topics where you are struggling found in exercise 5. 
+
+
+
+
+
+function pushElement(arr, elem) {
+   arr.push(elem)
+
+   return arr
+
+}
+
+
+
+function isEven(number) {
+    return number % 2 === 0
+}
+
+
+
+function isWithinRange(n, min, max) {
+return n >= min && n <= max
+}

@@ -60,6 +60,10 @@
   
 - [Code Examples From Class](https://github.com/behu-kea/ita24-1sem-code)
 
+-  [Exam](exam/exam.md)
+  - [Exam simulator prompt](exam/exam-simulator-prompt.md) 
+
+
 <--
 
 - - 

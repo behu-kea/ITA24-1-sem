@@ -231,5 +231,8 @@ Take one of the visualisations you have created from the data visualisation cour
 
 
 
-
+function isEven(number) {
+       return number % 2 === 0
+            
+}
 
