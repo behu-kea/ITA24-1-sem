@@ -12,6 +12,17 @@ Another really big and popular datavis library is D3. It is not covered in these
 
 
 
+<!--
+
+## After class consideration
+
+- Opgave 6.1 var meget meget sværere end de andre.
+- Opgaverne er måske lidt stenet idag. 
+
+-->
+
+
+
 ## Learning objectives
 
 - Visualising using Chart.js

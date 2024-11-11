@@ -101,9 +101,8 @@ Krav til aflevering
 
 
 
-[Link fronteraflevering her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1196926) - **Skal aflevers inden d. 29/11 kl 23:59**
+[Link fronteraflevering her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1322584) - **Skal aflevers inden d. 1/12 kl 23:59**
 
 
 
 Fokus i opgaven er på koden. Hvis i får det deployet så flot. Hvis ikke, så gør det ikke noget. 
-

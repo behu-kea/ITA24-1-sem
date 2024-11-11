@@ -78,8 +78,6 @@ See the code for it here: [map.js](https://github.com/nicklasdean/ITA22F/blob/ma
 
 
 
-
-
 ## Sound - Tone.js
 
 [Tone.js is a library](https://tonejs.github.io/) to generate tones. 
