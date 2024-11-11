@@ -17,7 +17,8 @@ Another really big and popular datavis library is D3. It is not covered in these
 ## After class consideration
 
 - Opgave 6.1 var meget meget sværere end de andre.
-- Opgaverne er måske lidt stenet idag. 
+- Opgaverne er måske lidt stenet idag. Lidt en koger gang
+- Sluttede ret tidligt. De sidste opgaver var der ikke mange der lavede. Altså dem hvor de skulle rekonstruere en visualisering de havde lavet tidligere
 
 -->
 
