@@ -1,4 +1,4 @@
-# Webtechnology 2
+# Fullstack project
 
 This portfolio project will be focused on creating the backend for a website. That means creating an API with endpoints that is connected to the backend
 
@@ -101,7 +101,7 @@ Krav til aflevering
 
 
 
-[Link fronteraflevering her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1196926) - **Skal aflevers inden d. 3/12 kl 23:59**
+[Link fronteraflevering her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1196926) - **Skal aflevers inden d. 29/11 kl 23:59**
 
 
 

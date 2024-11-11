@@ -63,4 +63,13 @@ Nicholas er glad for undervisning i udgangspunkt
 
 ## Sahra
 
+
+
 ## Svetoslav
+
+
+
+## Victor
+
+- Roser full-stack tilgangen
+- Nogle der kommer for sent - meget for sent
