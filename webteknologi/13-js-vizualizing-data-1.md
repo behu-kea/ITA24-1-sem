@@ -21,14 +21,6 @@ Another really big and popular datavis library is D3. It is not covered in these
 
 ## Teacher instruction
 
-- Peer review 20 min. Random pairs. Spend 15 min reading through the code, html, css and js. And try to give feedback
-  - Is the code well structured
-  - Is it easy to understand
-  - Has const, let been used correctly
-  - Etc
-  - The learning in this exercise is in giving feedback, not receiving it
-
-- Work in pairs first 20 minutes. Afterwards you decide yourself
 - Today will be a lot of you exploring the chart.js api and documentation
   - This is an essential web developer skill
 

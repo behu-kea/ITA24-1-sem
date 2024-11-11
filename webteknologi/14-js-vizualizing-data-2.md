@@ -219,7 +219,7 @@ In the `main.js` file the ufo sightings, and their lat and lng have been logged.
 
 
 
-### 📝 Exercise 4 - optional - level 3
+### 📝 Exercise 4 - level 3
 
 I have found data about spotify plays
 
