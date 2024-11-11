@@ -92,6 +92,91 @@ Man må gerne lave sit eget projekt. Så længe der er en database, et api og mi
 
 
 
+## Grupper
+
+
+
+### Gruppe
+
+1. Jeppe Susgaard Filsø
+2. Alma Rebecca Castillo-Jørgense
+3. Nicholas John Grønbech Ladik
+
+
+
+### Gruppe
+
+1. Mike Roland Johanson
+2. Magnus August Giemsa
+3. Andreas Østerskov Brandenborg
+
+
+
+### Gruppe
+
+1. Mathias Hjortkær Christensen
+2. Frederikke Smærup Petersen
+3. Esben Vittrup Dalegaard
+
+
+
+### Gruppe
+
+1. Nikoleta Greve Safarikas
+2. Andreas Nørløv
+
+
+
+### Gruppe
+
+1. Andreas Révész Gudmann
+2. Christian Skovgaard Nielsen
+3. Svetoslav Martinov Rasiyski
+
+
+
+### Gruppe
+
+1. Victor Lotz
+2. Elias Benjamin Weiergang Garci
+3. Johan Niemann Husbjerg
+
+
+
+### Gruppe
+
+1. Jonas Brøndum Hjelmblink
+2. Marc Victor Dahl Hendriksen
+3. Nixhajete Jusufi
+
+
+
+### Gruppe
+
+1. Linea Moltved Skræp
+2. Laurits Munk Hansen
+3. Lukas Lind Kansakar
+
+
+
+### Gruppe
+
+1. Jacob Bisgaard
+2. Felix Nørgaard Llambias
+3. Faprao Raungsri
+
+
+
+### Gruppe
+
+- Victor Bischoff Mørkeberg
+- Simon Junker Eriksen
+- Sahra Ali Weheliy Mohamud
+
+
+
+
+
 ## Afleveringer
 
 Krav til aflevering
