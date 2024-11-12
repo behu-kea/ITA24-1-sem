@@ -22,6 +22,8 @@ Stilladsering okay, men de er ikke så seriøse omkring det.
 
 Det skal kobles mere til fx et portefølje projekt. Det bliver sådan lidt lal og chatgpt
 
+Okay det der værktøj er fucking lort. SÅ mange virkelig nederen bugs. 
+
 -->
 
 
