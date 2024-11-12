@@ -32,8 +32,6 @@ It's up to you which way you choose!
 
 
 
-<!--
-
 ### Huggingface API - Free
 
 Huggingface is a machine learning and data science platform and community that helps users build, deploy and train machine learning models
