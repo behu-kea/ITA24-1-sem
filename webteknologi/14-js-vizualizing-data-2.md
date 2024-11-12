@@ -18,9 +18,9 @@ There are multiple ways of visualising data. Here are some different ways that w
 
 ## After class consideration
 
-Idag var **alt** for svært. Det tog fuldstændigt pusten af dem alle sammen
+Stilladsering okay, men de er ikke så seriøse omkring det. 
 
-Stilladseringen var alt høj. 
+Det skal kobles mere til fx et portefølje projekt. Det bliver sådan lidt lal og chatgpt
 
 -->
 
