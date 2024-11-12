@@ -217,7 +217,7 @@ In the `main.js` file the ufo sightings, and their lat and lng have been logged.
 
 
 
-### 📝 Exercise 4 - level 3
+### 📝 Exercise 4 - level 3 - optional
 
 I have found data about spotify plays
 
@@ -227,3 +227,8 @@ Using [the following boilerplate](https://github.com/nicklasdean/ITA22F/tree/mas
 - We want to say that Eminem is one of the most popular Spotify artists ever
 
 You have to create a suitable online visualisation that tell the story above. It is up to you what tool to use and how to visualise the point
+
+
+
+### 📝 Start working on your portfolio project 5
+

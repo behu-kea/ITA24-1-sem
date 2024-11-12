@@ -1,12 +1,12 @@
 # Fullstack project
 
-This portfolio project will be focused on creating the backend for a website. That means creating an API with endpoints that is connected to the backend
+This portfolio project will be focused on creating the backend and frontend for a website. That means creating an API with endpoints that is connected to the database and using `fetch` in the frontend to get that data and display it
 
 
 
 ## Projects
 
-You can either create your own website or choose one of the two projects we have described below. Portfolio projektet skal afleveres individuelt
+You can either create your own website or choose one of the two projects we have described below. 
 
 
 
@@ -37,6 +37,12 @@ Fx kan det være man leder efter en cafe med wifi, hyggelig musik og god kaffe, 
   - Man skal kunne filtrere cafeer med query parameters. 
     - Fx `/cafes?city=copenhagen` skal returnere et array af cafeer der ligger i `copenhagen`
   - Der skal være et endpoint hvor man opretter en ny cafe og en ny bruger
+  
+- **Krav til frontend**
+  
+  - Der skal være en liste af cafeer man kan se
+  
+  - Man skal på en måde kunne søge/filtrere/sortere cafeer så en bruger nemt kan finde en cafe at besøge der matcher deres behov
 
 
 
@@ -75,6 +81,12 @@ Som Instagram bruger vil man gerne tage flotte billeder, men hvor, hvornår og i
   - Man skal kunne filtrere spots med query parameters
     - Fx `/spots?season=winter`
   - Der skal være et endpoint hvor man opretter et nyt spot
+  
+- **Krav til frontend**
+  
+  - Man skal kunne se en liste af alle spots
+  
+  - Man skal kunne søge/filtrere/sortere så brugere nemt kan finde et spot at tage et billede
 
 
 
@@ -88,7 +100,7 @@ I må meget gerne udvide funktionaliteten af backenden. Fx hvad hvis en bruger k
 
 ### ✍️ Dit projekt her
 
-Man må gerne lave sit eget projekt. Så længe der er en database, et api og minimum 2 entiteter med tilhørende endpoints
+Man må gerne lave sit eget projekt. Så længe der er en database, et api med minimum 2 endpoints og en frontend der henter data fra det api.
 
 
 
@@ -181,7 +193,8 @@ Man må gerne lave sit eget projekt. Så længe der er en database, et api og mi
 
 Krav til aflevering
 
-- Github link til backend repo 
+- Github link til backend repo
+- Github link til frontend repo
 - Sql fil i Github repositoriet
 
 
