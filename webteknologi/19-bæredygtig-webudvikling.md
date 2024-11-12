@@ -93,11 +93,11 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 
 - [Dynamic imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import#description) can help reduce the upfront JavaScript bundle size and prevent users  from downloading code that won't be needed until much later.
 
-- Block the Bots - *source: Sustainable Web Design*
+- ~~Block the Bots - *source: Sustainable Web Design*~~
 
 - General optimization
 
-  - Minifying, compressing, and [tree-shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) your code, in addition to compressing images, will all contribute to reducing data transfer.
+  - ~~Minifying, compressing, and [tree-shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) your code, in addition to compressing images, will all contribute to reducing data transfer.~~
   - Image, video, font, html, css and javascript - *Source: https://sustainablewww.gumroad.com/l/sustainable-web-design-in-20-lessons*
 
 - Cache - Additionally, we can make sure we cache as much as possible. Harry Roberts provides a great guide to [cache-control for civilians](https://csswizardry.com/2019/03/cache-control-for-civilians/)
