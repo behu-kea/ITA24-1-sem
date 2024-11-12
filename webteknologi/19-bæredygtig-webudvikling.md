@@ -77,19 +77,19 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 
 ## Sustainable web development
 
-- Choosing efficient programming language - *source: Sustainable Web Design*
+- ~~Choosing efficient programming language - *source: Sustainable Web Design*~~
 - Static web pages - *source: Sustainable Web Design*
 
 - Handling third-party embeds
 
-  - Third-party code such as chat widgets, analytics scripts, and social media embeds are often the worst offenders when it comes to page weight  and data transfer
+  - Third-party code such as chat widgets, analytics scripts, and social media embeds are often the worst offenders when it comes to page weight and data transfer
   - Consider using the import-on-interaction pattern, where loading is deferred until a user interacts with the widget.
   - Trackers
 
-- Reducing JavaScript usage
+- ~~Reducing JavaScript usage~~
 
-  - Do you have to use js? [http://youmightnotneedjs.com/](http://youmightnotneedjs.com/)
-  - [https://bundlephobia.com/](https://bundlephobia.com/)
+  - ~~Do you have to use js? [http://youmightnotneedjs.com/](http://youmightnotneedjs.com/)~~
+  - ~~[https://bundlephobia.com/](https://bundlephobia.com/)~~
 
 - [Dynamic imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import#description) can help reduce the upfront JavaScript bundle size and prevent users  from downloading code that won't be needed until much later.
 
