@@ -1,4 +1,8 @@
-# Bæredygtig webudvikling
+# Bæredygtig webudvikling, Recap og prøve eksamen
+
+
+
+
 
 
 
@@ -30,7 +34,6 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 - Terms
   - Sustainability
   - Carbon footprint
-- 
 
 
 
@@ -43,7 +46,6 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 - Simplify user experience
 - Lightweight imagery
   - Cutting down image size: [https://tinypng.com/](https://tinypng.com/)
-- Cost of color
 - Avoid large images, self playing
 - Avoid gifs, use webp format instead - *source: Sustainable Web Design*
 - Efficient web typography
@@ -51,13 +53,15 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
   - Consider using a [variable font](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide) if multiple weights and styles of a particular typeface are needed
   - [Self-hosting your fonts](https://sia.codes/posts/making-google-fonts-faster/#self-host-your-web-fonts-for-full-control) will save on network requests and give you more control.
 - Making greener design choices
-  - A greener design might involve using less energy-intensive colors. Blue colors use more energy than red or green do, and on Organic  Light-Emitting Diode (OLED) screens, a dark color scheme can save energy because black pixels are "off".
-  - Websites can be designed to minimize the use of video and large images,  especially by avoiding autoplaying videos or by using SVGs instead of  photos where possible.
-  - The user journey also plays an important part: How much time are users  spending clicking around on your site, loading more resources than they  need because they can't find what they're looking for?
+  - ~~A greener design might involve using less energy-intensive colors. Blue colors use more energy than red or green do, and on Organic  Light-Emitting Diode (OLED) screens, a dark color scheme can save energy because black pixels are "off".~~
+  - ~~Websites can be designed to minimize the use of video and large images,  especially by avoiding autoplaying videos or by using SVGs instead of  photos where possible.~~
+  - ~~The user journey also plays an important part: How much time are users spending clicking around on your site, loading more resources than they need because they can't find what they're looking for?~~
 
 
 
 ## Accessibility
+
+
 
 
 
@@ -78,7 +82,7 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 
 - Handling third-party embeds
 
-  - Third-party code such as chat widgets, analytics scripts, and social  media embeds are often the worst offenders when it comes to page weight  and data transfer
+  - Third-party code such as chat widgets, analytics scripts, and social media embeds are often the worst offenders when it comes to page weight  and data transfer
   - Consider using the import-on-interaction pattern, where loading is deferred until a user interacts with the widget.
   - Trackers
 
