@@ -136,6 +136,8 @@ Man må gerne lave sit eget projekt. Så længe der er en database, et api med m
 
 1. Nikoleta Greve Safarikas
 2. Andreas Nørløv
+3. Sahra Ali Weheliy Mohamud
+4. Jonas Brøndum Hjelmblink
 
 
 
@@ -150,16 +152,15 @@ Man må gerne lave sit eget projekt. Så længe der er en database, et api med m
 ### Gruppe
 
 1. Victor Lotz
-2. Elias Benjamin Weiergang Garci
+2. Lukas Lind Kansakar
 3. Johan Niemann Husbjerg
 
 
 
 ### Gruppe
 
-1. Jonas Brøndum Hjelmblink
-2. Marc Victor Dahl Hendriksen
-3. Nixhajete Jusufi
+1. Marc Victor Dahl Hendriksen
+2. Nixhajete Jusufi
 
 
 
@@ -167,7 +168,7 @@ Man må gerne lave sit eget projekt. Så længe der er en database, et api med m
 
 1. Linea Moltved Skræp
 2. Laurits Munk Hansen
-3. Lukas Lind Kansakar
+3. Elias Benjamin Weiergang Garci
 
 
 
@@ -183,7 +184,6 @@ Man må gerne lave sit eget projekt. Så længe der er en database, et api med m
 
 - Victor Bischoff Mørkeberg
 - Simon Junker Eriksen
-- Sahra Ali Weheliy Mohamud
 
 
 
