@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 ## Leveraging tools to assess performance and impact
 
 - [https://www.webpagetest.org/](https://www.webpagetest.org/)
@@ -53,15 +49,13 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
   - Consider using a [variable font](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide) if multiple weights and styles of a particular typeface are needed
   - [Self-hosting your fonts](https://sia.codes/posts/making-google-fonts-faster/#self-host-your-web-fonts-for-full-control) will save on network requests and give you more control.
 - Making greener design choices
-  - ~~A greener design might involve using less energy-intensive colors. Blue colors use more energy than red or green do, and on Organic  Light-Emitting Diode (OLED) screens, a dark color scheme can save energy because black pixels are "off".~~
-  - ~~Websites can be designed to minimize the use of video and large images,  especially by avoiding autoplaying videos or by using SVGs instead of  photos where possible.~~
-  - ~~The user journey also plays an important part: How much time are users spending clicking around on your site, loading more resources than they need because they can't find what they're looking for?~~
+  - A greener design might involve using less energy-intensive colors. Blue colors use more energy than red or green do, and on Organic  Light-Emitting Diode (OLED) screens, a dark color scheme can save energy because black pixels are "off".
+  - Websites can be designed to minimize the use of video and large images,  especially by avoiding autoplaying videos or by using SVGs instead of  photos where possible.
+  - The user journey also plays an important part: How much time are users spending clicking around on your site, loading more resources than they need because they can't find what they're looking for?
 
 
 
 ## Accessibility
-
-
 
 
 
@@ -77,7 +71,7 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 
 ## Sustainable web development
 
-- ~~Choosing efficient programming language - *source: Sustainable Web Design*~~
+- Choosing efficient programming language - *source: Sustainable Web Design*
 - Static web pages - *source: Sustainable Web Design*
 
 - Handling third-party embeds
@@ -86,18 +80,18 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
   - Consider using the import-on-interaction pattern, where loading is deferred until a user interacts with the widget.
   - Trackers
 
-- ~~Reducing JavaScript usage~~
+- Reducing JavaScript usage
 
-  - ~~Do you have to use js? [http://youmightnotneedjs.com/](http://youmightnotneedjs.com/)~~
-  - ~~[https://bundlephobia.com/](https://bundlephobia.com/)~~
+  - Do you have to use js? [http://youmightnotneedjs.com/](http://youmightnotneedjs.com/)
+  - [https://bundlephobia.com/](https://bundlephobia.com/)
 
 - [Dynamic imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import#description) can help reduce the upfront JavaScript bundle size and prevent users  from downloading code that won't be needed until much later.
 
-- ~~Block the Bots - *source: Sustainable Web Design*~~
+- Block the Bots - *source: Sustainable Web Design*
 
 - General optimization
 
-  - ~~Minifying, compressing, and [tree-shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) your code, in addition to compressing images, will all contribute to reducing data transfer.~~
+  - Minifying, compressing, and [tree-shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) your code, in addition to compressing images, will all contribute to reducing data transfer.
   - Image, video, font, html, css and javascript - *Source: https://sustainablewww.gumroad.com/l/sustainable-web-design-in-20-lessons*
 
 - Cache - Additionally, we can make sure we cache as much as possible. Harry Roberts provides a great guide to [cache-control for civilians](https://csswizardry.com/2019/03/cache-control-for-civilians/)
@@ -136,3 +130,8 @@ From here: [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustain
 - [https://sustainablewww.gumroad.com/l/sustainable-web-design-in-20-lessons](https://sustainablewww.gumroad.com/l/sustainable-web-design-in-20-lessons)
 - [https://developer.mozilla.org/en-US/blog/introduction-to-web-sustainability/](https://developer.mozilla.org/en-US/blog/introduction-to-web-sustainability/)
 -  Tom Greenwood - Sustainable Web Design - På KEA biblioteket
+
+
+
+## Opgaver
+
