@@ -8,57 +8,12 @@
 - Recap af emner
 - Prøveeksamen. Er der nogle der tør?
 - Opgaver
-- Hacking
 
 
 
 ## Generative AI feedback
 
-- Fedt med loading!
 
-- I er ved at få virkelig styr på DOM. Det er fedt at se!
-
-  - Masser af addEventListener, innetText og classlist
-
-- Der er nogle der har brugt giphy apiet, fedt!
-
-- Ikke javascript i html! ` <button id="submit-text-to-openaiapi" onclick="sendMessageToApi()">Submit text</button>`
-
-- Nogle af jer sender bare det brugeren har skrevet til openAI
-
-- ```body: JSON.stringify({
-                          model: "gpt-3.5-turbo",
-                          messages: [{
-                              role: "user",
-                              content: userinput
-                          }]
-                      })
-  ```
-
-- HTML ser fint ud.
-
-- Fedt med innovativ måde at lave klik på!!!
-
-![CleanShot-2023-11-28-at-10.21.59](assets/CleanShot-2023-11-28-at-10.21.59.png)
-
-- Fedt med css klasser som det her:
-
-  ```
-   <div class="loader hidden"></div>
-  
-          <div class="recipe hidden"></div>
-  ```
-
-- ```javascript
-  function loadingAnimation (button) {
-      loaderAnimation.classList.toggle("hidden")
-      button.classList.toggle("hidden")
-  }
-  ```
-
-- https://detgrey.github.io/generative-ai-tool/
-
-- 
 
 
 
