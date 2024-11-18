@@ -256,7 +256,7 @@ Find something that interests you
 
 ## Handin
 
-Skal afleveres seneste d. 27/11 23:59 [her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1321634)
+Skal afleveres seneste d. 24/11 23:59 [her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1321634)
 
 
 
