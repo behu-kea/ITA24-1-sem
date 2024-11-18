@@ -146,11 +146,7 @@ To access the API you need an API key. Get that by going to [https://platform.op
 
 #### Using the API
 
-There are lots of different endpoints within the OpenAI API. We will be using the [Chat endpoint](https://platform.openai.com/docs/api-reference/chat) that is also powering ChatGPT
-
-
-
-To use the API in javascript do as follows:
+Now to start working with the model i have created a template for you [here](https://github.com/behu-kea/ita24-1sem-code/blob/main/genai-test-js/openai.js). You can also use the code below
 
 ```javascript
 const OPENAI_API_KEY = 'API_KEY_HERE'; // Replace with your actual API key
@@ -183,11 +179,7 @@ If you want to know. Try and get ChatGPT to explain what the code does
 
 
 
-OpenAI can also generate images through the API [here](https://platform.openai.com/docs/api-reference/images/object) or from audio to text or text to audio [here](https://platform.openai.com/docs/api-reference/audio)
-
-
-
-The possibilities are truly endless 🤯
+There are lots of different endpoints within the OpenAI API. We will be using the [Chat endpoint](https://platform.openai.com/docs/api-reference/chat) that is also powering ChatGPT. OpenAI can also generate images through the API [here](https://platform.openai.com/docs/api-reference/images/object) or from audio to text or text to audio [here](https://platform.openai.com/docs/api-reference/audio). The possibilities are truly endless 🤯
 
 
 
@@ -209,7 +201,7 @@ To run the model `llama2` open the terminal and write `ollama run llama2`
 
 #### Using the API
 
-When the model is running it has also created an api that you can access the following way:
+Now to start working with the model i have created a template for you [here](https://github.com/behu-kea/ita24-1sem-code/blob/main/genai-test-js/local-llm.js). You can also use the code below
 
 ```javascript
 function logSuggestion() {
@@ -235,8 +227,6 @@ function logSuggestion() {
 
 logSuggestion();
 ```
-
-
 
 **This will only work locally on your machine!** When deploying the website it cannot get the url `http://localhost:11434/api/generate`. To do that you need to deploy the ollama server to a server
 
