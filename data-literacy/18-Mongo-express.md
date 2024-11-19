@@ -160,6 +160,8 @@ app.listen(port, () =>{
 
 #### **Objective: To build an API with 2 data sources: MySQL & MongoDB**
 
+
+
 **D) **Test the existing API such that `pokemon/:name` returns all data of a pokemon by providing it's name as a path variable
 
 
@@ -182,7 +184,7 @@ Returns all data of a trainer by providing it's name as a path variable
 
 Returns all data of a trainer by providing a town as a path variable
 
-**H) **`trainers/age`
+**H) ** `trainers/age`
 
 returns the average age of all trainers
 
