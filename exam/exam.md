@@ -323,7 +323,7 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 
 **NoSQL & mongoDB**
 
-- Hvad er forskellen på den relataionelle databasemodel og dokumentorienteret databasemodel?
+- Hvad er forskellen på den relationelle databasemodel og dokumentorienteret databasemodel?
 - Dokument-orienterede databaser siges at have en mere fleksibel databasemodel. Hvorfor er den mere fleksibel? Giv et eksempel.
 
 
@@ -343,7 +343,7 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
   
   // Route to list all blog posts
   app.get('/posts', (req, res) => {
-    res.json(blogPosts);
+    res.send(blogPosts);
   });
   ```
 
