@@ -7,6 +7,7 @@
   - Web Technology, Data visualisation & Aesthetic, Digital Culture
 - **Portfolio projects are used as reference material**
   - Has to be handed in within deadline (closed handin)
+- **Both subjects have to be passed!** 
 - **Exam format:**
   - 30 minutters eksamen
     - Ca 25 minutters dialog
