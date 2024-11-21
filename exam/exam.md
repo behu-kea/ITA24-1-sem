@@ -260,18 +260,27 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 
 - **5. Databaseforespørgsler (Queries)** 
   - Analyse og forklaring af konkret kompleks join query 
+  - Analyse og forklaring af konkret kompleks aggregate query
+  - Analyse og forklaring af konkret kompleks sub-query
 
 
 
-- **6. NoSQL & Cloud Firestore**
+- **6. NoSQL & MongoDB**
 
   - Dokumentorienteret database / NoSQL
+
+  - CRUD i mongoDB
+
+  - Aggregate queries i mongoDB
 
     
 
 - **7. API & Backend using node.js**
 
   - API development & MySQL using node.js
+  - GET end-point
+  - POST end-point
+  - Database connection: MySQL & mongoDB
 
 
 
@@ -306,10 +315,9 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 
 
 
-**NoSQL & Cloud Firestore**
+**NoSQL & mongoDB**
 
-- Hvad er forskellen på den relataionelle databasemodel og Cloud Firestore databasemodel?
-- Alle felter i alle dokumenter er indexeret i Cloud Firestore. Hvilken betydning har det for performance?
+- Hvad er forskellen på den relataionelle databasemodel og dokumentorienteret databasemodel?
 - Dokument-orienterede databaser siges at have en mere fleksibel databasemodel. Hvorfor er den mere fleksibel? Giv et eksempel.
 
 
@@ -333,4 +341,4 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
   });
   ```
 
-  
+- Hvis der skulle tilføjes funktionalitet så der kunne tilføjes en blog-post til dataen - hvordan skulle det udføres? 
