@@ -242,6 +242,9 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
   - Primary / Foreign keys 
   - Kardinalitet 
   - Constraints & Keys
+  - Normalisering
+  - Indeksering
+  - Views
 
 
 
@@ -285,7 +288,7 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 
 
 
-### Eksempler på eksamensspørgsmål:
+### <u>Eksempler på eksamensspørgsmål:</u>
 
 **Datatyper & Skalaer**
 
@@ -300,6 +303,8 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 - Beskriv følgende diagrams relation og kardinalitet:
 
 ![image-20231109101140850](assets/image-20231109101140850.png)
+
+- Hvad er årsagen til databaseindeksering? I hvilket tilfælde er det relevant at anvende?
 
 **Data Quality & Cleaning**
 
