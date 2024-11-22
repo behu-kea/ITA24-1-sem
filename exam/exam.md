@@ -242,15 +242,15 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
   - Primary / Foreign keys 
   - Kardinalitet 
   - Constraints & Keys
+
+
+
+
+- **3. EER & Databasedesign** 
+  - Analyse og forklaring af konkret diagram og koncepter herunder 
   - Normalisering
   - Indeksering
   - Views
-
-
-
-
-- **3. EER & Logisk databasedesign** 
-  - Analyse og forklaring af konkret diagram og koncepter herunder 
 
  
 
