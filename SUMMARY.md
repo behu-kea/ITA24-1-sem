@@ -25,6 +25,7 @@
   - [MongoDB CRUD](data-literacy/15-mongoDB-CRUD.md) 
   - [MongoDB CRUD: ETL Workshop](data-literacy/17-mongoDB-CRUD2.md) 
   - [MongoDB & Express](data-literacy/18-Mongo-express.md) 
+  - [Recap 1](data-literacy/19-recap.md) 
 - Database Design
   - [Data definition language & constraints](database-design/01-ddl-constraints.md) 
   - [Cardinality and database diagrams](database-design/02-cardinality-and-EER.md) 
