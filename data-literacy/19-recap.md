@@ -66,6 +66,8 @@ Identify:
 
 ## Basic queries & aggregate functions
 
+**Data:** https://github.com/nicklasdean/data/blob/main/drone-racing.sql
+
 **A)** Fetch all pilots with more than 2500 ranking points
 
 - 7 rows returned
