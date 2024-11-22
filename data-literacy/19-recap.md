@@ -93,7 +93,7 @@ Identify:
 
 **F)** Fetch the average lap time for all races in indoor tracks
 
-- 45.9765000
+- 45.2602083
 
 **G)** Fetch the pilot with the highest number of disqualifications
 
