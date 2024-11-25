@@ -142,4 +142,5 @@ FROM drones d;
 
 **C)**  Rank pilots by their total ranking points
 
-**D)** Rank tracks by difficulty rating:
+**D)** Rank tracks by difficulty rating
+
