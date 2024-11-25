@@ -89,11 +89,11 @@ https://github.com/nicklasdean/data/blob/main/products.json
 
 ## Aggregate Queries
 
-Filter stage + match stage
+Filter stage + group stage
 
 ![image-20241125102022299](assets/image-20241125102022299.png)
 
-To aggregate on the full dataset 
+To aggregate on the **full** dataset - no grouping
 
 ![image-20241125102033919](assets/image-20241125102033919.png)
 
