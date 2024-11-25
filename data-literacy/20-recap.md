@@ -87,6 +87,8 @@ https://github.com/nicklasdean/data/blob/main/products.json
 
 
 
+## Aggregate Queries
+
 Filter stage + match stage
 
 ![image-20241125102022299](assets/image-20241125102022299.png)
@@ -94,8 +96,6 @@ Filter stage + match stage
 To aggregate on the full dataset 
 
 ![image-20241125102033919](assets/image-20241125102033919.png)
-
-#### Aggregate Queries
 
 **A)** Fetch the average price of all products
 
