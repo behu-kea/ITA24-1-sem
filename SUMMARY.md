@@ -8,6 +8,7 @@
   - [03 web + data](portfolio-projects/03-web-data.md) 
   - [04 Digital Kultur](portfolio-projects/04-dk.md)
   - [05 Fullstack](portfolio-projects/05-fullstack.md)
+  - [06 Common Cultancy](portfolio-projects/06-datavis.md)
 - Data literacy
   - [What is data](data-literacy/01-what-is-data.md)
   - [Data types & Scales](data-literacy/02-types-and-scales.md)
