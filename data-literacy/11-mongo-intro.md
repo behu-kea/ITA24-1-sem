@@ -18,7 +18,7 @@ https://github.com/nicklasdean/data/blob/main/pokemon.json
 
 https://www.mongodb.com/docs/manual/tutorial/query-documents/
 
-- Equality Condition
+- Equality CoAndition
 - Query Operators
   - https://www.mongodb.com/docs/manual/reference/operator/query/#std-label-query-selectors
 - AND conditions

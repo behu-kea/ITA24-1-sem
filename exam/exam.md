@@ -246,8 +246,11 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 
 
 
-- **3. EER & Logisk databasedesign** 
+- **3. EER & Databasedesign** 
   - Analyse og forklaring af konkret diagram og koncepter herunder 
+  - Normalisering
+  - Indeksering
+  - Views
 
  
 
@@ -261,22 +264,31 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 
 - **5. Databaseforespørgsler (Queries)** 
   - Analyse og forklaring af konkret kompleks join query 
+  - Analyse og forklaring af konkret kompleks aggregate query
+  - Analyse og forklaring af konkret kompleks sub-query
 
 
 
-- **6. NoSQL & Cloud Firestore**
+- **6. NoSQL & MongoDB**
 
   - Dokumentorienteret database / NoSQL
+
+  - CRUD i mongoDB
+
+  - Aggregate queries i mongoDB
 
     
 
 - **7. API & Backend using node.js**
 
   - API development & MySQL using node.js
+  - GET end-point
+  - POST end-point
+  - Database connection: MySQL & mongoDB
 
 
 
-### Eksempler på eksamensspørgsmål:
+### <u>Eksempler på eksamensspørgsmål:</u>
 
 **Datatyper & Skalaer**
 
@@ -291,6 +303,8 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 - Beskriv følgende diagrams relation og kardinalitet:
 
 ![image-20231109101140850](assets/image-20231109101140850.png)
+
+- Hvad er årsagen til databaseindeksering? I hvilket tilfælde er det relevant at anvende?
 
 **Data Quality & Cleaning**
 
@@ -307,10 +321,9 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
 
 
 
-**NoSQL & Cloud Firestore**
+**NoSQL & mongoDB**
 
-- Hvad er forskellen på den relataionelle databasemodel og Cloud Firestore databasemodel?
-- Alle felter i alle dokumenter er indexeret i Cloud Firestore. Hvilken betydning har det for performance?
+- Hvad er forskellen på den relationelle databasemodel og dokumentorienteret databasemodel?
 - Dokument-orienterede databaser siges at have en mere fleksibel databasemodel. Hvorfor er den mere fleksibel? Giv et eksempel.
 
 
@@ -330,8 +343,8 @@ Hvad synes du om den her visualisering? Hvilke virkemidler er der blevet brugt h
   
   // Route to list all blog posts
   app.get('/posts', (req, res) => {
-    res.json(blogPosts);
+    res.send(blogPosts);
   });
   ```
 
-  
+- Hvis der skulle tilføjes funktionalitet så der kunne tilføjes en blog-post til dataen - hvordan skulle det udføres? 
