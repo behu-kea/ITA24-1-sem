@@ -1,10 +1,10 @@
 # Datavisualiseringsprojekt for Common Consultancy
 
-Casen bliver præsenteret af Common Consultancy
+Casen bliver præsenteret af Common Consultancy.
 
+I skal lave en **fullstack webapplikation** der interaktivt visualiserer og formidler datagrundlaget præsenteret af Common Consultancy.
 
-
-I må selv vurdere hvordan i vil implementere jeres hjemmeside. Måske laver i et api til at udstille data. Måske importerer i data direkte i jeres webapplikation som JSON. 
+Lokale E242 er til rådighed i normal undervisningstid til at arbejde i.
 
 
 
@@ -32,9 +32,20 @@ Projektet løber fra idag d. 29/11 - 18/12
 
 
 
-# Vejledning
+## Vejledning
 
-
+- Vejledning er som udgangspunkt online på **Microsoft Teams**
+  - Vi er tilgængelige på Teams eller mail. Skriv til den pågældende underviser for vejledning.
+  - Nogle dage er undervisere + Ane til sted fysisk
+- Alle grupper kommer til gruppevejledning: 
+  - 4/12: (Ml. 08:30 - 11:45) Tidsplan følger
+  - 11/12: (Ml. 08:30 - 11:45) Tidsplan følger
+- Nicklas / Benjamin er til rådighed i timerne der står på Fronter
+- Ane er til rådighed:
+  - 2/12 (12:30 - 15:45)
+  - 3/12 (08-30 - 11:45)
+  - 9/12 (12:30 - 15:45)
+  - 10/12 (12:30 - 15:45)
 
 
 
@@ -48,3 +59,18 @@ Aflever:
 
 
 Linket kan i finde [her](https://kea-fronter.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1329944)
+
+#### **Grupper**
+
+| Gruppenummer | Gruppemedlemmer |
+| ------------ | --------------- |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+
