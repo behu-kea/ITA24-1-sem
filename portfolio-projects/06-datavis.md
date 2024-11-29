@@ -11,7 +11,7 @@ I må selv vurdere hvordan i vil implementere jeres hjemmeside. Måske laver i e
 ## Krav til projektet
 
 - Projektet laves I grupper
-- Der skal være et link til en deployet hjemmeside der indeholder en eller flere visualiseringer
+- En video der viser hvordan hjemmesiden virker
 - Link til GitHub repository koden
 - Præsentation på 5 min der skal præsenteres jeres projekt for Common Consultancy og Nicklas og jeg. Kom gerne ind på
   - Hvem i kommunikerer til? Hvad vil I sige til dem?
@@ -28,7 +28,13 @@ Projektet løber fra idag d. 29/11 - 18/12
 
 - D. 17/12 arbejder i på præsentationen af projektet
 
-- D. 18/12 er der præsentation af jeres projekt.
+- D. 18/12 er der præsentation af jeres projekt
+
+
+
+# Vejledning
+
+
 
 
 
