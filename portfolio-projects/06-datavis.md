@@ -53,7 +53,7 @@ Projektet løber fra idag d. 29/11 - 18/12
 
 Aflever:
 
-1. Link til deployet hjemmeside
+1. Video af hjemmesidedemonstration
 2. Link til github repo (frontend og backend hvis i har begge)
 
 
@@ -62,15 +62,15 @@ Linket kan i finde [her](https://kea-fronter.itslearning.com/LearningToolElement
 
 #### **Grupper**
 
-| Gruppenummer | Gruppemedlemmer |
-| ------------ | --------------- |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
+| Gruppenummer | Gruppemedlemmer                         |
+| ------------ | --------------------------------------- |
+| 1            | Magnus, Victor Lotz, Lauritz, Andreas B |
+| 2            | Nicholas, Jacob                         |
+| 3            | Linea, Nicoletta, Jonas                 |
+| 4            | Felix, Elias, Jeppe, Christian          |
+| 5            | Esben, Mike, Mathias, Johan             |
+| 6            | Føen, Alma, Lukas                       |
+| 7            | Sahra, Nixhajete                        |
+|              |                                         |
+|              |                                         |
 
