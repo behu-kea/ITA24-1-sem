@@ -66,11 +66,10 @@ Linket kan i finde [her](https://kea-fronter.itslearning.com/LearningToolElement
 | ------------ | ------------------------------------------------------------ |
 | 1            | Magnus, Victor Lotz, Lauritz, Andreas B                      |
 | 2            | Nicholas, Jacob                                              |
-| 3            | Linea, Nicoletta, Jonas                                      |
+| 3            | Linea, Nikoleta, Jonas                                       |
 | 4            | Felix, Elias, Jeppe, Christian                               |
 | 5            | Esben, Mike, Mathias, Johan                                  |
 | 6            | Føen, Alma, Lukas                                            |
 | 7            | Sahra, Nixhajete                                             |
 | 8            | Victor Bischoff, Simon Junker Eriksen                        |
 | 9            | Marc Victor Dahl Hendriksen, Svetoslav Martinov Rasiyski, Andreas Revesz Gudmann |
-
