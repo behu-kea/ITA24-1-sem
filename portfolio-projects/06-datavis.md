@@ -62,15 +62,15 @@ Linket kan i finde [her](https://kea-fronter.itslearning.com/LearningToolElement
 
 #### **Grupper**
 
-| Gruppenummer | Gruppemedlemmer                         |
-| ------------ | --------------------------------------- |
-| 1            | Magnus, Victor Lotz, Lauritz, Andreas B |
-| 2            | Nicholas, Jacob                         |
-| 3            | Linea, Nicoletta, Jonas                 |
-| 4            | Felix, Elias, Jeppe, Christian          |
-| 5            | Esben, Mike, Mathias, Johan             |
-| 6            | Føen, Alma, Lukas                       |
-| 7            | Sahra, Nixhajete                        |
-|              |                                         |
-|              |                                         |
+| Gruppenummer | Gruppemedlemmer                         | Vejledning 4/12 | Vejledning 11/12 |
+| ------------ | --------------------------------------- | --------------- | ---------------- |
+| 1            | Magnus, Victor Lotz, Lauritz, Andreas B | 09:00           |                  |
+| 2            | Nicholas, Jacob                         | 09:20           |                  |
+| 3            | Linea, Nicoletta, Jonas                 | 09:40           |                  |
+| 4            | Felix, Elias, Jeppe, Christian          | 10:00           |                  |
+| 5            | Esben, Mike, Mathias, Johan             | 10:20           |                  |
+| 6            | Føen, Alma, Lukas                       | 10:40           |                  |
+| 7            | Sahra, Nixhajete                        | 11:00           |                  |
+|              |                                         |                 |                  |
+|              |                                         |                 |                  |
 
