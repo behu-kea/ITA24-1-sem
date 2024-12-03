@@ -71,6 +71,5 @@ Linket kan i finde [her](https://kea-fronter.itslearning.com/LearningToolElement
 | 5            | Esben, Mike, Mathias, Johan             | 10:20           |                  |
 | 6            | Føen, Alma, Lukas                       | 10:40           |                  |
 | 7            | Sahra, Nixhajete                        | 11:00           |                  |
-|              |                                         |                 |                  |
-|              |                                         |                 |                  |
-
+| 8            | Victor Bischoff, Simon Junker Eriksen   | 11:20           |                  |
+| 9            | Marc, Svetoslav, Andreas Gudmann        | 11:40           |                  |
