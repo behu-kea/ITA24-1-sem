@@ -30,20 +30,6 @@
     - Digital kultur: [https://katalog.kea.dk/course/4111103/2022-2023](https://katalog.kea.dk/course/4111103/2022-2023)
 
 
-
-
-## Data Literacy & Database Design
-
-**Exam date: 2/1 - 4/1**
-
-
-
-## Web Technology, Data visualisation & Aesthetic, Digital Culture
-
-**Exam date: 9/1 - 11/1**
-
-
-
 # Webteknologi og visualiserings eksamen
 
 
