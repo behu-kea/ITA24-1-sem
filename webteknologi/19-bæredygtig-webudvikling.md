@@ -2,6 +2,12 @@
 
 
 
+## Overview
+
+- Read slides. These notes are just notes to the slides!
+
+
+
 ## Leveraging tools to assess performance and impact
 
 - [https://www.webpagetest.org/](https://www.webpagetest.org/)
