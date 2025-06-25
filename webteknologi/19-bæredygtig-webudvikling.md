@@ -2,6 +2,14 @@
 
 
 
+## New links
+
+- https://codecarbon.io/
+- https://github.com/social-impact/focus-areas/environmental-sustainability/climate-action-plan-for-developers
+- 
+
+
+
 ## Overview
 
 - Read slides. These notes are just notes to the slides!
